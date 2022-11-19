@@ -1,11 +1,3 @@
-// Step1
-function step2(){
-    document.getElementById("Step1").style.visibility="hidden";
-    document.getElementById("Step2").style.visibility="visible";
-   
-}
-
-// Step2
 function moveplate(){
     document.getElementById("png1").style.visibility="hidden";
     document.getElementById("trans1").style.visibility="hidden";
@@ -83,7 +75,7 @@ function myStopFunction() {
 }
 
 function myGreeting3() {
-    document.getElementById("next1").style.visibility = "visible";
+    document.getElementById("next").style.visibility = "visible";
    
 
     myStopFunction();
