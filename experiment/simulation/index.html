@@ -35,11 +35,7 @@
 			margin-left: 496px;
 			margin-top: 130px;
 		}
-		#trans5 {
-			position: absolute;
-			margin-left: 496px;
-			margin-top: 130px;
-		}
+
 		#gif1 {
 			position: absolute;
 			margin-left: 70px;
@@ -86,12 +82,6 @@
 			position: absolute;
 			margin-left: 39rem;
 			margin-top: 139px;
-		}
-		#arr5 {
-			position: absolute;
-			margin-left: 39rem;
-			margin-top: 139px;
-			z-index: 1000;
 		}
 	</style>
 </head>
@@ -140,7 +130,7 @@
 
 						<!-- step 2 -->
 
-						<div class="Mainstep" id="Step2" style="visibility:hidden;">
+						<div class="Mainstep" id="Step2" style="visibility:hidden; z-index: 999;">
 
 							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
@@ -154,6 +144,7 @@
 									sample.</i>&nbsp;</span><br><br>
 							<img id="png1" class="board" src="images/6.png" alt="picture" width="605" height="385"
 								style="position: absolute;  margin-left: 70px; margin-top: 40px;">
+
 							<img id="gif1" class="board" src="images/output-onlinegiftools (27).gif" alt="picture"
 								width="605" height="385" style="visibility: hidden;">
 							<img id="gif2" class="board" src="images/output-onlinegiftools (33).gif" alt="picture"
@@ -189,8 +180,10 @@
 
 
 						</div>
-						<!-- step 3 -->
-						<div class="Mainstep" id="Step3" style="visibility:hidden;">
+
+						<!-- Step 3 -->
+
+						<div class="Mainstep" id="Step3" style="visibility:hidden; z-index: 998;">
 
 							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
@@ -198,40 +191,166 @@
 								style="position: absolute; top: 27px; left: 55px;">&nbsp;3&nbsp;</span></br>
 
 							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Take sand and cement from the bag using trowel in the
-									proportion 3:1 by
-									weight to make standard mortar. Note down the total weight of
-									sample.</i>&nbsp;</span><br><br>
-							<img id="png2" class="board" src="images/S2 (1).png" alt="picture" width="605" height="385"
+									aria-hidden="true">&nbsp; Mix sand and cement to prepare dry mix of
+									Mortar.</i>&nbsp;</span><br><br>
+
+							<img id="png2" class="board" src="images/S2 (1).png" alt="picture" width="550" height="350"
 								style="position: absolute;  margin-left: 70px; margin-top: 40px;">
-							<img id="gif5" class="board" src="images/output-onlinegiftools (31).gif" alt="picture"
-								width="605" height="385" style="visibility: hidden;">
+
+							<img id="trans5" class="board" src="images/transbox.png" alt="picture" width="200"
+								height="50" style="position: absolute; margin-left: 25rem ; margin-top: 81px;">
+
+							<img id="gif5" class="board" src="images/S2 (1).gif" alt="picture" width="550" height="350"
+								style="position: absolute;  margin-left: 70px ; margin-top: 40px;"><br>
 
 							<img id="arr5" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30" style="visibility: visible;">
-
-							<img id="trans5" class="board" src="images/transbox.png" alt="picture" width="150"
-								height="50" style="visibility: visible;" onclick="moveplate1()">
-
-
+								height="30" style="position: absolute;  margin-left: 39rem ; margin-top: 65px;">
 
 							<input type="button" id="next2"
-								style="visibility: hidden; position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
+								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
 								value="&nbsp;Next Step&nbsp;" onclick="step4()" />
+
 
 
 						</div>
 
+						<!-- Step4  -->
+						<div class="Mainstep" id="Step4" style="visibility:hidden; z-index: 997;">
+
+							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+							<span class="circlebg"
+								style="position: absolute; top: 27px; left: 55px;">&nbsp;4&nbsp;</span></br>
+
+							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
+									aria-hidden="true">&nbsp; Mix sand and cement to prepare dry mix of
+									Mortar.</i>&nbsp;</span><br><br>
+
+									<img id="png3" class="board" src="images/S3.png" alt="picture" width="550" height="350"
+                                    style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+                                <img id="png4" class="board" src="images/S3a.jpg" alt="picture" width="550" height="350"
+                                    style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+                                <img id="trans6" class="board" src="images/transbox.png" alt="picture" width="50"
+                                    height="80" style="position: absolute; margin-left: 35rem ; margin-top: 47px; visibility: visible;">
+                                <img id="trans7" class="board" src="images/transbox.png" alt="picture" width="30"
+                                    height="150" style="position: absolute; margin-left: 35rem ; margin-top: 56px; visibility: hidden;">
+                                <img id="trans8" class="board" src="images/transbox.png" alt="picture" width="20"
+                                    height="10"
+                                    style="position: absolute; margin-left: 16rem ; margin-top: 359px; z-index: 1001; visibility: hidden;">
+
+                                <img id="arr6" class="board" src="images/arrow left.gif" alt="picture" width="75"
+                                    height="30" style="position: absolute;  margin-left: 37rem ; margin-top: 65px; visibility: visible;">
+                                    <img id="arr7" class="board" src="images/arrow.gif" alt="picture" width="75" height="30"
+                                    style="position: absolute;  margin-left: 11rem ; margin-top: 345px; visibility: hidden; z-index: 2;">
+                                    <img id="arr8" class="board" src="images/arrow left.gif" alt="picture" width="75"
+                                    height="30" style="position: absolute;  margin-left: 36rem ; margin-top: 99px; visibility: hidden;">
+                                    
+
+                                <img id="gif6" class="board" src="images/S3.gif" alt="picture" width="550" height="350"
+                                    style="position: absolute;  margin-left: 70px ; margin-top: 40px; visibility: hidden;">
+                                <img id="gif7" class="board" src="images/S3a.gif" alt="picture" width="550" height="350"
+                                    style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+                                
+                                
+                                <input type="button" id="next3"
+                                    style="position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+                                    value="&nbsp;Next Step&nbsp;" onclick="step5()" />
+                                <span id="numoutnext"
+                                    style="position: absolute; left: 637px; top: 307px; color: red; font-size: 12px"></span>
+
+									<div id="numpadbig" style="position: absolute;left:620px; top: 243px; visibility: hidden;">
+										<div style="padding-left: 0px; padding-right: 0px">
+											<input type="text" id="quantity" size="7"
+												style="font-size: 20px; height: 30px;">&nbsp;gm<br><br>
+										</div>
+										<div style="background-color: #FFF;  height: 170px; width: 135px; border: 8px #000 solid;">
+			
+											<table style="position: absolute; left: 20px; top: 65px; text-align: center; ">
+												<tr style="">
+													<td>
+														<input type="button" value="1"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="2"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="3"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+												</tr>
+												<tr>
+													<td style="">
+														<input type="Button" value="4"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="5"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="6"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+												</tr>
+												<tr style="">
+													<td>
+														<input type="Button" value="7"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="8"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="9"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+												</tr>
+												<tr style="">
+													<td>
+														<input type="Button" value="."
+															style="font-size:25px; border-radius: 5px; background-color: #FFF; padding-left: 10px; padding-right: 10px"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="0"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF"
+															onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+													</td>
+													<td>
+														<input type="Button" value="c"
+															style="font-size:25px; border-radius: 5px; background-color: #FFF; padding-left: 7px; padding-right: 7px"
+															onclick="document.getElementById('quantity').value = ''">
+													</td>
+												</tr>
+			
+											</table>
+										</div>
+										<div style="padding-left: 28%; padding-right: 17%; padding-top: 5%">
+											<input type="Button" value="Submit" onclick="tunnu()" style="font-size:15px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;">
+										</div>
+									</div>
 
 
 
-					</div>
 
-					</div>
-					<br>
-					<br>
-					<br>
-					<br>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
 
 
 	</body>
