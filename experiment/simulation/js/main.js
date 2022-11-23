@@ -95,7 +95,7 @@ function myStopFunction() {
 }
 
 function step3(){
-    document.getElementById("step3").style.visibility = "visible";
-    document.getElementById("step2").style.visibility="hidden";
+    document.getElementById("Step3").style.visibility = "visible";
+    document.getElementById("Step2").style.visibility="hidden";
    
 }
