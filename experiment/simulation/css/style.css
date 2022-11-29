@@ -47,6 +47,24 @@ body {
 	background-color: #dce5ec;
 }
 
+.Mainstep1{
+  position:absolute;
+	
+	left: 10px;
+    top: 40px;
+    height: 558px;
+    width: 788px;
+	/*left:10px;
+
+	top:50px;
+
+	height:530px;
+
+	width:785px;*/
+/*background-color: red;*/
+	background-color: #dde2e7;
+}
+
 .incanvas{
   margin:10px 0 0 10px;
 
