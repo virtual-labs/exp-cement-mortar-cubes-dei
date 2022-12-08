@@ -25,3 +25,46 @@ function myGreeting12()
 function myStopFunction() {
   clearTimeout(myTimeout12);  
 }
+
+function cube1(){
+  document.getElementById("png18").style.animationPlayState = "running";
+  document.getElementById("png18").style.animationIterationCount = "1";
+  // document.getElementById("gif").style.visibility = "hidden";
+  // document.getElementById("transp1").style.visibility = "visible";
+}
+
+
+function cube2(){
+  document.getElementById("png17").style.animationPlayState = "running";
+  document.getElementById("png17").style.animationIterationCount = "1";
+  // document.getElementById("gif").style.visibility = "hidden";
+  // document.getElementById("transp1").style.visibility = "visible";
+}
+
+function cube3(){
+  document.getElementById("png16").style.animationPlayState = "running";
+  document.getElementById("png16").style.animationIterationCount = "1";
+  // document.getElementById("gif").style.visibility = "hidden";
+  // document.getElementById("transp1").style.visibility = "visible";
+}
+
+function cube4(){
+  document.getElementById("png15").style.animationPlayState = "running";
+  document.getElementById("png15").style.animationIterationCount = "1";
+  // document.getElementById("gif").style.visibility = "hidden";
+  // document.getElementById("transp1").style.visibility = "visible";
+}
+
+function cube5(){
+  document.getElementById("png14").style.animationPlayState = "running";
+  document.getElementById("png14").style.animationIterationCount = "1";
+  // document.getElementById("gif").style.visibility = "hidden";
+  // document.getElementById("transp1").style.visibility = "visible";
+}
+
+function cube6(){
+  document.getElementById("png13").style.animationPlayState = "running";
+  document.getElementById("png13").style.animationIterationCount = "1";
+  // document.getElementById("gif").style.visibility = "hidden";
+  // document.getElementById("transp1").style.visibility = "visible";
+}

@@ -388,3 +388,53 @@ function myGreeting12()
 function myStopFunction() {
     clearTimeout(myTimeout12);  
 }
+
+// Step11
+function step11(){
+    document.getElementById("Step11").style.visibility = "visible";
+    document.getElementById("Step10").style.visibility="hidden";
+    document.getElementById("next9").style.visibility="hidden";
+    document.getElementById("gif13").style.visibility="hidden";
+    document.getElementById("png10").style.visibility="hidden";
+    document.getElementById("trans14").style.visibility="hidden";
+   
+}
+
+var age = 0;
+var logo = 0;
+function agesizeIn() {
+
+    age = document.getElementById("ageIn").value;
+
+
+    if (age !== "") {
+
+        var date1 = new Date(age);
+        // var today = new Date();
+
+
+        logo = new Date(date1);
+
+        //Month Print
+        document.getElementById("demo").innerHTML = logo.getMonth() + 1;
+        //Date Print
+        document.getElementById("demo2").innerHTML = logo.getDate();
+        //Year Print
+
+        //-----------------------------------------------
+        document.getElementById("cube").style.visibility = "visible";
+
+        document.getElementById("cubedatehidden").style.visibility = "visible";
+        document.getElementById("next").style.visibility = "visible";
+        document.getElementById("in2").style.visibility = "hidden";
+
+
+    }
+
+    else {
+        document.getElementById("fillBox").innerHTML = "Please Enter Date";
+        //alert("Wrong");
+
+    }
+}
+
