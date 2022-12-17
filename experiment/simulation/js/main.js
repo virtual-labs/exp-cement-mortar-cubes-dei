@@ -390,6 +390,7 @@ function myStopFunction() {
 }
 
 // Step11
+
 function step11(){
     document.getElementById("Step11").style.visibility = "visible";
     document.getElementById("Step10").style.visibility="hidden";
@@ -425,7 +426,7 @@ function agesizeIn() {
         document.getElementById("cube").style.visibility = "visible";
 
         document.getElementById("cubedatehidden").style.visibility = "visible";
-        document.getElementById("next").style.visibility = "visible";
+        document.getElementById("next10").style.visibility = "visible";
         document.getElementById("in2").style.visibility = "hidden";
 
 
@@ -438,3 +439,14 @@ function agesizeIn() {
     }
 }
 
+// Step12
+
+function step12(){
+    document.getElementById("Step12").style.visibility = "visible";
+    document.getElementById("Step11").style.visibility="hidden";
+    document.getElementById("next10").style.visibility="hidden";
+    // document.getElementById("gif13").style.visibility="hidden";
+    document.getElementById("cube").style.visibility="hidden";
+    document.getElementById("trans14").style.visibility="hidden";
+   
+}
