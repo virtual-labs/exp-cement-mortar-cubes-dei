@@ -69,6 +69,12 @@ function cube1(){
     document.getElementById("png13").style.animationPlayState = "running";
     document.getElementById("png13").style.animationIterationCount = "1";
     document.getElementById("cubedate").style.visibility = "hidden";
+    document.getElementById("trans20").style.visibility = "hidden";
+    document.getElementById("arr19").style.visibility = "hidden";
+    document.getElementById("next11").style.visibility = "visible";
+
+    
+
     myTim = setTimeout (function(){
     myGreeting("cubedate6");
     }
@@ -82,6 +88,10 @@ function cube1(){
     document.getElementById("png14").style.animationPlayState = "running";
     document.getElementById("png14").style.animationIterationCount = "1";
     document.getElementById("cubedate1").style.visibility = "hidden";
+    document.getElementById("trans19").style.visibility = "hidden";
+    document.getElementById("trans20").style.visibility = "visible";
+    document.getElementById("arr18").style.visibility = "hidden";
+    document.getElementById("arr19").style.visibility = "visible";
     myTim = setTimeout (function(){
       myGreeting("cubedate7");
       }
@@ -96,6 +106,10 @@ function cube1(){
     document.getElementById("png15").style.animationPlayState = "running";
     document.getElementById("png15").style.animationIterationCount = "1";
     document.getElementById("cubedate2").style.visibility = "hidden";
+    document.getElementById("trans18").style.visibility = "hidden";
+    document.getElementById("trans19").style.visibility = "visible";
+    document.getElementById("arr17").style.visibility = "hidden";
+    document.getElementById("arr18").style.visibility = "visible";
     myTim = setTimeout (function(){
       myGreeting("cubedate8");
       }
@@ -109,6 +123,10 @@ function cube1(){
     document.getElementById("png16").style.animationPlayState = "running";
     document.getElementById("png16").style.animationIterationCount = "1";
     document.getElementById("cubedate3").style.visibility = "hidden";
+    document.getElementById("trans17").style.visibility = "hidden";
+    document.getElementById("trans18").style.visibility = "visible";
+    document.getElementById("arr16").style.visibility = "hidden";
+    document.getElementById("arr17").style.visibility = "visible";
     myTim = setTimeout (function(){
       myGreeting("cubedate9");
       }
@@ -122,6 +140,10 @@ function cube1(){
     document.getElementById("png17").style.animationPlayState = "running";
     document.getElementById("png17").style.animationIterationCount = "1";
     document.getElementById("cubedate4").style.visibility = "hidden";
+    document.getElementById("trans16").style.visibility = "hidden";
+    document.getElementById("trans17").style.visibility = "visible";
+    document.getElementById("arr15").style.visibility = "hidden";
+    document.getElementById("arr16").style.visibility = "visible";
     myTim = setTimeout (function(){
       myGreeting("cubedate10");
       }
@@ -136,6 +158,11 @@ function cube1(){
     document.getElementById("png18").style.animationPlayState = "running";
     document.getElementById("png18").style.animationIterationCount = "1";
     document.getElementById("cubedate5").style.visibility = "hidden";
+    document.getElementById("trans15").style.visibility = "hidden";
+    document.getElementById("trans16").style.visibility = "visible";
+    document.getElementById("arr14").style.visibility = "hidden";
+    document.getElementById("arr15").style.visibility = "visible";
+
     myTim = setTimeout (function(){
       myGreeting("cubedate11");
       }

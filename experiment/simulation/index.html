@@ -84,6 +84,43 @@
 			margin-left: 39rem;
 			margin-top: 139px;
 		}
+		@keyframes cube1 {
+            0% {
+
+                bottom: 0px;
+            }
+
+            50% {
+                left: 190px;
+            }
+
+            100% {
+                left: 190px;
+                top: 245px;
+
+            }
+
+        }
+
+        @keyframes cube2 {
+            0% {
+
+                bottom: 0px;
+            }
+
+            50% {
+                left: 379px;
+            }
+
+            100% {
+                left: 379px;
+                top: 190px;
+
+            }
+
+        }
+
+
 	</style>
 </head>
 
@@ -604,7 +641,7 @@
                                         onclick="agesizeIn()" /></br></br>
 
 										<input type="button" id="next10"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+								style="position:absolute; left:662px; top:420px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
 								value="&nbsp;Next Step&nbsp;" onclick="step12()" />
 
                             </div>
@@ -612,7 +649,7 @@
 
 						<!-- Step12 -->
 
-						<div class="Mainstep" id="Step12" style="visibility:hidden; z-index: 990;">
+						<div class="Mainstep" id="Step12" style="visibility:hidden; z-index: 989;">
 
                             <strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
@@ -622,6 +659,142 @@
                             <span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
                                     aria-hidden="true">&nbsp; Now, add water to the cement-sand mix.
                                 </i>&nbsp;</span><br><br>
+
+								<img id="png11" class="board" src="images/Xtankback.png" alt="picture" width="350"
+                                height="230"
+                                style="position: absolute;  margin-left: 297px; margin-top: 193px; visibility: visible;">
+
+                            <img id="png12" class="board" src="images/Xtankfront.png" alt="picture" width="357"
+                                height="150"
+                                style="position: absolute;  margin-left: 294px; margin-top: 352px; visibility: visible;">
+
+                            <img id="png19" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
+                                style="position: absolute;  margin-left: 339px; margin-top: 233px; visibility: visible;">
+
+                            <img id="png13" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
+                                style="position: relative;  margin-left: 7px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+                            <img id="png14" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
+                                style="position: relative;  margin-left: -3px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+                            <img id="png15" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
+                                style="position: relative;  margin-left: -1px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+                            <img id="png16" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
+                                style="position: relative;  margin-left: -2px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+                            <img id="png17" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
+                                style="position: relative;  margin-left: -3px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+                            <img id="png18" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
+                                style="position: relative;  margin-left: -2px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+
+                            <img id="png19" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
+                                style="position: absolute;  margin-left: -45px; margin-top: 233px; visibility: visible;">
+
+
+                            <img id="trans15" class="board" src="images/transbox.png" alt="picture" width="60"
+                                height="60" style="position: absolute;
+                                margin-left: -60px;
+                                margin-top: 49px; visibility: visible;" onclick="cube6()">
+
+                            <img id="trans16" class="board" src="images/transbox.png" alt="picture" width="60"
+                                height="60" style="position: absolute;
+                                margin-left: -123px;
+                                margin-top: 49px; visibility: hidden;" onclick="cube5()">
+
+                            <img id="trans17" class="board" src="images/transbox.png" alt="picture" width="60"
+                                height="60" style="position: absolute;
+                                margin-left: -187px;
+                                margin-top: 49px; visibility: hidden;" onclick="cube4()">
+
+                            <img id="trans18" class="board" src="images/transbox.png" alt="picture" width="60"
+                                height="60" style="position: absolute;
+                                margin-left: -250px;
+                                margin-top: 49px; visibility: hidden;" onclick="cube3()">
+
+                            <img id="trans19" class="board" src="images/transbox.png" alt="picture" width="60"
+                                height="60" style="position: absolute;
+                                margin-left: -315px;
+                                margin-top: 49px;visibility: hidden;" onclick="cube2()">
+
+                            <img id="trans20" class="board" src="images/transbox.png" alt="picture" width="60"
+                                height="60" style="position: absolute;
+                                 margin-left: -378px;
+                                 margin-top: 49px; visibility: hidden;" onclick="cube1()">
+
+
+                            <!-- <img id="gif13" class="board" src="images/ezgif.com-gif-maker (8).gif" alt="picture"
+                                width="550" height="350"
+                                style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;"> -->
+
+                            <img id="arr14" class="board" src="images/arrow left.gif" alt="picture" width="60"
+                                height="60" style=" position: absolute;
+                                margin-left: 12px;
+                                margin-top: 44px; visibility: visible;">
+
+                            <img id="arr15" class="board" src="images/arrow left.gif" alt="picture" width="60"
+                                height="60" style=" position: absolute;
+                            margin-left: -71px;
+                            margin-top: 44px; visibility: hidden;">
+
+                            <img id="arr16" class="board" src="images/arrow left.gif" alt="picture" width="60"
+                                height="60" style=" position: absolute;
+                            margin-left: -135px;
+                            margin-top: 44px; visibility: hidden;">
+
+                            <img id="arr17" class="board" src="images/arrow left.gif" alt="picture" width="60"
+                                height="60" style=" position: absolute;
+                            margin-left: -194px;
+                            margin-top: 44px; visibility: hidden;">
+
+                            <img id="arr18" class="board" src="images/arrow left.gif" alt="picture" width="60"
+                                height="60" style=" position: absolute;
+                            margin-left: -255px;
+                            margin-top: 44px; visibility: hidden;">
+
+                            <img id="arr19" class="board" src="images/arrow left.gif" alt="picture" width="60" height="60" style=" position: absolute;
+                            margin-left: -320px;
+                            margin-top: 44px; visibility: hidden;">
+
+                            <span id="cubedate"
+                                style="position: absolute;margin-left: -362px;top: 119px;font-size: 0.5em;z-index: 1010;font-weight: bold;"></span>
+
+                            <span id="cubedate1" style="position: absolute; top: 120px;
+                                margin-left: -298px; font-size: 0.5em; font-weight: bold; z-index: 2010; "></span>
+
+
+                            <span id="cubedate2" style="position: absolute; margin-left: -236px;
+                                top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate3" style="position: absolute;margin-left: -172px;
+                                top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate4" style="position: absolute; margin-left: -109px;
+                                top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate5" style="position: absolute;
+                                margin-left: -46px;
+                                top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate6" style="visibility: hidden; position: absolute;margin-left: 18px;
+                                top: 307px;font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate7" style="visibility: hidden; position: absolute;margin-left: 79px;
+                                top: 308px;font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate8" style="visibility: hidden; position: absolute; margin-left: 143px;
+                                top: 308px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate9" style="visibility: hidden; position: absolute;margin-left: 20px;
+                                top: 363px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate10" style="visibility: hidden; position: absolute;margin-left: 80px;
+                                top: 364px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <span id="cubedate11" style="visibility: hidden; position: absolute; margin-left: 145px;
+                                top: 364px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
+
+                            <input type="button" id="next11"
+                                style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+                                value="&nbsp;Next Step&nbsp;" onclick="step13()" />
+
+                        </div>
 
 
 
