@@ -376,7 +376,7 @@ function funst10(){
     document.getElementById("png10").style.visibility="hidden";
     document.getElementById("trans14").style.visibility="hidden";
     document.getElementById("arr14").style.visibility="hidden";
-    myTimeout12 = setTimeout(myGreeting12, 25000);
+    myTimeout12 = setTimeout(myGreeting12, 20000);
 
 
 }
