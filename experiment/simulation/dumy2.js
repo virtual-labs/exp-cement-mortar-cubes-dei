@@ -216,6 +216,27 @@ function cloth(){
 
   document.getElementById("png30").style.animationPlayState = "running";
   document.getElementById("png30").style.animationIterationCount = "1";
+  myTimeout14 = setTimeout(myGreeting14, 2000);
 
 
+}
+
+function myGreeting14()
+     {
+    document.getElementById("next12").style.visibility="visible";
+    document.getElementById("png30").style.visibility = "hidden";
+    document.getElementById("png31").style.visibility="visible";
+    document.getElementById("png32").style.visibility="visible";
+    document.getElementById("png33").style.visibility="visible";
+    document.getElementById("png26").style.visibility = "hidden";
+    document.getElementById("png27").style.visibility = "hidden";
+    document.getElementById("png28").style.visibility = "hidden";
+
+
+
+
+    myStopFunction();
+  }
+function myStopFunction() {
+    clearTimeout(myTimeout14);  
 }
