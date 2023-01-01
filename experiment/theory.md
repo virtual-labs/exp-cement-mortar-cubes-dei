@@ -1,4 +1,4 @@
-### Link your theory in here
+### Introduction
 
 1.	The compressive strength of cement is the ability of the cement to withstand load when it is being hardened into a mass. This property is of great importance because it ascertains the quality of cement which is quite useful in building structures. 
 2.	With the increase in compressive strength of cement, properties such as flexural strength, abrasion resistance and so on also increase. Therefore, by performing the compressive strength test of cement we can determine different characteristics of cement.
