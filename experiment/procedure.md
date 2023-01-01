@@ -10,6 +10,6 @@
 ## Testing of cement mortar cubes -
 7.	Take out three cubes from the water at the end of 3 days respectively. Wipe them with a dry cloth and measure their dimensions. 
 8.	Place the cube inside the compression testing machine and apply the load uniformly at the rate of 14 N/mm²/ min. Note the load at which the cube fails. 
-9.	Compute the compressive strength of the cube by using the formula Load/Area. 
-10.	 The average of all three readings gives the compressive strength of cement mortar at the end of 3 days. 
-11.	 Perform the same procedure (steps 7 to 10) to calculate the compressive strength of cement mortar at the end of 7 days and 28 days respectively. 
+9.	Compute the compressive strength of the cube by using the formula Load/Area.
+10.	The average of all three readings gives the compressive strength of cement mortar at the end of 3 days.
+11.	Perform the same procedure (steps 7 to 10) to calculate the compressive strength of cement mortar at the end of 7 days and 28 days respectively. 
