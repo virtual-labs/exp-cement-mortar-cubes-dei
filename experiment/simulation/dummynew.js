@@ -72,9 +72,6 @@ function myGreeting14() {
   document.getElementById("png27").style.visibility = "hidden";
   document.getElementById("png28").style.visibility = "hidden";
 
-
-
-
   myStopFunction();
 }
 function myStopFunction() {
@@ -155,10 +152,10 @@ function myStopFunction2() {
 function newStep1() {
   document.getElementById("textArea").style.visibility = "hidden";
   document.getElementById("newGif3").style.visibility = "hidden";
+  document.getElementById("newImage1").style.visibility = "hidden";
   document.getElementById("newImage2").style.visibility = "visible";
   document.getElementById("newStep1").style.visibility = "hidden";
   document.getElementById("newStep1").style.zIndex = -1;
-
   document.getElementById("nextStep4").style.zIndex = 1;
 }
 
@@ -225,39 +222,72 @@ function newGif9() {
   document.getElementById("nextStep9").style.zIndex = -1;
 }
 
-function step14r() {
-  document.getElementById("Step13r").style.visibility = "visible";
+function step15() {
+  document.getElementById("Step15").style.visibility = "visible";
   document.getElementById("Step14").style.visibility = "hidden";
-  
+  document.getElementById("newImage1").style.visibility = "hidden";
+  document.getElementById("newImage2").style.visibility = "hidden";
+  document.getElementById("newImage3").style.visibility = "hidden"; 
+  document.getElementById("newGif1").style.visibility = "hidden";
+  document.getElementById("newGif2").style.visibility = "hidden";
+  document.getElementById("newGif3").style.visibility = "hidden";
+  document.getElementById("newGif4").style.visibility = "hidden";
+  document.getElementById("newGif5").style.visibility = "hidden";
+  document.getElementById("newGif6").style.visibility = "hidden";
+  document.getElementById("newGif7").style.visibility = "hidden";
+  document.getElementById("newGif8").style.visibility = "hidden";
+  document.getElementById("newGif9").style.visibility = "hidden";
+  document.getElementById("nextStep1").style.visibility = "hidden";
+  document.getElementById("nextStep2").style.visibility = "hidden";
+  document.getElementById("nextStep3").style.visibility = "hidden";
+  document.getElementById("nextStep4").style.visibility = "hidden";
+  document.getElementById("nextStep5").style.visibility = "hidden";
+  document.getElementById("nextStep6").style.visibility = "hidden";
+  document.getElementById("nextStep7").style.visibility = "hidden";
+  document.getElementById("nextStep8").style.visibility = "hidden";
+  document.getElementById("nextStep9").style.visibility = "hidden";
+  document.getElementById("newStep1").style.zIndex = -1;
+  document.getElementById("newStep2").style.zIndex = -1;
+  document.getElementById("newStep3").style.zIndex = -1;
+  document.getElementById("newStep1").style.visibility = "hidden";
+  document.getElementById("newStep2").style.visibility = "hidden";
+  document.getElementById("newStep3").style.visibility = "hidden";
+
   document.getElementById("arr26").style.visibility = "visible";
 }
 
 function cube12() {
-  document.getElementById("png40").style.animationPlayState = "running";
-  document.getElementById("png40").style.animationIterationCount = "1";
+  document.getElementById("png37").style.animationPlayState = "running";
+  document.getElementById("png37").style.animationIterationCount = "1";
   document.getElementById("trans26").style.visibility = "hidden";
   document.getElementById("trans25").style.visibility = "visible";
   document.getElementById("arr26").style.visibility = "hidden";
   document.getElementById("arr25").style.visibility = "visible";
-
 }
 
 function cube11() {
-  document.getElementById("png41").style.animationPlayState = "running";
-  document.getElementById("png41").style.animationIterationCount = "1";
+  document.getElementById("png38").style.animationPlayState = "running";
+  document.getElementById("png38").style.animationIterationCount = "1";
   document.getElementById("trans25").style.visibility = "hidden";
   document.getElementById("trans24").style.visibility = "visible";
   document.getElementById("arr25").style.visibility = "hidden";
   document.getElementById("arr24").style.visibility = "visible";
-
 }
 
 function cube10() {
-  document.getElementById("png42").style.animationPlayState = "running";
-  document.getElementById("png42").style.animationIterationCount = "1";
+  document.getElementById("png39").style.animationPlayState = "running";
+  document.getElementById("png39").style.animationIterationCount = "1";
   document.getElementById("trans24").style.visibility = "hidden";
   document.getElementById("png44").style.visibility = "visible";
   document.getElementById("arr24").style.visibility = "hidden";
-  // document.getElementById("arr22").style.visibility = "visible";
+}
+function cloth2() {
+  document.getElementById("png44").style.animationPlayState = "running";
+  document.getElementById("png44").style.animationIterationCount = "1";
+  myTimeout14 = setTimeout(myGreeting15, 2000);
+}
+
+function myGreeting15(){
+  document.getElementById("next13").style.visibility = "visible";
 
 }
