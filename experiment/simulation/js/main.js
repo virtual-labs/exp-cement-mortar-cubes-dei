@@ -600,14 +600,9 @@ function step13() {
     document.getElementById("cubedate9").style.visibility = "hidden";
     document.getElementById("cubedate10").style.visibility = "hidden";
     document.getElementById("cubedate11").style.visibility = "hidden";
-
-
-
-
     // document.getElementById("cubedatehidden").style.visibility="hidden";
     // document.getElementById("cube").style.visibility="hidden";
     // document.getElementById("trans14").style.visibility="hidden";
-
 }
 
 
@@ -638,7 +633,6 @@ function cube7() {
     document.getElementById("png30").style.visibility = "visible";
     document.getElementById("arr21").style.visibility = "hidden";
     // document.getElementById("arr22").style.visibility = "visible";
-
 }
 
 function cloth() {

@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which of the following compound influences the ultimate strength of cement?",
+      "question": "1. Which of the following compound influences the ultimate strength of cement?",
       "answers": {
         "a": "Dicalcium silicate",
         "b": "Tricalcium silicate",
@@ -13,7 +13,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "If 'P' is the percentage of water required for normal consistency of cement, then water tobe added for determination of compressive strength test is?",
+      "question": "2. If 'P' is the percentage of water required for normal consistency of cement, then water tobe added for determination of compressive strength test is?",
       "answers": {
         "a": "P/3+4",
         "b": "P/4+3",
@@ -24,7 +24,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "What is the minimum compressive strength for a 43-grade OPC cement at the end of 3 days, 7 days and 28 days?",
+      "question": "3. What is the minimum compressive strength for a 43-grade OPC cement at the end of 3 days, 7 days and 28 days?",
       "answers": {
         "a": "3 MPa, 13 MPa and 23 MPa",
         "b": "13 MPa, 23 MPa and 33 MPa",
@@ -35,7 +35,7 @@
       "difficulty": "advanced"
     },
     {
-      "question": "High content of alumina in cement ______",
+      "question": "4. High content of alumina in cement ______",
       "answers": {
         "a": "Increases the strength of cement",
         "b": "Decreases the strength of cement",
@@ -46,7 +46,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "As per IS: 516:1959, what loading rate is used to find the compressive strength of cement mortar?",
+      "question": "5. As per IS: 516:1959, what loading rate is used to find the compressive strength of cement mortar?",
       "answers": {
         "a": "14 N/mm²/min",
         "b": "14 N/mm²/sec",
@@ -57,7 +57,7 @@
       "difficulty": "intermediate"
     },
     {
-      "question": "Does the compressive strength of ordinary Portland cement increase with time ?",
+      "question": "6. Does the compressive strength of ordinary Portland cement increase with time ?",
       "answers": {
         "a": "Yes",
         "b": "No"
@@ -66,7 +66,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Compute the quantity of water required for casting cubes given the quantity of cement is 15kg and W/C ratio is 0.4.",
+      "question": "7. Compute the quantity of water required for casting cubes given the quantity of cement is 15kg and W/C ratio is 0.4.",
       "answers": {
         "a": "7.5 litres",
         "b": "5 litres",
