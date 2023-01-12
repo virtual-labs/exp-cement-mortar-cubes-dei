@@ -1,0 +1,80 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which of the following compound influences the ultimate strength of cement?",
+      "answers": {
+        "a": "Dicalcium silicate",
+        "b": "Tricalcium silicate",
+        "c": "Tricalcium aluminate",
+        "d": "Tetracalcium alumino-ferrite"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. If 'P' is the percentage of water required for normal consistency of cement, then water tobe added for determination of compressive strength test is?",
+      "answers": {
+        "a": "P/3+4",
+        "b": "P/4+3",
+        "c": "P/2+3",
+        "d": "P/5+3"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "3. What is the minimum compressive strength for a 43-grade OPC cement at the end of 3 days, 7 days and 28 days?",
+      "answers": {
+        "a": "3 MPa, 13 MPa and 23 MPa",
+        "b": "13 MPa, 23 MPa and 33 MPa",
+        "c": "23 MPa, 33 MPa and 43 MPa",
+        "d": "33 MPa, 43 MPa and 53 MPa"
+      },
+      "correctAnswer": "c",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "4. High content of alumina in cement ______",
+      "answers": {
+        "a": "Increases the strength of cement",
+        "b": "Decreases the strength of cement",
+        "c": "Sometimes Increase and sometimes decrease the strength ",
+        "d": "No effect"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. As per IS: 516:1959, what loading rate is used to find the compressive strength of cement mortar?",
+      "answers": {
+        "a": "14 N/mm²/min",
+        "b": "14 N/mm²/sec",
+        "c": "45 N/ mm²/sec",
+        "d": "24 N/mm²/min"
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "6. Does the compressive strength of ordinary Portland cement increase with time ?",
+      "answers": {
+        "a": "Yes",
+        "b": "No"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "7. Compute the quantity of water required for casting cubes given the quantity of cement is 15kg and W/C ratio is 0.4.",
+      "answers": {
+        "a": "7.5 litres",
+        "b": "5 litres",
+        "c": "8.125 litres",
+        "d": "6 litres"
+      },
+      "correctAnswer": "d",
+      "difficulty": "advanced"
+    }
+  ]
+}

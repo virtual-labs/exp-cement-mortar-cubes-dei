@@ -1,0 +1,38 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What percentage of strength should cement mortar achieve at the end of 7 days?",
+      "answers": {
+        "a": "58%",
+        "b": "45%",
+        "c": "67%",
+        "d": "75%"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. With an increase in the rate of loading, the compressive strength ______",
+      "answers": {
+        "a": "Increases",
+        "b": "Decreases",
+        "c": "Unaffected",
+        "d": "Depends on the loading rate"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Curing of cement mortar",
+      "answers": {
+        "a": "Preserves the quality of cement",
+        "b": "Decreases the shrinkage of cement",
+        "c": "Prevents loss of water by evaporation",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
