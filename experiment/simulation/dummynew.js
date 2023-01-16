@@ -67,14 +67,21 @@ function step16() {
 function newGif10() {
   document.getElementById("newImage4").style.visibility = "hidden";
   document.getElementById("newGif10").style.visibility = "visible";
+
   // set the z index -1 of nextStep1
   document.getElementById("nextStep11").style.zIndex = 1;
+
+  document.getElementById("newArr2").style.visibility = "visible";
+  document.getElementById("newArr1").style.visibility = "hidden";
 }
 
 function newGif11() {
   document.getElementById("newGif10").style.visibility = "hidden";
   document.getElementById("nextStep10").style.zIndex = -1;
   document.getElementById("newGif11").style.visibility = "visible";
+
+  document.getElementById("newArr2").style.visibility = "hidden";
+  document.getElementById("newArr3").style.visibility = "visible";
   _newTimeout21 = setTimeout(_newGreeting15, 1800);
   document.getElementById("nextStep12").style.zIndex = 1;
 }
@@ -90,6 +97,9 @@ function _myStopFunction11() {
 function newGif12() {
   document.getElementById("newGif11").style.visibility = "hidden";
   document.getElementById("newGif12").style.visibility = "visible";
+
+  document.getElementById("newArr3").style.visibility =  "hidden";
+
   _newTimeout22 = setTimeout(_newGreeting16, 7000);
   document.getElementById("nextStep12").style.zIndex = -1;
 }
@@ -111,19 +121,28 @@ function newStep4() {
   document.getElementById("newStep4").style.visibility = "hidden";
   document.getElementById("newStep4").style.zIndex = -1;
   document.getElementById("nextStep13").style.zIndex = 1;
+
+  document.getElementById("newArr4").style.visibility = "visible";
 }
 
 function newGif13() {
   document.getElementById("newImage5").style.visibility = "hidden";
   document.getElementById("newGif13").style.visibility = "visible";
   document.getElementById("nextStep14").style.zIndex = 1;
+
+  document.getElementById("newArr4").style.visibility = "hidden";
+  document.getElementById("newArr5").style.visibility = "visible";
 }
 
 function newGif14() {
-  debugger;
+  
   document.getElementById("newGif13").style.visibility = "hidden";
   document.getElementById("newGif14").style.visibility = "visible";
   document.getElementById("nextStep13").style.zIndex = -1;
+
+  document.getElementById("newArr5").style.visibility = "hidden";
+  document.getElementById("newArr6").style.visibility = "visible";
+
   _newTimeout23 = setTimeout(_newGreeting2, 1800);
   function _newGreeting2() {
     document.getElementById("textArea").innerHTML = "00N/mm";
@@ -139,6 +158,10 @@ function _myStopFunction13() {
 function newGif15() {
   document.getElementById("newGif14").style.visibility = "hidden";
   document.getElementById("newGif15").style.visibility = "visible";
+
+  document.getElementById("newArr6").style.visibility = "hidden";
+ 
+
 
   _newTimeout24 = setInterval(_newGreeting3, 7000);
 }
@@ -160,12 +183,17 @@ function newStep5() {
   document.getElementById("newStep5").style.visibility = "visible";
   document.getElementById("newStep5").style.zIndex = -1;
   document.getElementById("nextStep16").style.zIndex = 1;
+
+  document.getElementById("newArr7").style.visibility = "visible";
 }
 
 function newGif16() {
   document.getElementById("newImage6").style.visibility = "hidden";
   document.getElementById("newGif16").style.visibility = "visible";
   document.getElementById("nextStep17").style.zIndex = 1;
+
+  document.getElementById("newArr7").style.visibility = "hidden";
+  document.getElementById("newArr8").style.visibility = "visible";
 }
 
 function newGif17() {
@@ -173,6 +201,8 @@ function newGif17() {
   document.getElementById("newGif17").style.visibility = "visible";
   document.getElementById("nextStep16").style.zIndex = -1;
 
+  document.getElementById("newArr8").style.visibility = "hidden";
+  document.getElementById("newArr9").style.visibility = "visible";
 
   _newTimeout25 = setInterval(_newGreeting19, 1800);
   document.getElementById("nextStep18").style.zIndex = 1;
@@ -189,6 +219,9 @@ function _myStopFunction15() {
 function newGif18() {
   document.getElementById("newGif17").style.visibility = "hidden";
   document.getElementById("newGif18").style.visibility = "visible";
+
+  document.getElementById("newArr9").style.visibility = "hidden";
+
   _newTimeout26 = setInterval(_newGreeting20, 7000);
 }
 function _newGreeting20() {
