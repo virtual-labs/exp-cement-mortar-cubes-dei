@@ -449,6 +449,12 @@ function agesizeIn() {
     document.getElementById("cubedate9").innerText = date[2] + '/' + date[1];
     document.getElementById("cubedate10").innerText = date[2] + '/' + date[1];
     document.getElementById("cubedate11").innerText = date[2] + '/' + date[1];
+    document.getElementById("newcubedate1").innerText = date[2] + '/' + date[1];
+    document.getElementById("newcubedate2").innerText = date[2] + '/' + date[1];
+    document.getElementById("newcubedate3").innerText = date[2] + '/' + date[1];
+    document.getElementById("newcubedate4").innerText = date[2] + '/' + date[1];
+    document.getElementById("newcubedate5").innerText = date[2] + '/' + date[1];
+    document.getElementById("newcubedate6").innerText = date[2] + '/' + date[1];
 }
 
 // Step 12
@@ -696,43 +702,61 @@ function step14() {
 function newGif1() {
     document.getElementById("newImage1").style.visibility = "hidden";
     document.getElementById("newGif1").style.visibility = "visible";
-    // set the z index -1 of nextStep1
-    document.getElementById("nextStep2").style.zIndex = 1;
-}
-
-function newGif2() {
+    
+    
+    document.getElementById("newArr1").style.visibility = "hidden";
+  
+    document.getElementById("newcubedate1").style.visibility = "hidden";
+    mytime = setInterval(mygreeting,2500);
+    function mygreeting(){
+      document.getElementById("newArr2").style.visibility =" visible";
+      document.getElementById("nextStep2").style.zIndex = 1;
+      cleartime();
+    }
+    function cleartime()
+    {
+      clearInterval(mytime);
+    }
+  }
+  
+  function newGif2() {
     document.getElementById("newGif1").style.visibility = "hidden";
     document.getElementById("nextStep1").style.zIndex = -1;
     document.getElementById("newGif2").style.visibility = "visible";
+    document.getElementById("newArr2").style.visibility = "hidden";
+    
     newTimeout15 = setTimeout(newGreeting15, 1800);
     document.getElementById("nextStep3").style.zIndex = 1;
-}
-function newGreeting15() {
+  }
+  function newGreeting15() {
     document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("newArr3").style.visibility = "visible";
     myStopFunction5();
-}
-function myStopFunction5() {
+  }
+  function myStopFunction5() {
     clearTimeout(newTimeout15);
-}
-
-
-function newGif3() {
+  }
+  
+  
+  function newGif3() {
     document.getElementById("newGif2").style.visibility = "hidden";
     document.getElementById("newGif3").style.visibility = "visible";
-    newTimeout16 = setTimeout(newGreeting16, 7000);
+  
+    document.getElementById("newArr3").style.visibility = "hidden";
+    newTimeout16 = setTimeout(newGreeting16, 10000);
     document.getElementById("nextStep3").style.zIndex = -1;
-}
-function newGreeting16() {
+  }
+  function newGreeting16() {
     document.getElementById("textArea").innerHTML = "333N/mm";
     document.getElementById("newStep1").style.visibility = "visible";
     document.getElementById("newStep1").style.zIndex = 1;
     myStopFunction6();
-}
-function myStopFunction6() {
+  }
+  function myStopFunction6() {
     clearTimeout(newTimeout16);
-}
-
-function newStep1() {
+  }
+  
+  function newStep1() {
     document.getElementById("textArea").style.visibility = "hidden";
     document.getElementById("newGif3").style.visibility = "hidden";
     document.getElementById("newImage1").style.visibility = "hidden";
@@ -740,96 +764,130 @@ function newStep1() {
     document.getElementById("newStep1").style.visibility = "hidden";
     document.getElementById("newStep1").style.zIndex = -1;
     document.getElementById("nextStep4").style.zIndex = 1;
-}
-
-function newGif4() {
+    document.getElementById("newArr4").style.visibility = "visible";
+  }
+  
+  function newGif4() {
     document.getElementById("newImage2").style.visibility = "hidden";
     document.getElementById("newGif4").style.visibility = "visible";
     document.getElementById("nextStep5").style.zIndex = 1;
-}
-
-function newGif5() {
-    debugger;
+    document.getElementById("newArr4").style.visibility = "hidden";
+    document.getElementById("newcubedate2").style.visibility = "hidden";
+    mytime = setInterval(mygreeting,2500);
+    function mygreeting(){
+      document.getElementById("newArr5").style.visibility =" visible";
+      document.getElementById("nextStep5").style.zIndex = 1;
+      cleartime();
+    }
+    function cleartime()
+    {
+      clearInterval(mytime);
+    }
+  }
+  
+  function newGif5() {
+  
     document.getElementById("newGif4").style.visibility = "hidden";
     document.getElementById("newGif5").style.visibility = "visible";
     document.getElementById("nextStep4").style.zIndex = -1;
+    document.getElementById("newArr5").style.visibility = "hidden";
+    
+  
     newTimeout17 = setTimeout(newGreeting2, 1800);
     function newGreeting2() {
-        document.getElementById("textArea").innerHTML = "00N/mm";
-        document.getElementById("textArea").style.visibility = "visible";
-        myStopFunction3();
+      document.getElementById("textArea").innerHTML = "00N/mm";
+      document.getElementById("textArea").style.visibility = "visible";
+      document.getElementById("newArr6").style.visibility = "visible";
+      myStopFunction3();
     }
     document.getElementById("nextStep6").style.zIndex = 1;
-}
-function myStopFunction3() {
+  }
+  function myStopFunction3() {
     clearTimeout(newTimeout17);
-}
-
-function newGif6() {
+  }
+  
+  function newGif6() {
     document.getElementById("newGif5").style.visibility = "hidden";
     document.getElementById("newGif6").style.visibility = "visible";
-
-    newTimeout18 = setInterval(newGreeting3, 7000);
-}
-function newGreeting3() {
+    document.getElementById("newArr6").style.visibility = "hidden";
+    newTimeout18 = setInterval(newGreeting3, 10000);
+  }
+  function newGreeting3() {
     document.getElementById("textArea").innerHTML = "333N/mm";
     document.getElementById("newStep2").style.visibility = "visible";
     document.getElementById("newStep2").style.zIndex = 1;
     document.getElementById("nextStep6").style.zIndex = -1;
     myStopFunction8();
-}
-function myStopFunction8() {
+  }
+  function myStopFunction8() {
     clearTimeout(newTimeout18);
-}
-
-function newStep2() {
+  }
+  
+  function newStep2() {
     document.getElementById("textArea").style.visibility = "hidden";
     document.getElementById("newGif6").style.visibility = "hidden";
     document.getElementById("newImage3").style.visibility = "visible";
     document.getElementById("newStep2").style.visibility = "visible";
     document.getElementById("newStep2").style.zIndex = -1;
     document.getElementById("nextStep7").style.zIndex = 1;
-}
-
-function newGif7() {
+    document.getElementById("newArr7").style.visibility = "visible";
+  }
+  
+  function newGif7() {
     document.getElementById("newImage3").style.visibility = "hidden";
     document.getElementById("newGif7").style.visibility = "visible";
     document.getElementById("nextStep8").style.zIndex = 1;
-}
-
-function newGif8() {
+    document.getElementById("newArr7").style.visibility = "hidden";
+    document.getElementById("newcubedate3").style.visibility = "hidden";
+    mytime = setInterval(mygreeting,2500);
+    function mygreeting(){
+      document.getElementById("nextStep8").style.zIndex = 1;
+      document.getElementById("newArr8").style.visibility = "visible";
+      cleartime();
+    }
+    function cleartime()
+    {
+      clearInterval(mytime);
+    }
+  }
+  
+  function newGif8() {
     document.getElementById("newGif7").style.visibility = "hidden";
     document.getElementById("newGif8").style.visibility = "visible";
     document.getElementById("nextStep7").style.zIndex = -1;
-
-
+  
+    document.getElementById("newArr8").style.visibility = "hidden";
+    
+  
     newTimeout19 = setInterval(newGreeting19, 1800);
     document.getElementById("nextStep9").style.zIndex = 1;
-}
-function newGreeting19() {
+  }
+  function newGreeting19() {
     document.getElementById("textArea").innerHTML = "00N/mm";
     document.getElementById("textArea").style.visibility = "visible";
+    document.getElementById("newArr9").style.visibility = "visible";
     myStopFunction9();
-}
-function myStopFunction9() {
+  }
+  function myStopFunction9() {
     clearTimeout(newTimeout19);
-}
-
-function newGif9() {
+  }
+  
+  function newGif9() {
     document.getElementById("newGif8").style.visibility = "hidden";
     document.getElementById("newGif9").style.visibility = "visible";
-    newTimeout20 = setInterval(newGreeting20, 7000);
-}
-function newGreeting20() {
+    document.getElementById("newArr9").style.visibility = "hidden";
+    newTimeout20 = setInterval(newGreeting20, 10000);
+  }
+  function newGreeting20() {
     document.getElementById("textArea").innerHTML = "333N/mm";
     document.getElementById("newStep3").style.visibility = "visible";
     document.getElementById("newStep3").style.zIndex = 1;
     document.getElementById("nextStep9").style.zIndex = -1;
     myStopFunction10();
-}
-function myStopFunction10() {
+  }
+  function myStopFunction10() {
     clearInterval(newTimeout20);
-}
+  }
 
 function step15() {
     document.getElementById("textArea").style.visibility = "hidden";
@@ -906,7 +964,7 @@ function step16() {
 
     document.getElementById("Step15").style.visibility = "hidden";
     document.getElementById("Step16").style.visibility = "visible";
-  
+
     document.getElementById("png34").style.visibility = "hidden";
     document.getElementById("png35").style.visibility = "hidden";
     document.getElementById("png36").style.visibility = "hidden";
@@ -928,24 +986,36 @@ function step16() {
     document.getElementById("arr25").style.visibility = "hidden";
     document.getElementById("arr26").style.visibility = "hidden";
     document.getElementById("next13").style.visibility = "hidden";
-  }
-  
-  function newGif10() {
+}
+
+
+function newGif10() {
     document.getElementById("newImage4").style.visibility = "hidden";
     document.getElementById("newGif10").style.visibility = "visible";
-    // set the z index -1 of nextStep1
-    document.getElementById("nextStep11").style.zIndex = 1;
+    document.getElementById("newArr10").style.visibility = "hidden";
+    document.getElementById("newcubedate4").style.visibility = "hidden";
+    mytime = setInterval(mygreeting, 2500);
+    function mygreeting() {
+      document.getElementById("nextStep11").style.zIndex = 1;
+      document.getElementById("newArr11").style.visibility = "visible";
+      cleartime();
+    }
+    function cleartime() {
+      clearInterval(mytime);
+    }
   }
   
   function newGif11() {
     document.getElementById("newGif10").style.visibility = "hidden";
     document.getElementById("nextStep10").style.zIndex = -1;
     document.getElementById("newGif11").style.visibility = "visible";
+    document.getElementById("newArr11").style.visibility = "hidden";
     _newTimeout21 = setTimeout(_newGreeting15, 1800);
     document.getElementById("nextStep12").style.zIndex = 1;
   }
   function _newGreeting15() {
     document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("newArr12").style.visibility = "visible";
     _myStopFunction11();
   }
   function _myStopFunction11() {
@@ -956,7 +1026,8 @@ function step16() {
   function newGif12() {
     document.getElementById("newGif11").style.visibility = "hidden";
     document.getElementById("newGif12").style.visibility = "visible";
-    _newTimeout22 = setTimeout(_newGreeting16, 7000);
+    document.getElementById("newArr12").style.visibility = "hidden";
+    _newTimeout22 = setTimeout(_newGreeting16, 10000);
     document.getElementById("nextStep12").style.zIndex = -1;
   }
   function _newGreeting16() {
@@ -977,23 +1048,37 @@ function step16() {
     document.getElementById("newStep4").style.visibility = "hidden";
     document.getElementById("newStep4").style.zIndex = -1;
     document.getElementById("nextStep13").style.zIndex = 1;
+    document.getElementById("newArr13").style.visibility = "visible";
   }
   
   function newGif13() {
     document.getElementById("newImage5").style.visibility = "hidden";
     document.getElementById("newGif13").style.visibility = "visible";
-    document.getElementById("nextStep14").style.zIndex = 1;
+    document.getElementById("newcubedate5").style.visibility = "hidden";
+    document.getElementById("newArr13").style.visibility = "hidden";
+  
+    mytime = setInterval(mygreeting, 2500);
+    function mygreeting() {
+      document.getElementById("nextStep14").style.zIndex = 1;
+      document.getElementById("newArr14").style.visibility = "visible";
+      cleartime();
+    }
+    function cleartime() {
+      clearInterval(mytime);
+    }
   }
   
   function newGif14() {
-    debugger;
+  
     document.getElementById("newGif13").style.visibility = "hidden";
     document.getElementById("newGif14").style.visibility = "visible";
     document.getElementById("nextStep13").style.zIndex = -1;
+    document.getElementById("newArr14").style.visibility = "hidden";
     _newTimeout23 = setTimeout(_newGreeting2, 1800);
     function _newGreeting2() {
       document.getElementById("textArea").innerHTML = "00N/mm";
       document.getElementById("textArea").style.visibility = "visible";
+      document.getElementById("newArr15").style.visibility = "visible";
       _myStopFunction13();
     }
     document.getElementById("nextStep15").style.zIndex = 1;
@@ -1005,8 +1090,8 @@ function step16() {
   function newGif15() {
     document.getElementById("newGif14").style.visibility = "hidden";
     document.getElementById("newGif15").style.visibility = "visible";
-  
-    _newTimeout24 = setInterval(_newGreeting3, 7000);
+    document.getElementById("newArr15").style.visibility = "hidden";
+    _newTimeout24 = setInterval(_newGreeting3, 10000);
   }
   function _newGreeting3() {
     document.getElementById("textArea").innerHTML = "333N/mm";
@@ -1026,12 +1111,24 @@ function step16() {
     document.getElementById("newStep5").style.visibility = "visible";
     document.getElementById("newStep5").style.zIndex = -1;
     document.getElementById("nextStep16").style.zIndex = 1;
+    document.getElementById("newArr16").style.visibility = "visible";
   }
   
   function newGif16() {
     document.getElementById("newImage6").style.visibility = "hidden";
     document.getElementById("newGif16").style.visibility = "visible";
-    document.getElementById("nextStep17").style.zIndex = 1;
+  
+    document.getElementById("newcubedate6").style.visibility = "hidden";
+    document.getElementById("newArr16").style.visibility = "hidden";
+    mytime = setInterval(mygreeting, 2500);
+    function mygreeting() {
+      document.getElementById("nextStep17").style.zIndex = 1;
+      document.getElementById("newArr17").style.visibility = "visible";
+      cleartime();
+    }
+    function cleartime() {
+      clearInterval(mytime);
+    }
   }
   
   function newGif17() {
@@ -1039,6 +1136,7 @@ function step16() {
     document.getElementById("newGif17").style.visibility = "visible";
     document.getElementById("nextStep16").style.zIndex = -1;
   
+    document.getElementById("newArr17").style.visibility = "hidden";
   
     _newTimeout25 = setInterval(_newGreeting19, 1800);
     document.getElementById("nextStep18").style.zIndex = 1;
@@ -1046,6 +1144,7 @@ function step16() {
   function _newGreeting19() {
     document.getElementById("textArea").innerHTML = "00N/mm";
     document.getElementById("textArea").style.visibility = "visible";
+    document.getElementById("newArr18").style.visibility = "visible";
     _myStopFunction15();
   }
   function _myStopFunction15() {
@@ -1055,7 +1154,9 @@ function step16() {
   function newGif18() {
     document.getElementById("newGif17").style.visibility = "hidden";
     document.getElementById("newGif18").style.visibility = "visible";
-    _newTimeout26 = setInterval(_newGreeting20, 7000);
+  
+    document.getElementById("newArr18").style.visibility = "hidden";
+    _newTimeout26 = setInterval(_newGreeting20, 10000);
   }
   function _newGreeting20() {
     document.getElementById("textArea").innerHTML = "333N/mm";
