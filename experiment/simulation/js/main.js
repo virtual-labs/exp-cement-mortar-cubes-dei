@@ -49,10 +49,10 @@ function myGreeting() {
     document.getElementById("trans2").style.visibility = "visible";
 
 
-    myStopFunction();
+    myStopFunction1();
 }
 
-function myStopFunction() {
+function myStopFunction1() {
     clearTimeout(myTimeout);
 
 }
@@ -62,10 +62,10 @@ function myGreeting1() {
     document.getElementById("trans3").style.visibility = "visible";
 
 
-    myStopFunction();
+    myStopFunction2();
 }
 
-function myStopFunction() {
+function myStopFunction2() {
     clearTimeout(myTimeout1);
 
 }
@@ -75,10 +75,10 @@ function myGreeting2() {
     document.getElementById("trans4").style.visibility = "visible";
 
 
-    myStopFunction();
+    myStopFunction3();
 }
 
-function myStopFunction() {
+function myStopFunction3() {
     clearTimeout(myTimeout2);
 
 }
@@ -87,10 +87,10 @@ function myGreeting3() {
     document.getElementById("next1").style.visibility = "visible";
 
 
-    myStopFunction();
+    myStopFunction4();
 }
 
-function myStopFunction() {
+function myStopFunction4() {
     clearTimeout(myTimeout3);
 
 }
@@ -117,9 +117,9 @@ document.getElementById("trans5").onclick = function () {
 }
 function myGreeting4() {
     document.getElementById("next2").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction5();
 }
-function myStopFunction() {
+function myStopFunction5() {
     clearTimeout(myTimeout4);
 }
 
@@ -185,20 +185,20 @@ function tunnu() {
 
 function myGreeting5() {
     document.getElementById("arr7").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction6();
 }
 
-function myStopFunction() {
+function myStopFunction6() {
     clearTimeout(myTimeout5);
 
 
 }
 function myGreeting6() {
     document.getElementById("next3").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction7();
 }
 
-function myStopFunction() {
+function myStopFunction7() {
     clearTimeout(myTimeout6);
 
 
@@ -228,9 +228,9 @@ function funst5() {
 }
 function myGreeting7() {
     document.getElementById("next4").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction8();
 }
-function myStopFunction() {
+function myStopFunction8() {
     clearTimeout(myTimeout7);
 }
 
@@ -257,9 +257,9 @@ function funst6() {
 }
 function myGreeting8() {
     document.getElementById("next5").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction9();
 }
-function myStopFunction() {
+function myStopFunction9() {
     clearTimeout(myTimeout8);
 }
 
@@ -288,9 +288,9 @@ function funst7() {
 }
 function myGreeting9() {
     document.getElementById("next6").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction10();
 }
-function myStopFunction() {
+function myStopFunction10() {
     clearTimeout(myTimeout9);
 }
 
@@ -317,9 +317,9 @@ function funst8() {
 }
 function myGreeting10() {
     document.getElementById("next7").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction11();
 }
-function myStopFunction() {
+function myStopFunction11() {
     clearTimeout(myTimeout10);
 }
 
@@ -346,9 +346,9 @@ function funst9() {
 }
 function myGreeting11() {
     document.getElementById("next8").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction12();
 }
-function myStopFunction() {
+function myStopFunction12() {
     clearTimeout(myTimeout11);
 }
 
@@ -375,9 +375,9 @@ function funst10() {
 }
 function myGreeting12() {
     document.getElementById("next9").style.visibility = "visible";
-    myStopFunction();
+    myStopFunction13();
 }
-function myStopFunction() {
+function myStopFunction13() {
     clearTimeout(myTimeout12);
 }
 
@@ -663,9 +663,9 @@ function myGreeting14() {
 
 
 
-    myStopFunction();
+    myStopFunction14();
 }
-function myStopFunction() {
+function myStopFunction14() {
     clearTimeout(myTimeout14);
 }
 
@@ -731,9 +731,9 @@ function newGif1() {
   function newGreeting15() {
     document.getElementById("textArea").innerHTML = "00N/mm";
     document.getElementById("newArr3").style.visibility = "visible";
-    myStopFunction5();
+    myStopFunction15();
   }
-  function myStopFunction5() {
+  function myStopFunction15() {
     clearTimeout(newTimeout15);
   }
   
@@ -750,9 +750,9 @@ function newGif1() {
     document.getElementById("textArea").innerHTML = "333N/mm";
     document.getElementById("newStep1").style.visibility = "visible";
     document.getElementById("newStep1").style.zIndex = 1;
-    myStopFunction6();
+    myStopFunction16();
   }
-  function myStopFunction6() {
+  function myStopFunction16() {
     clearTimeout(newTimeout16);
   }
   
@@ -798,11 +798,11 @@ function newGif1() {
       document.getElementById("textArea").innerHTML = "00N/mm";
       document.getElementById("textArea").style.visibility = "visible";
       document.getElementById("newArr6").style.visibility = "visible";
-      myStopFunction3();
+      myStopFunction17();
     }
     document.getElementById("nextStep6").style.zIndex = 1;
   }
-  function myStopFunction3() {
+  function myStopFunction17() {
     clearTimeout(newTimeout17);
   }
   
@@ -817,9 +817,9 @@ function newGif1() {
     document.getElementById("newStep2").style.visibility = "visible";
     document.getElementById("newStep2").style.zIndex = 1;
     document.getElementById("nextStep6").style.zIndex = -1;
-    myStopFunction8();
+    myStopFunction18();
   }
-  function myStopFunction8() {
+  function myStopFunction18() {
     clearTimeout(newTimeout18);
   }
   
@@ -866,9 +866,9 @@ function newGif1() {
     document.getElementById("textArea").innerHTML = "00N/mm";
     document.getElementById("textArea").style.visibility = "visible";
     document.getElementById("newArr9").style.visibility = "visible";
-    myStopFunction9();
+    myStopFunction19();
   }
-  function myStopFunction9() {
+  function myStopFunction19() {
     clearTimeout(newTimeout19);
   }
   
@@ -883,9 +883,9 @@ function newGif1() {
     document.getElementById("newStep3").style.visibility = "visible";
     document.getElementById("newStep3").style.zIndex = 1;
     document.getElementById("nextStep9").style.zIndex = -1;
-    myStopFunction10();
+    myStopFunction20();
   }
-  function myStopFunction10() {
+  function myStopFunction20() {
     clearInterval(newTimeout20);
   }
 
@@ -1016,9 +1016,9 @@ function newGif10() {
   function _newGreeting15() {
     document.getElementById("textArea").innerHTML = "00N/mm";
     document.getElementById("newArr12").style.visibility = "visible";
-    _myStopFunction11();
+    _myStopFunction21();
   }
-  function _myStopFunction11() {
+  function _myStopFunction21() {
     clearTimeout(_newTimeout21);
   }
   
@@ -1034,9 +1034,9 @@ function newGif10() {
     document.getElementById("textArea").innerHTML = "333N/mm";
     document.getElementById("newStep4").style.visibility = "visible";
     document.getElementById("newStep4").style.zIndex = 1;
-    _myStopFunction12();
+    _myStopFunction22();
   }
-  function _myStopFunction12() {
+  function _myStopFunction22() {
     clearTimeout(_newTimeout22);
   }
   
@@ -1079,11 +1079,11 @@ function newGif10() {
       document.getElementById("textArea").innerHTML = "00N/mm";
       document.getElementById("textArea").style.visibility = "visible";
       document.getElementById("newArr15").style.visibility = "visible";
-      _myStopFunction13();
+      _myStopFunction23();
     }
     document.getElementById("nextStep15").style.zIndex = 1;
   }
-  function _myStopFunction13() {
+  function _myStopFunction23() {
     clearTimeout(_newTimeout23);
   }
   
@@ -1098,9 +1098,9 @@ function newGif10() {
     document.getElementById("newStep5").style.visibility = "visible";
     document.getElementById("newStep5").style.zIndex = 1;
     document.getElementById("nextStep15").style.zIndex = -1;
-    _myStopFunction14();
+    _myStopFunction24();
   }
-  function _myStopFunction14() {
+  function _myStopFunction24() {
     clearTimeout(_newTimeout24);
   }
   
@@ -1145,9 +1145,9 @@ function newGif10() {
     document.getElementById("textArea").innerHTML = "00N/mm";
     document.getElementById("textArea").style.visibility = "visible";
     document.getElementById("newArr18").style.visibility = "visible";
-    _myStopFunction15();
+    _myStopFunction25();
   }
-  function _myStopFunction15() {
+  function _myStopFunction25() {
     clearTimeout(_newTimeout25);
   }
   
@@ -1163,9 +1163,9 @@ function newGif10() {
     document.getElementById("newStep6").style.visibility = "visible";
     document.getElementById("newStep6").style.zIndex = 1;
     document.getElementById("nextStep18").style.zIndex = -1;
-    _myStopFunction16();
+    _myStopFunction26();
   }
-  function _myStopFunction16() {
+  function _myStopFunction26() {
     clearInterval(_newTimeout26);
   }
   
