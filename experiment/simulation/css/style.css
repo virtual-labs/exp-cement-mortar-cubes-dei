@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -54,14 +56,6 @@ body {
     top: 40px;
     height: 559px;
     width: 788px;
-	/*left:10px;
-
-	top:50px;
-
-	height:530px;
-
-	width:785px;*/
-/*background-color: red;*/
 	background-color: #dde2e7;
 }
 
@@ -94,13 +88,13 @@ body {
 
 	left:0px;
 
-	top:0px;
+	top:-1px;
 
 	height: 600px; 
 
 	width:800px;
 
-	border:solid 1px;
+	/* border:solid 1px; */
 
 	background-color: #dce5ec;
 }
@@ -136,10 +130,12 @@ body {
 	height:40px;
 
 	font-size: 20px;
+  
+  /* padding: 1px 0; */
 
 	text-align:center;
 
-	background-color: #ff9900f2;
+  background-color: rgb(20, 117, 228);
 
 	font-family: verdana;
 

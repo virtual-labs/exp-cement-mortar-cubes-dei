@@ -730,6 +730,7 @@ function newGif1() {
   }
   function newGreeting15() {
     document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("textArea").style.visibility="visible"
     document.getElementById("newArr3").style.visibility = "visible";
     myStopFunction15();
   }
@@ -747,7 +748,7 @@ function newGif1() {
     document.getElementById("nextStep3").style.zIndex = -1;
   }
   function newGreeting16() {
-    document.getElementById("textArea").innerHTML = "333N/mm";
+    document.getElementById("textArea").innerHTML = "175.60/mm";
     document.getElementById("newStep1").style.visibility = "visible";
     document.getElementById("newStep1").style.zIndex = 1;
     myStopFunction16();
@@ -813,7 +814,7 @@ function newGif1() {
     newTimeout18 = setInterval(newGreeting3, 10000);
   }
   function newGreeting3() {
-    document.getElementById("textArea").innerHTML = "333N/mm";
+    document.getElementById("textArea").innerHTML = "180.00N/mm";
     document.getElementById("newStep2").style.visibility = "visible";
     document.getElementById("newStep2").style.zIndex = 1;
     document.getElementById("nextStep6").style.zIndex = -1;
@@ -879,7 +880,7 @@ function newGif1() {
     newTimeout20 = setInterval(newGreeting20, 10000);
   }
   function newGreeting20() {
-    document.getElementById("textArea").innerHTML = "333N/mm";
+    document.getElementById("textArea").innerHTML = "184.20N/mm";
     document.getElementById("newStep3").style.visibility = "visible";
     document.getElementById("newStep3").style.zIndex = 1;
     document.getElementById("nextStep9").style.zIndex = -1;
@@ -1015,6 +1016,7 @@ function newGif10() {
   }
   function _newGreeting15() {
     document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("textArea").style.visibility="visible"
     document.getElementById("newArr12").style.visibility = "visible";
     _myStopFunction21();
   }
@@ -1031,7 +1033,7 @@ function newGif10() {
     document.getElementById("nextStep12").style.zIndex = -1;
   }
   function _newGreeting16() {
-    document.getElementById("textArea").innerHTML = "333N/mm";
+    document.getElementById("textArea").innerHTML = "235.30N/mm";
     document.getElementById("newStep4").style.visibility = "visible";
     document.getElementById("newStep4").style.zIndex = 1;
     _myStopFunction22();
@@ -1076,8 +1078,8 @@ function newGif10() {
     document.getElementById("newArr14").style.visibility = "hidden";
     _newTimeout23 = setTimeout(_newGreeting2, 1800);
     function _newGreeting2() {
-      document.getElementById("textArea").innerHTML = "00N/mm";
       document.getElementById("textArea").style.visibility = "visible";
+      document.getElementById("textArea").innerHTML = "00N/mm";
       document.getElementById("newArr15").style.visibility = "visible";
       _myStopFunction23();
     }
@@ -1094,7 +1096,7 @@ function newGif10() {
     _newTimeout24 = setInterval(_newGreeting3, 10000);
   }
   function _newGreeting3() {
-    document.getElementById("textArea").innerHTML = "333N/mm";
+    document.getElementById("textArea").innerHTML = "226.80N/mm";
     document.getElementById("newStep5").style.visibility = "visible";
     document.getElementById("newStep5").style.zIndex = 1;
     document.getElementById("nextStep15").style.zIndex = -1;
@@ -1159,7 +1161,7 @@ function newGif10() {
     _newTimeout26 = setInterval(_newGreeting20, 10000);
   }
   function _newGreeting20() {
-    document.getElementById("textArea").innerHTML = "333N/mm";
+    document.getElementById("textArea").innerHTML = "230.00N/mm";
     document.getElementById("newStep6").style.visibility = "visible";
     document.getElementById("newStep6").style.zIndex = 1;
     document.getElementById("nextStep18").style.zIndex = -1;
@@ -1172,4 +1174,37 @@ function newGif10() {
   function step17() {
     document.getElementById("Step16").style.visibility = "hidden";
     document.getElementById("Step17").style.visibility = "visible";
+    document.getElementById("png34").style.visibility = "hidden";
+    document.getElementById("png35").style.visibility = "hidden";
+    document.getElementById("newStep6").style.visibility = "hidden";
+    document.getElementById("png36").style.visibility = "hidden";
+    document.getElementById("png37").style.visibility = "hidden";
+    document.getElementById("png38").style.visibility = "hidden";
+    document.getElementById("png39").style.visibility = "hidden";
+    document.getElementById("png43").style.visibility = "hidden";
+    document.getElementById("png44").style.visibility = "hidden";
+    document.getElementById("png45").style.visibility = "hidden";
+    document.getElementById("png46").style.visibility = "hidden";
+    document.getElementById("png47").style.visibility = "hidden";
+    document.getElementById("trans24").style.zIndex = -10;
+    document.getElementById("trans25").style.zIndex = -10;
+    document.getElementById("trans26").style.zIndex = -10;
+    document.getElementById("arr24").style.visibility = "hidden";
+    document.getElementById("arr25").style.visibility = "hidden";
+    document.getElementById("newGif18").style.visibility = "hidden";
+    document.getElementById("newArr16").style.visibility = "hidden";
+    document.getElementById("arr26").style.visibility = "hidden";
+    document.getElementById("newImage6").style.visibility = "hidden";
+    // document.getElementById("newstep9").style.visibility = "hidden";
+    document.getElementById("textArea").style.visibility = "hidden";
+    document.getElementById("next13").style.visibility = "hidden";
+    document.getElementById("newStep8").style.visibility = "visible";
   }
+  function step18() {
+
+  
+    document.getElementById("table1").style.visibility = "hidden";
+    document.getElementById("newStep8").style.visibility = "hidden";
+    document.getElementById("table2").style.visibility = "visible";
+    document.getElementById("newStep9").style.visibility = "visible";
+     }
