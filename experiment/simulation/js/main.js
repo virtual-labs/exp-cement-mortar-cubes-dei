@@ -729,7 +729,7 @@ function newGif1() {
     document.getElementById("nextStep3").style.zIndex = 1;
   }
   function newGreeting15() {
-    document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("textArea").innerHTML = "00KN";
     document.getElementById("textArea").style.visibility="visible"
     document.getElementById("newArr3").style.visibility = "visible";
     myStopFunction15();
@@ -748,7 +748,7 @@ function newGif1() {
     document.getElementById("nextStep3").style.zIndex = -1;
   }
   function newGreeting16() {
-    document.getElementById("textArea").innerHTML = "175.60/mm";
+    document.getElementById("textArea").innerHTML = "175.60KN";
     document.getElementById("newStep1").style.visibility = "visible";
     document.getElementById("newStep1").style.zIndex = 1;
     myStopFunction16();
@@ -796,7 +796,7 @@ function newGif1() {
   
     newTimeout17 = setTimeout(newGreeting2, 1800);
     function newGreeting2() {
-      document.getElementById("textArea").innerHTML = "00N/mm";
+      document.getElementById("textArea").innerHTML = "00KN";
       document.getElementById("textArea").style.visibility = "visible";
       document.getElementById("newArr6").style.visibility = "visible";
       myStopFunction17();
@@ -814,7 +814,7 @@ function newGif1() {
     newTimeout18 = setInterval(newGreeting3, 10000);
   }
   function newGreeting3() {
-    document.getElementById("textArea").innerHTML = "180.00N/mm";
+    document.getElementById("textArea").innerHTML = "180.00KN";
     document.getElementById("newStep2").style.visibility = "visible";
     document.getElementById("newStep2").style.zIndex = 1;
     document.getElementById("nextStep6").style.zIndex = -1;
@@ -864,7 +864,7 @@ function newGif1() {
     document.getElementById("nextStep9").style.zIndex = 1;
   }
   function newGreeting19() {
-    document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("textArea").innerHTML = "00KN";
     document.getElementById("textArea").style.visibility = "visible";
     document.getElementById("newArr9").style.visibility = "visible";
     myStopFunction19();
@@ -880,7 +880,7 @@ function newGif1() {
     newTimeout20 = setInterval(newGreeting20, 10000);
   }
   function newGreeting20() {
-    document.getElementById("textArea").innerHTML = "184.20N/mm";
+    document.getElementById("textArea").innerHTML = "184.20KN";
     document.getElementById("newStep3").style.visibility = "visible";
     document.getElementById("newStep3").style.zIndex = 1;
     document.getElementById("nextStep9").style.zIndex = -1;
@@ -1015,7 +1015,7 @@ function newGif10() {
     document.getElementById("nextStep12").style.zIndex = 1;
   }
   function _newGreeting15() {
-    document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("textArea").innerHTML = "00KN";
     document.getElementById("textArea").style.visibility="visible"
     document.getElementById("newArr12").style.visibility = "visible";
     _myStopFunction21();
@@ -1033,7 +1033,7 @@ function newGif10() {
     document.getElementById("nextStep12").style.zIndex = -1;
   }
   function _newGreeting16() {
-    document.getElementById("textArea").innerHTML = "235.30N/mm";
+    document.getElementById("textArea").innerHTML = "235.30KN";
     document.getElementById("newStep4").style.visibility = "visible";
     document.getElementById("newStep4").style.zIndex = 1;
     _myStopFunction22();
@@ -1079,7 +1079,7 @@ function newGif10() {
     _newTimeout23 = setTimeout(_newGreeting2, 1800);
     function _newGreeting2() {
       document.getElementById("textArea").style.visibility = "visible";
-      document.getElementById("textArea").innerHTML = "00N/mm";
+      document.getElementById("textArea").innerHTML = "00KN";
       document.getElementById("newArr15").style.visibility = "visible";
       _myStopFunction23();
     }
@@ -1096,7 +1096,7 @@ function newGif10() {
     _newTimeout24 = setInterval(_newGreeting3, 10000);
   }
   function _newGreeting3() {
-    document.getElementById("textArea").innerHTML = "226.80N/mm";
+    document.getElementById("textArea").innerHTML = "226.80KN";
     document.getElementById("newStep5").style.visibility = "visible";
     document.getElementById("newStep5").style.zIndex = 1;
     document.getElementById("nextStep15").style.zIndex = -1;
@@ -1144,7 +1144,7 @@ function newGif10() {
     document.getElementById("nextStep18").style.zIndex = 1;
   }
   function _newGreeting19() {
-    document.getElementById("textArea").innerHTML = "00N/mm";
+    document.getElementById("textArea").innerHTML = "00KN";
     document.getElementById("textArea").style.visibility = "visible";
     document.getElementById("newArr18").style.visibility = "visible";
     _myStopFunction25();
@@ -1161,7 +1161,7 @@ function newGif10() {
     _newTimeout26 = setInterval(_newGreeting20, 10000);
   }
   function _newGreeting20() {
-    document.getElementById("textArea").innerHTML = "230.00N/mm";
+    document.getElementById("textArea").innerHTML = "230.00KN";
     document.getElementById("newStep6").style.visibility = "visible";
     document.getElementById("newStep6").style.zIndex = 1;
     document.getElementById("nextStep18").style.zIndex = -1;
