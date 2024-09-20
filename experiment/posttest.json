@@ -9,6 +9,7 @@
         "c": "67%",
         "d": "75%"
       },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -20,6 +21,7 @@
         "c": "Unaffected",
         "d": "Depends on the loading rate"
       },
+      
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -31,8 +33,12 @@
         "c": "Prevents loss of water by evaporation",
         "d": "All of the above"
       },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     }
+
+
+    
   ]
 }
