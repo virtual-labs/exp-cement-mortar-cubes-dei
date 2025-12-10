@@ -1,15 +1,39 @@
 ### Procedure
-## Preparation of test specimen - 
-1.	Use clean appliance and the room temperature shall be 27º ± 2º C. Take 200 g of cement and 600 g of standard sand ( ratio of cement to sand is 1:3). Place it on a non-porous plate and mix it with a trowel for one minute. The material for each cube shall be prepared separately. 
-2.	Add water {(P/4) +3}% of the combined weight of cement and sand, where P is the consistency of cement. Mix it with cement and sand thoroughly such that the mixture attains a uniform colour. The mixing time should be less than 3 minutes and not exceed 4 minutes. 
-3.	Hold the cube mould of size 70.6 mm (coated with a thin film of petroleum jelly between it's bottom surface and its base plate) firmly in the vibrating machine using appropriate clamps. Attach the hopper at the top of the mould.
-4.	Fill the mixed mortar in the hopper of the cube mould and then compact it by vibrations. The duration of vibration should be of two minutes at the speed of 1200 ± 1400 vibrations per minute. 
-5.	Then place the moulds at a temperature of 27º ± 2º C and 90% relative humidity for 24 hours. 
-6.	Remove the cubes from the mould and submerge them in fresh water for curing. This water shall be restored after every seven days and maintained at a temperature of 27º ± 2º C. 
+1. STEP 1 — Apparatus transfer sequence  
+   - Click trans1 to begin the first transfer animation. Wait for it to finish.  
+   - Click trans2, then trans3, then trans4 in sequence; each starts the next short animation.  
+   - After the final transfer completes click the on‑screen "Next" to continue.
 
-## Testing of cement mortar cubes -
-7.	Take out three cubes from the water at the end of 3 days respectively. Wipe them with a dry cloth and measure their dimensions. 
-8.	Place the cube inside the compression testing machine and apply the load uniformly at the rate of 14 N/mm²/ min. Note the load at which the cube fails. 
-9.	Compute the compressive strength of the cube by using the formula Load/Area.
-10.	The average of all three readings gives the compressive strength of cement mortar at the end of 3 days.
-11.	Perform the same procedure (steps 7 to 10) to calculate the compressive strength of cement mortar at the end of 7 days and 28 days respectively. 
+2. STEP 2 — Prepare mix inputs (interactive checks)  
+   - Take sand and cement from the bag using a trowel in the proportion 3:1 by weight to make standard mortar. Note down the total weight of the sample.  
+   - Enter cement mass = 200 g and sand mass = 600 g (1:3 ratio).  
+   - Calculate water using the formula: water% = (P/4) + 3 (P = consistency). Enter the computed water (grams).  
+   - If an input is incorrect, try again. After three incorrect attempts the simulator will display the correct formula and value.  
+   - Click the pour to show the pouring animation; wait for it to finish and then click "Next Level".
+
+3. STEP 3 — Filling and compaction (vibration)  
+   - Place mould and attach hopper as shown.  
+   - Set vibration parameters: duration = 2 min, speed ≈ 1200–1400 vibrations/min.  
+   - Start compaction by clicking trans6. When compaction animation ends, click trans8 then trans7 as prompted.  
+   - Click "Next Level" to proceed.
+
+4. STEP 4 — Curing setup  
+   - Set curing conditions: 24 hours at 27°C ± 2°C, 90% RH (then store submerged thereafter).  
+   - Click the simulator control to begin curing and confirm.  
+   - Click "Next Level" when the step completes.
+
+5. STEP 5 — Remove, measure, and test cubes  
+   - At the selected age (3, 7, or 28 days) remove the cube from water and wipe dry.  
+   - Measure the cube side and enter the measured dimension (expected ≈ 70.6 mm).  
+   - Select a cube by clicking its icon  to place it in the compression testing machine.  
+   - Enter the loading rate: 14 N/mm² per minute and start the test (use the test/start control shown).  
+   - Record Pmax (maximum load at failure) shown by the simulator.  
+   - Compute compressive strength: σc = Pmax / A. Enter your calculated σc.  
+   - After three incorrect calculation attempts the correct formula and the expected result will be displayed.  
+   - Click "Next Level" to continue or to test the next cube.
+
+6. STEP 6 — Repeat for other ages  
+   - Repeat the measurement and testing sequence for 7‑day and 28‑day samples.  
+
+7. Final — Results and reset  
+   - Review the summary screen for computed strengths.
