@@ -9,26 +9,28 @@ This property is of great importance because it ascertains the quality of cement
 When cement is mixed with water, a complex series of **hydration reactions** begins. These reactions gradually convert the cement compounds into hardened crystalline and gel-like products. The most significant hydration reactions contributing to strength development are:
 
 **1. Hydration of Tricalcium Silicate (C₃S):**
-```
-2C₃S + 6H₂O → C₃S₂H₃ (C-S-H gel) + 3Ca(OH)₂ + Heat
-```
+
+$$
+2\mathrm{C_3S} + 6\mathrm{H_2O} \;\longrightarrow\; \mathrm{C_3S_2H_3}\ (\mathrm{C\!-\!S\!-\!H\ gel}) \;+\; 3\mathrm{Ca(OH)_2} \;+\; \text{Heat}
+$$
 
 **2. Hydration of Dicalcium Silicate (C₂S):**
-```
-2C₂S + 4H₂O → C₃S₂H₃ (C-S-H gel) + Ca(OH)₂ + Heat
-```
+
+$$
+2\mathrm{C_2S} + 4\mathrm{H_2O} \;\longrightarrow\; \mathrm{C_3S_2H_3}\ (\mathrm{C\!-\!S\!-\!H\ gel}) \;+\; \mathrm{Ca(OH)_2} \;+\; \text{Heat}
+$$
 
 **Where:**
-- **C₃S**: Tricalcium silicate
-- **C₂S**: Dicalcium silicate
-- **C-S-H**: Calcium Silicate Hydrate (C-S-H gel)
-- **Ca(OH)₂**: Calcium hydroxide
-- **H₂O**: Water
+- $\mathrm{C_3S}$: Tricalcium silicate  
+- $\mathrm{C_2S}$: Dicalcium silicate  
+- $\mathrm{C\!-\!S\!-\!H}$: Calcium Silicate Hydrate (C‑S‑H gel)  
+- $\mathrm{Ca(OH)_2}$: Calcium hydroxide  
+- $\mathrm{H_2O}$: Water
 
-The **C-S-H gel** formed during hydration is the primary strength-giving product. It fills voids, binds particles together, and contributes to the progressive increase in strength. 
+The **C‑S‑H gel** formed during hydration is the primary strength-giving product. It fills voids, binds particles together, and contributes to the progressive increase in strength. 
 
 **Strength development timeline:**
-- **Tricalcium silicate (C₃S)** is responsible for **early strength** (3–7 days)
+- **Tricalcium silicate (C₃S)** is responsible for **early strength** (3–7 days)  
 - **Dicalcium silicate (C₂S)** contributes to **long-term strength** gain (after 28 days)
 
 ### Why Mortar Cubes Instead of Pure Cement?
@@ -42,7 +44,7 @@ The test is therefore performed on **blocks of mortar** composed of cement and s
 
 ### Test Procedure
 
-The **mortar cubes of size 70.6 mm × 70.6 mm × 70.6 mm** are prepared, compacted in specified layers, cured under controlled conditions, and tested under a compression testing machine at the end of:
+The **mortar cubes of size $70.6\ \text{mm} \times 70.6\ \text{mm} \times 70.6\ \text{mm}$** are prepared, compacted in specified layers, cured under controlled conditions, and tested under a compression testing machine at the end of:
 - **3 days** – Early strength assessment
 - **7 days** – Intermediate strength
 - **28 days** – Standard strength (used for design purposes)
@@ -51,24 +53,26 @@ The **mortar cubes of size 70.6 mm × 70.6 mm × 70.6 mm** are prepared, compact
 
 During testing, each cube is subjected to a gradually increasing compressive load in a **Compression Testing Machine (CTM)** until failure. The compressive strength is then calculated using the relation:
 
-```
-σc = Pmax / A
-```
+$$
+\sigma_c \;=\; \dfrac{P_{\max}}{A}
+$$
 
 **Where:**
-- **σc** = Compressive strength (N/mm² or MPa)
-- **Pmax** = Maximum load applied at failure (in Newtons)
-- **A** = Loaded area of the cube (in mm²)
+- $\sigma_c$ = Compressive strength (N/mm² or MPa)  
+- $P_{\max}$ = Maximum load applied at failure (in Newtons)  
+- $A$ = Loaded area of the cube (in mm²)
 
 For the standard cube:
-```
-A = 70.6 mm × 70.6 mm = 4984.36 mm² ≈ 5000 mm²
-```
+
+$$
+A \;=\; 70.6\ \text{mm} \times 70.6\ \text{mm} \;=\; 4984.36\ \text{mm}^2 \;\approx\; 5000\ \text{mm}^2
+$$
 
 Thus:
-```
-σc = Pmax / 5000 (N/mm² or MPa)
-```
+
+$$
+\sigma_c \;\approx\; \dfrac{P_{\max}}{5000}\ \text{(N/mm}^2\text{ or MPa)}
+$$
 
 ### Significance of Results
 
