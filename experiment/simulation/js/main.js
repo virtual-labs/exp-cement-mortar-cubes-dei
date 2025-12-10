@@ -638,7 +638,7 @@ function cube7() {
     document.getElementById("trans21").style.visibility = "hidden";
     document.getElementById("png30").style.visibility = "visible";
     document.getElementById("arr21").style.visibility = "hidden";
-    // document.getElementById("arr22").style.visibility = "visible";
+    document.getElementById("arr22").style.visibility = "visible";
 }
 
 function cloth() {
