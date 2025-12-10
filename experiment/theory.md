@@ -70,9 +70,7 @@ $$
 
 Thus:
 
-$$
-\sigma_c \;\approx\; \dfrac{P_{\max}}{5000}\ \text{(N/mm}^2\text{ or MPa)}
-$$
+$$\sigma_c \approx \frac{P_{\max}}{5000} (N/mm^2 or MPa)$$
 
 ### Significance of Results
 
