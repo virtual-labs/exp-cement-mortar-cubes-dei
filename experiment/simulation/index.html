@@ -12,7 +12,7 @@
 	<link rel="icon" href="images/logo (1).jpg">
 	<title>Civil Engineering - Virtual Lab</title>
 
-	
+
 
 	<style>
 		#trans1 {
@@ -178,1167 +178,1265 @@
 
 
 	<body style="margin:0; font-family: verdana; color: #000;">
-		<table align="center">
-			<tr>
-				<td>
-					<div id="simscreen">
-						<div id="title">
-							<h3>Compression Strength Test</h3>
-						</div>
 
-						<!-- Step 1 -->
-						<div class="Mainstep" id="Step1" style="visibility: visible;z-index: 1000; ">
+		<!-- RESPONSIVE WRAPPER -->
+		<div class="sim-wrapper">
+
+			<!-- FIXED BASE CANVAS -->
+			<div class="simulation-container">
+
+				<!-- ORIGINAL CONTENT (UNCHANGED) -->
+				<div id="simscreen">
+
+					<table align="center">
+						<tr>
+							<td>
+								<div id="simscreen">
+									<div id="title">
+										<h3>Compression Strength Test</h3>
+									</div>
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+									<!-- Step 1 -->
+									<div class="Mainstep" id="Step1" style="visibility: visible;z-index: 1000; ">
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;1&nbsp;</span></br>
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
-							<p class="incanvas" style="position: absolute; top: 55px; left: 0px;font-size:15px;">
-								<strong>Objective:</strong>
-							</p>
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;1&nbsp;</span></br>
 
-							<p class="incanvas" style="position: absolute; top: 85px; left: 0px;font-size:14px;">To
-								determine the compressive strength of standard cement mortar cubes</p></br>
+										<p class="incanvas"
+											style="position: absolute; top: 55px; left: 0px;font-size:15px;">
+											<strong>Objective:</strong>
+										</p>
 
-							<p class="incanvas" style="position: absolute; top: 115px; left: 0px;font-size:15px;">
-								<strong>Apparatus and Material used:</strong>
-							</p>
+										<p class="incanvas"
+											style="position: absolute; top: 85px; left: 0px;font-size:14px;">To
+											determine the compressive strength of standard cement mortar cubes</p></br>
 
-							<p class="incanvas" style="position: absolute; top: 145px; left: 0px;font-size:14px;">
-								Compression Testing machine</p></br>
-							<img id="png" class="board" src="images/apapaparatus.png" alt="picture" width="580px"
-								height="350" style="padding-left: 11% ; margin-top: 150px;"><br>
-							<input type="button" id="next"
-								style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
-								value="&nbsp;Start Here&nbsp;" onclick="step2()" />
+										<p class="incanvas"
+											style="position: absolute; top: 115px; left: 0px;font-size:15px;">
+											<strong>Apparatus and Material used:</strong>
+										</p>
 
-						</div>
+										<p class="incanvas"
+											style="position: absolute; top: 145px; left: 0px;font-size:14px;">
+											Compression Testing machine</p></br>
+										<img id="png" class="board" src="images/apapaparatus.png" alt="picture"
+											width="580px" height="350"
+											style="padding-left: 11% ; margin-top: 150px;"><br>
+										<input type="button" id="next"
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
+											value="&nbsp;Start Here&nbsp;" onclick="step2()" />
 
+									</div>
 
-						<!-- step 2 -->
 
-						<div class="Mainstep" id="Step2" style="visibility:hidden; z-index: 999;">
+									<!-- step 2 -->
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+									<div class="Mainstep" id="Step2" style="visibility:hidden; z-index: 999;">
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;2&nbsp;</span></br>
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Take sand and cement from the bag using trowel in the
-									proportion 3:1 by
-									weight to make standard mortar. Note down the total weight of
-									sample.</i>&nbsp;</span><br><br>
-							<img id="png1" class="board" src="images/6.png" alt="picture" width="605" height="385"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px;">
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;2&nbsp;</span></br>
 
-							<img id="gif1" class="board" src="images/output-onlinegiftools (27).gif" alt="picture"
-								width="605" height="385" style="visibility: hidden;">
-							<img id="gif2" class="board" src="images/output-onlinegiftools (33).gif" alt="picture"
-								width="605" height="385" style="visibility: hidden;">
-							<img id="gif3" class="board" src="images/output-onlinegiftools (34).gif" alt="picture"
-								width="605" height="385" style="visibility: hidden;">
-							<img id="gif4" class="board" src="images/output-onlinegiftools (35).gif" alt="picture"
-								width="605" height="385" style="visibility: hidden;">
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Take sand and
+												cement from the bag using trowel in the
+												proportion 3:1 by
+												weight to make standard mortar. Note down the total weight of
+												sample.</i>&nbsp;</span><br><br>
+										<img id="png1" class="board" src="images/6.png" alt="picture" width="605"
+											height="385"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px;">
 
-							<img id="arr1" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30" style="visibility: visible;">
-							<img id="arr2" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30" style="visibility: hidden;">
-							<img id="arr3" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30" style="visibility: hidden;">
-							<img id="arr4" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30" style="visibility: hidden;">
+										<img id="gif1" class="board" src="images/output-onlinegiftools (27).gif"
+											alt="picture" width="605" height="385" style="visibility: hidden;">
+										<img id="gif2" class="board" src="images/output-onlinegiftools (33).gif"
+											alt="picture" width="605" height="385" style="visibility: hidden;">
+										<img id="gif3" class="board" src="images/output-onlinegiftools (34).gif"
+											alt="picture" width="605" height="385" style="visibility: hidden;">
+										<img id="gif4" class="board" src="images/output-onlinegiftools (35).gif"
+											alt="picture" width="605" height="385" style="visibility: hidden;">
 
-							<img id="trans1" class="board" src="images/transbox.png" alt="picture" width="150"
-								height="50" style="visibility: visible;" onclick="moveplate()">
-							<img id="trans2" class="board" src="images/transbox.png" alt="picture" width="150"
-								height="50" style="visibility: hidden;" onclick="moveplate1()">
-							<img id="trans3" class="board" src="images/transbox.png" alt="picture" width="150"
-								height="50" style="visibility: hidden;" onclick="moveplate2()">
-							<img id="trans4" class="board" src="images/transbox.png" alt="picture" width="150"
-								height="50" style="visibility: hidden;" onclick="moveplate3()">
+										<img id="arr1" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30" style="visibility: visible;">
+										<img id="arr2" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30" style="visibility: hidden;">
+										<img id="arr3" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30" style="visibility: hidden;">
+										<img id="arr4" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30" style="visibility: hidden;">
+
+										<img id="trans1" class="board" src="images/transbox.png" alt="picture"
+											width="150" height="50" style="visibility: visible;" onclick="moveplate()">
+										<img id="trans2" class="board" src="images/transbox.png" alt="picture"
+											width="150" height="50" style="visibility: hidden;" onclick="moveplate1()">
+										<img id="trans3" class="board" src="images/transbox.png" alt="picture"
+											width="150" height="50" style="visibility: hidden;" onclick="moveplate2()">
+										<img id="trans4" class="board" src="images/transbox.png" alt="picture"
+											width="150" height="50" style="visibility: hidden;" onclick="moveplate3()">
+
 
 
+										<input type="button" id="next1"
+											style="visibility: hidden; position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
+											value="&nbsp;Next Step&nbsp;" onclick="step3()" />
 
-							<input type="button" id="next1"
-								style="visibility: hidden; position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
-								value="&nbsp;Next Step&nbsp;" onclick="step3()" />
 
+									</div>
 
-						</div>
-
-						<!-- Step 3 -->
-
-						<div class="Mainstep" id="Step3" style="visibility:hidden; z-index: 998;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;3&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Mix sand and cement to prepare dry mix of
-									Mortar.</i>&nbsp;</span><br><br>
-
-							<img id="png2" class="board" src="images/pouring.png" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px;">
-
-							<img id="trans5" class="board" src="images/transbox.png" alt="picture" width="200"
-								height="50" style="position: absolute; margin-left: 25rem ; margin-top: 81px;">
-
-							<img id="gif5" class="board" src="images/output-onlinegiftools (39).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;"><br>
-
-							<img id="arr5" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30" style="position: absolute;  margin-left: 39rem ; margin-top: 65px;">
-
-							<input type="button" id="next2"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step4()" />
-
-
-
-						</div>
-
-						<!-- Step4  -->
-						<div class="Mainstep" id="Step4" style="visibility:hidden; z-index: 997;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;4&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp;  Place a beaker on the weighing balance and press the TARE button. Now, measure water in the amount, {(P/4)+3}% of the combined weight of cement and sand mix, where P is consistency of cement.
-								</i>&nbsp;</span><br><br>
-
-							<img id="png3" class="board" src="images/S3.png" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-							<img id="png4" class="board" src="images/S3a.jpg" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="trans6" class="board" src="images/transbox.png" alt="picture" width="50"
-								height="80"
-								style="position: absolute; margin-left: 35rem ; margin-top: 47px; visibility: visible;">
-							<img id="trans7" class="board" src="images/transbox.png" alt="picture" width="30"
-								height="150"
-								style="position: absolute; margin-left: 35rem ; margin-top: 56px; visibility: hidden;">
-							<img id="trans8" class="board" src="images/transbox.png" alt="picture" width="20"
-								height="10"
-								style="position: absolute; margin-left: 16rem ; margin-top: 359px; z-index: 1001; visibility: hidden;">
-
-							<img id="arr6" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30"
-								style="position: absolute;  margin-left: 37rem ; margin-top: 65px; visibility: visible;">
-							<img id="arr7" class="board" src="images/arrow.gif" alt="picture" width="75" height="30"
-								style="position: absolute;  margin-left: 11rem ; margin-top: 345px; visibility: hidden; z-index: 2;">
-							<img id="arr8" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30"
-								style="position: absolute;  margin-left: 36rem ; margin-top: 99px; visibility: hidden;">
-
-
-							<img id="gif6" class="board" src="images/S3.gif" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px; visibility: hidden;">
-							<img id="gif7" class="board" src="images/output-onlinegiftools (37) (1).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<span id="numoutnext"
-								style="position: absolute; left: 637px; top: 149px; color: red; font-size: 12px"></span>
-
-							<div id="numpadbig" style="position: absolute;left:620px; top: 243px; visibility: hidden;">
-								<div style="padding-left: 0px; padding-right: 0px">
-									<input type="text" id="quantity" size="7"
-										style="font-size: 20px; height: 30px;">&nbsp;gm<br><br>
-								</div>
-								<div
-									style="background-color: #FFF;  height: 170px; width: 135px; border: 8px #000 solid;">
-
-									<table style="position: absolute; left: 20px; top: 65px; text-align: center; ">
-										<tr style="">
-											<td>
-												<input type="button" value="1"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="2"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="3"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-										</tr>
-										<tr>
-											<td style="">
-												<input type="Button" value="4"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="5"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="6"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-										</tr>
-										<tr style="">
-											<td>
-												<input type="Button" value="7"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="8"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="9"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-										</tr>
-										<tr style="">
-											<td>
-												<input type="Button" value="."
-													style="font-size:25px; border-radius: 5px; background-color: #FFF; padding-left: 10px; padding-right: 10px"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="0"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF"
-													onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
-											</td>
-											<td>
-												<input type="Button" value="c"
-													style="font-size:25px; border-radius: 5px; background-color: #FFF; padding-left: 7px; padding-right: 7px"
-													onclick="document.getElementById('quantity').value = ''">
-											</td>
-										</tr>
-
-									</table>
-								</div>
-								<div style="padding-left: 28%; padding-right: 17%; padding-top: 5%">
-									<input type="Button" value="Submit" onclick="tunnu()"
-										style="font-size:15px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;">
-								</div>
-							</div>
-
-							<input type="button" id="next3"
-								style="position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step5()" />
-						</div>
-
-						<!-- Step5 -->
-						<div class="Mainstep" id="Step5" style="visibility:hidden; z-index: 996;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;5&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp;  Now, add water to the cement-sand mix.
-								</i>&nbsp;</span><br><br>
-
-							<img id="png5" class="board" src="images/3.png" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-
-							<img id="trans9" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="80"
-								style="position: absolute; margin-left: 33rem ; margin-top: 56px; visibility: visible;"
-								onclick="funst5()">
-
-							<img id="gif8" class="board" src="images/3.gif" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<img id="arr9" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30"
-								style="position: absolute;  margin-left: 36rem ; margin-top: 65px;visibility: visible;">
-
-							<input type="button" id="next4"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step6()" />
-
-						</div>
-
-						<!-- Step6 -->
-						<div class="Mainstep" id="Step6" style="visibility:hidden; z-index: 995;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;6&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp;Pour the mixed mortar in the cube mould using a trowel.
-								</i>&nbsp;</span><br><br>
-
-							<img id="png6" class="board" src="images/Weighing.png" alt="picture" width="550"
-								height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-
-							<img id="trans10" class="board" src="images/transbox.png" alt="picture" width="75"
-								height="30"
-								style="position: absolute; margin-left: 24rem ; margin-top: 52px; visibility: visible;"
-								onclick="funst6()">
-
-							<img id="gif9" class="board" src="images/output-onlinegiftools (40).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<img id="arr10" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30"
-								style="position: absolute;  margin-left: 29rem ; margin-top: 32px; visibility: visible;">
-
-							<input type="button" id="next5"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step7()" />
-
-						</div>
-
-						<!-- Step7 -->
-
-						<div class="Mainstep" id="Step7" style="visibility:hidden; z-index: 994;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;7&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Compact the mortar mix in the mould.
-								</i>&nbsp;</span><br><br>
-
-							<img id="png7" class="board" src="images/jkjkjkij.png" alt="picture" width="550"
-								height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-
-							<img id="trans11" class="board" src="images/transbox.png" alt="picture" width="25"
-								height="150"
-								style="position: absolute; margin-left: 32.3rem ; margin-top: 52px; visibility: visible;"
-								onclick="funst7()">
-
-							<img id="gif10" class="board" src="images/output-onlinegiftools (43) (1).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<img id="arr11" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="50"
-								style="position: absolute;  margin-left: 33rem ; margin-top: 104px; visibility: visible;">
-
-							<input type="button" id="next6"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step8()" />
-
-						</div>
-
-						<!-- Step8 -->
-
-						<div class="Mainstep" id="Step8" style="visibility:hidden; z-index: 993;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;8&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Again, pour the mixed mortar in the cube mould.
-								</i>&nbsp;</span><br><br>
-
-							<img id="png8" class="board" src="images/ghgujhy.png" alt="picture" width="550" height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-
-							<img id="trans12" class="board" src="images/transbox.png" alt="picture" width="75"
-								height="30"
-								style="position: absolute; margin-left: 24rem ; margin-top: 52px; visibility: visible;"
-								onclick="funst8()">
-
-							<img id="gif11" class="board" src="images/output-onlinegiftools (42) (1).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<img id="arr12" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="30"
-								style="position: absolute;  margin-left: 29rem ; margin-top: 32px; visibility: visible;">
-
-							<input type="button" id="next7"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step9()" />
-
-						</div>
-
-						<!-- Step9 -->
-
-
-						<div class="Mainstep" id="Step9" style="visibility:hidden; z-index: 992;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;9&nbsp;</span></br>
-
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Compact it carefully and obtain a smooth finish. 
-								</i>&nbsp;</span><br><br>
-
-							<img id="png9" class="board" src="images/vgvgfhygtu.png" alt="picture" width="550"
-								height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-
-							<img id="trans13" class="board" src="images/transbox.png" alt="picture" width="25"
-								height="150"
-								style="position: absolute; margin-left: 32.3rem ; margin-top: 52px; visibility: visible;"
-								onclick="funst9()">
-
-							<img id="gif12" class="board" src="images/output-onlinegiftools (41).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<img id="arr13" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="50"
-								style="position: absolute;  margin-left: 33rem ; margin-top: 104px; visibility: visible;">
-
-							<input type="button" id="next8"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step10()" />
-
-						</div>
-
-						<!-- Step10 -->
-
-
-						<div class="Mainstep1" id="Step10" style="visibility:hidden; z-index: 991;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;10&nbsp;</span></br>
-
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Now, open the mould and remove the cube from it gently. 
-								</i>&nbsp;</span><br><br>
-
-							<img id="png10" class="board" src="images/pnggggg.png" alt="picture" width="550"
-								height="350"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
-
-							<img id="trans14" class="board" src="images/transbox.png" alt="picture" width="150"
-								height="70"
-								style="position: absolute; margin-left: 16.3rem ; margin-top: 243px; visibility: visible;transform: rotateX(-7deg);"
-								onclick="funst10()">
-
-							<img id="gif13" class="board" src="images/ezgif.com-gif-maker (8).gif" alt="picture"
-								width="550" height="350"
-								style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
-
-							<img id="arr14" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="50"
-								style="position: absolute;  margin-left: 26rem ; margin-top: 258px; visibility: visible;">
-
-							<input type="button" id="next9"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step11()" />
-
-
-						</div>
-
-						<!-- Step 11 -->
-
-						<div class="Mainstep" id="Step11" style="visibility:hidden; z-index: 990;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;11&nbsp;</span></br>
-
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Write the date of mould on the briquette.
-								</i>&nbsp;</span><br><br>
-
-							<div class="sub-header" style="position: relative; margin-top:  2rem;">
-								<span style="position: absolute; left: 550px; top: 106px; color: red;"
-									id="fillBox"></span>
-
-								<p class="incanvas" style="font-size:17px;">Enter the date of moulds: </p>
-
-								<input id="ageIn" type="date"
-									style="position: absolute; left: 320px; top: 1px; width: 150px; border: 2px solid #000; padding-top: 2px; padding-bottom: 2px;">
-								<span
-									style="position: absolute; left: 480px; top: 2px;font-size: 17px; font-family:Sans-serif">
-									Days</span><br>
-
-								<!--Submit click shows cube with date-->
-								<image id="cube" src="images/Xcube.png" width="170" height="190"
-									style="visibility: hidden; position:absolute; left: 324px; top: 137px;">
-									<span id="cubedatehidden"
-										style="visibility: hidden; position: absolute; left: 368px;
+									<!-- Step 3 -->
+
+									<div class="Mainstep" id="Step3" style="visibility:hidden; z-index: 998;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;3&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Mix sand and cement
+												to prepare dry mix of
+												Mortar.</i>&nbsp;</span><br><br>
+
+										<img id="png2" class="board" src="images/pouring.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px;">
+
+										<img id="trans5" class="board" src="images/transbox.png" alt="picture"
+											width="200" height="50"
+											style="position: absolute; margin-left: 25rem ; margin-top: 81px;">
+
+										<img id="gif5" class="board" src="images/output-onlinegiftools (39).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;"><br>
+
+										<img id="arr5" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30"
+											style="position: absolute;  margin-left: 39rem ; margin-top: 65px;">
+
+										<input type="button" id="next2"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step4()" />
+
+
+
+									</div>
+
+									<!-- Step4  -->
+									<div class="Mainstep" id="Step4" style="visibility:hidden; z-index: 997;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;4&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Place a beaker on
+												the weighing balance and press the TARE button. Now, measure water in
+												the amount, {(P/4)+3}% of the combined weight of cement and sand mix,
+												where P is consistency of cement.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png3" class="board" src="images/S3.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+										<img id="png4" class="board" src="images/S3a.jpg" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+										<img id="trans6" class="board" src="images/transbox.png" alt="picture"
+											width="50" height="80"
+											style="position: absolute; margin-left: 35rem ; margin-top: 47px; visibility: visible;">
+										<img id="trans7" class="board" src="images/transbox.png" alt="picture"
+											width="30" height="150"
+											style="position: absolute; margin-left: 35rem ; margin-top: 56px; visibility: hidden;">
+										<img id="trans8" class="board" src="images/transbox.png" alt="picture"
+											width="20" height="10"
+											style="position: absolute; margin-left: 16rem ; margin-top: 359px; z-index: 1001; visibility: hidden;">
+
+										<img id="arr6" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30"
+											style="position: absolute;  margin-left: 37rem ; margin-top: 65px; visibility: visible;">
+										<img id="arr7" class="board" src="images/arrow.gif" alt="picture" width="75"
+											height="30"
+											style="position: absolute;  margin-left: 11rem ; margin-top: 345px; visibility: hidden; z-index: 2;">
+										<img id="arr8" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30"
+											style="position: absolute;  margin-left: 36rem ; margin-top: 99px; visibility: hidden;">
+
+
+										<img id="gif6" class="board" src="images/S3.gif" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px; visibility: hidden;">
+										<img id="gif7" class="board" src="images/output-onlinegiftools (37) (1).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<span id="numoutnext"
+											style="position: absolute; left: 637px; top: 149px; color: red; font-size: 12px"></span>
+
+										<div id="numpadbig"
+											style="position: absolute;left:620px; top: 243px; visibility: hidden;">
+											<div style="padding-left: 0px; padding-right: 0px">
+												<input type="text" id="quantity" size="7"
+													style="font-size: 20px; height: 30px;">&nbsp;gm<br><br>
+											</div>
+											<div
+												style="background-color: #FFF;  height: 170px; width: 135px; border: 8px #000 solid;">
+
+												<table
+													style="position: absolute; left: 20px; top: 65px; text-align: center; ">
+													<tr style="">
+														<td>
+															<input type="button" value="1"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="2"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="3"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+													</tr>
+													<tr>
+														<td style="">
+															<input type="Button" value="4"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="5"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="6"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+													</tr>
+													<tr style="">
+														<td>
+															<input type="Button" value="7"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="8"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="9"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+													</tr>
+													<tr style="">
+														<td>
+															<input type="Button" value="."
+																style="font-size:25px; border-radius: 5px; background-color: #FFF; padding-left: 10px; padding-right: 10px"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="0"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF"
+																onclick="document.getElementById('quantity').value =document.getElementById('quantity').value+ this.value">
+														</td>
+														<td>
+															<input type="Button" value="c"
+																style="font-size:25px; border-radius: 5px; background-color: #FFF; padding-left: 7px; padding-right: 7px"
+																onclick="document.getElementById('quantity').value = ''">
+														</td>
+													</tr>
+
+												</table>
+											</div>
+											<div style="padding-left: 28%; padding-right: 17%; padding-top: 5%">
+												<input type="Button" value="Submit" onclick="tunnu()"
+													style="font-size:15px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;">
+											</div>
+										</div>
+
+										<input type="button" id="next3"
+											style="position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step5()" />
+									</div>
+
+									<!-- Step5 -->
+									<div class="Mainstep" id="Step5" style="visibility:hidden; z-index: 996;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;5&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Now, add water to
+												the cement-sand mix.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png5" class="board" src="images/3.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+
+										<img id="trans9" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="80"
+											style="position: absolute; margin-left: 33rem ; margin-top: 56px; visibility: visible;"
+											onclick="funst5()">
+
+										<img id="gif8" class="board" src="images/3.gif" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<img id="arr9" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30"
+											style="position: absolute;  margin-left: 36rem ; margin-top: 65px;visibility: visible;">
+
+										<input type="button" id="next4"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step6()" />
+
+									</div>
+
+									<!-- Step6 -->
+									<div class="Mainstep" id="Step6" style="visibility:hidden; z-index: 995;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;6&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Pour the mixed
+												mortar in the cube mould using a trowel.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png6" class="board" src="images/Weighing.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+
+										<img id="trans10" class="board" src="images/transbox.png" alt="picture"
+											width="75" height="30"
+											style="position: absolute; margin-left: 24rem ; margin-top: 52px; visibility: visible;"
+											onclick="funst6()">
+
+										<img id="gif9" class="board" src="images/output-onlinegiftools (40).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<img id="arr10" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30"
+											style="position: absolute;  margin-left: 29rem ; margin-top: 32px; visibility: visible;">
+
+										<input type="button" id="next5"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step7()" />
+
+									</div>
+
+									<!-- Step7 -->
+
+									<div class="Mainstep" id="Step7" style="visibility:hidden; z-index: 994;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;7&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Compact the mortar
+												mix in the mould.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png7" class="board" src="images/jkjkjkij.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+
+										<img id="trans11" class="board" src="images/transbox.png" alt="picture"
+											width="25" height="150"
+											style="position: absolute; margin-left: 32.3rem ; margin-top: 52px; visibility: visible;"
+											onclick="funst7()">
+
+										<img id="gif10" class="board" src="images/output-onlinegiftools (43) (1).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<img id="arr11" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="50"
+											style="position: absolute;  margin-left: 33rem ; margin-top: 104px; visibility: visible;">
+
+										<input type="button" id="next6"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step8()" />
+
+									</div>
+
+									<!-- Step8 -->
+
+									<div class="Mainstep" id="Step8" style="visibility:hidden; z-index: 993;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;8&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Again, pour the
+												mixed mortar in the cube mould.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png8" class="board" src="images/ghgujhy.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+
+										<img id="trans12" class="board" src="images/transbox.png" alt="picture"
+											width="75" height="30"
+											style="position: absolute; margin-left: 24rem ; margin-top: 52px; visibility: visible;"
+											onclick="funst8()">
+
+										<img id="gif11" class="board" src="images/output-onlinegiftools (42) (1).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<img id="arr12" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="30"
+											style="position: absolute;  margin-left: 29rem ; margin-top: 32px; visibility: visible;">
+
+										<input type="button" id="next7"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step9()" />
+
+									</div>
+
+									<!-- Step9 -->
+
+
+									<div class="Mainstep" id="Step9" style="visibility:hidden; z-index: 992;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;9&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Compact it
+												carefully and obtain a smooth finish.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png9" class="board" src="images/vgvgfhygtu.png" alt="picture"
+											width="550" height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+
+										<img id="trans13" class="board" src="images/transbox.png" alt="picture"
+											width="25" height="150"
+											style="position: absolute; margin-left: 32.3rem ; margin-top: 52px; visibility: visible;"
+											onclick="funst9()">
+
+										<img id="gif12" class="board" src="images/output-onlinegiftools (41).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<img id="arr13" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="50"
+											style="position: absolute;  margin-left: 33rem ; margin-top: 104px; visibility: visible;">
+
+										<input type="button" id="next8"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step10()" />
+
+									</div>
+
+									<!-- Step10 -->
+
+
+									<div class="Mainstep1" id="Step10" style="visibility:hidden; z-index: 991;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;10&nbsp;</span></br>
+
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Now, open the mould
+												and remove the cube from it gently.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png10" class="board" src="images/pnggggg.png" alt="picture" width="550"
+											height="350"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+
+										<img id="trans14" class="board" src="images/transbox.png" alt="picture"
+											width="150" height="70"
+											style="position: absolute; margin-left: 16.3rem ; margin-top: 243px; visibility: visible;transform: rotateX(-7deg);"
+											onclick="funst10()">
+
+										<img id="gif13" class="board" src="images/ezgif.com-gif-maker (8).gif"
+											alt="picture" width="550" height="350"
+											style="position: absolute;  margin-left: 70px ; margin-top: 40px;visibility: hidden;">
+
+										<img id="arr14" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="50"
+											style="position: absolute;  margin-left: 26rem ; margin-top: 258px; visibility: visible;">
+
+										<input type="button" id="next9"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step11()" />
+
+
+									</div>
+
+									<!-- Step 11 -->
+
+									<div class="Mainstep" id="Step11" style="visibility:hidden; z-index: 990;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;11&nbsp;</span></br>
+
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Write the date of
+												mould on the briquette.
+											</i>&nbsp;</span><br><br>
+
+										<div class="sub-header" style="position: relative; margin-top:  2rem;">
+											<span style="position: absolute; left: 550px; top: 106px; color: red;"
+												id="fillBox"></span>
+
+											<p class="incanvas" style="font-size:17px;">Enter the date of moulds: </p>
+
+											<input id="ageIn" type="date"
+												style="position: absolute; left: 320px; top: 1px; width: 150px; border: 2px solid #000; padding-top: 2px; padding-bottom: 2px;">
+											<span
+												style="position: absolute; left: 480px; top: 2px;font-size: 17px; font-family:Sans-serif">
+												Days</span><br>
+
+											<!--Submit click shows cube with date-->
+											<image id="cube" src="images/Xcube.png" width="170" height="190"
+												style="visibility: hidden; position:absolute; left: 324px; top: 137px;">
+												<span id="cubedatehidden"
+													style="visibility: hidden; position: absolute; left: 368px;
                                         top: 179px; color: rgb(221, 221, 221); font-size: 1.8em; font-weight: bold;"><span
-											id="demo2"></span>/<span id="demo"></span><span id="demo3"></span></span>
+														id="demo2"></span>/<span id="demo"></span><span
+														id="demo3"></span></span>
 
 
-									<input class="incanvas" id="in2" type="button" name="Submit" value="Submit"
-										style="position: absolute; left: 310px; top: 41px; width: 150px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"
-										onclick="agesizeIn()" /></br></br>
+												<input class="incanvas" id="in2" type="button" name="Submit"
+													value="Submit"
+													style="position: absolute; left: 310px; top: 41px; width: 150px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"
+													onclick="agesizeIn()" /></br></br>
 
-									<input type="button" id="next10"
-										style="position:absolute; left:662px; top:420px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-										value="&nbsp;Next Step&nbsp;" onclick="step12()" />
+												<input type="button" id="next10"
+													style="position:absolute; left:662px; top:420px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+													value="&nbsp;Next Step&nbsp;" onclick="step12()" />
 
-							</div>
-						</div>
+										</div>
+									</div>
 
-						<!-- Step12 -->
+									<!-- Step12 -->
 
-						<div class="Mainstep" id="Step12" style="visibility:hidden; z-index: 989;">
+									<div class="Mainstep" id="Step12" style="visibility:hidden; z-index: 989;">
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;12&nbsp;</span></br>
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;12&nbsp;</span></br>
 
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp;Submerge the mortar cubes in fresh water tank at a temperature of 27º ± 2º C.
-								</i>&nbsp;</span><br><br>
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Submerge the mortar
+												cubes in fresh water tank at a temperature of 27º ± 2º C.
+											</i>&nbsp;</span><br><br>
 
-							<img id="png11" class="board" src="images/Xtankback.png" alt="picture" width="350"
-								height="230"
-								style="position: absolute;  margin-left: 297px; margin-top: 193px; visibility: visible;">
+										<img id="png11" class="board" src="images/Xtankback.png" alt="picture"
+											width="350" height="230"
+											style="position: absolute;  margin-left: 297px; margin-top: 193px; visibility: visible;">
 
-							<img id="png12" class="board" src="images/Xtankfront.png" alt="picture" width="357"
-								height="150"
-								style="position: absolute;  margin-left: 294px; margin-top: 349px; visibility: visible;">
+										<img id="png12" class="board" src="images/Xtankfront.png" alt="picture"
+											width="357" height="150"
+											style="position: absolute;  margin-left: 294px; margin-top: 349px; visibility: visible;">
 
-							<img id="png19" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
-								style="position: absolute;  margin-left: 339px; margin-top: 233px; visibility: visible;">
+										<img id="png19" class="board" src="images/Xwater.png" alt="picture" width="270"
+											height="120"
+											style="position: absolute;  margin-left: 339px; margin-top: 233px; visibility: visible;">
 
-							<img id="png13" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
-								style="position: relative;  margin-left: 7px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png14" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
-								style="position: relative;  margin-left: -3px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png15" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
-								style="position: relative;  margin-left: -1px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png16" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
-								style="position: relative;  margin-left: -2px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png17" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
-								style="position: relative;  margin-left: -3px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png18" class="board" src="images/Xcube.png" alt="picture" width="60" height="60"
-								style="position: relative;  margin-left: -2px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="trans15" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="png13" class="board" src="images/Xcube.png" alt="picture" width="60"
+											height="60"
+											style="position: relative;  margin-left: 7px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png14" class="board" src="images/Xcube.png" alt="picture" width="60"
+											height="60"
+											style="position: relative;  margin-left: -3px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png15" class="board" src="images/Xcube.png" alt="picture" width="60"
+											height="60"
+											style="position: relative;  margin-left: -1px; margin-top: 49px; visibility: visible; animation: cube2 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png16" class="board" src="images/Xcube.png" alt="picture" width="60"
+											height="60"
+											style="position: relative;  margin-left: -2px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png17" class="board" src="images/Xcube.png" alt="picture" width="60"
+											height="60"
+											style="position: relative;  margin-left: -3px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png18" class="board" src="images/Xcube.png" alt="picture" width="60"
+											height="60"
+											style="position: relative;  margin-left: -2px; margin-top: 49px; visibility: visible; animation: cube1 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="trans15" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: -60px;
                                 margin-top: 49px; visibility: visible;" onclick="cube6()">
 
-							<img id="trans16" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans16" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: -123px;
                                 margin-top: 49px; visibility: hidden;" onclick="cube5()">
 
-							<img id="trans17" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans17" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: -187px;
                                 margin-top: 49px; visibility: hidden;" onclick="cube4()">
 
-							<img id="trans18" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans18" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: -250px;
                                 margin-top: 49px; visibility: hidden;" onclick="cube3()">
 
-							<img id="trans19" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans19" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: -315px;
                                 margin-top: 49px;visibility: hidden;" onclick="cube2()">
 
-							<img id="trans20" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans20" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                  margin-left: -378px;
                                  margin-top: 49px; visibility: hidden;" onclick="cube1()">
 
 
-							<img id="arr15" class="board" src="images/arrow left.gif" alt="picture" width="60"
-								height="60" style=" position: absolute;
+										<img id="arr15" class="board" src="images/arrow left.gif" alt="picture"
+											width="60" height="60" style=" position: absolute;
                                 margin-left: 12px;
                                 margin-top: 44px; visibility: visible;">
 
-							<img id="arr16" class="board" src="images/arrow left.gif" alt="picture" width="60"
-								height="60" style=" position: absolute;
+										<img id="arr16" class="board" src="images/arrow left.gif" alt="picture"
+											width="60" height="60" style=" position: absolute;
                             margin-left: -71px;
                             margin-top: 44px; visibility: hidden;">
 
-							<img id="arr17" class="board" src="images/arrow left.gif" alt="picture" width="60"
-								height="60" style=" position: absolute;
+										<img id="arr17" class="board" src="images/arrow left.gif" alt="picture"
+											width="60" height="60" style=" position: absolute;
                             margin-left: -135px;
                             margin-top: 44px; visibility: hidden;">
 
-							<img id="arr18" class="board" src="images/arrow left.gif" alt="picture" width="60"
-								height="60" style=" position: absolute;
+										<img id="arr18" class="board" src="images/arrow left.gif" alt="picture"
+											width="60" height="60" style=" position: absolute;
                             margin-left: -194px;
                             margin-top: 44px; visibility: hidden;">
 
-							<img id="arr19" class="board" src="images/arrow left.gif" alt="picture" width="60"
-								height="60" style=" position: absolute;
+										<img id="arr19" class="board" src="images/arrow left.gif" alt="picture"
+											width="60" height="60" style=" position: absolute;
                             margin-left: -255px;
                             margin-top: 44px; visibility: hidden;">
 
-							<img id="arr20" class="board" src="images/arrow left.gif" alt="picture" width="60"
-								height="60" style=" position: absolute;
+										<img id="arr20" class="board" src="images/arrow left.gif" alt="picture"
+											width="60" height="60" style=" position: absolute;
                             margin-left: -320px;
                             margin-top: 44px; visibility: hidden;">
 
 
-							<span id="cubedate"
-								style="position: absolute;margin-left: -362px;top: 119px;font-size: 0.5em;z-index: 1010;font-weight: bold;"></span>
+										<span id="cubedate"
+											style="position: absolute;margin-left: -362px;top: 119px;font-size: 0.5em;z-index: 1010;font-weight: bold;"></span>
 
-							<span id="cubedate1" style="position: absolute; top: 120px;
+										<span id="cubedate1" style="position: absolute; top: 120px;
                                 margin-left: -298px; font-size: 0.5em; font-weight: bold; z-index: 2010; "></span>
 
 
-							<span id="cubedate2" style="position: absolute; margin-left: -236px;
+										<span id="cubedate2" style="position: absolute; margin-left: -236px;
                                 top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate3" style="position: absolute;margin-left: -172px;
+										<span id="cubedate3" style="position: absolute;margin-left: -172px;
                                 top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate4" style="position: absolute; margin-left: -109px;
+										<span id="cubedate4" style="position: absolute; margin-left: -109px;
                                 top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate5" style="position: absolute;
+										<span id="cubedate5" style="position: absolute;
                                 margin-left: -46px;
                                 top: 118px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate6" style="visibility: hidden; position: absolute;margin-left: 18px;
+										<span id="cubedate6" style="visibility: hidden; position: absolute;margin-left: 18px;
                                 top: 307px;font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate7" style="visibility: hidden; position: absolute;margin-left: 79px;
+										<span id="cubedate7" style="visibility: hidden; position: absolute;margin-left: 79px;
                                 top: 308px;font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate8" style="visibility: hidden; position: absolute; margin-left: 143px;
+										<span id="cubedate8" style="visibility: hidden; position: absolute; margin-left: 143px;
                                 top: 308px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate9" style="visibility: hidden; position: absolute;margin-left: 20px;
+										<span id="cubedate9" style="visibility: hidden; position: absolute;margin-left: 20px;
                                 top: 363px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate10" style="visibility: hidden; position: absolute;margin-left: 80px;
+										<span id="cubedate10" style="visibility: hidden; position: absolute;margin-left: 80px;
                                 top: 364px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
-							<span id="cubedate11" style="visibility: hidden; position: absolute; margin-left: 145px;
+										<span id="cubedate11" style="visibility: hidden; position: absolute; margin-left: 145px;
                                 top: 364px; font-size: 0.5em; font-weight: bold; z-index: 2010;"></span>
 
 
 
-							<input type="button" id="next11"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step13()" />
+										<input type="button" id="next11"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step13()" />
 
-						</div>
-
-
-						<!-- Step 13 -->
-
-						<div class="Mainstep" id="Step13" style="visibility:hidden; z-index: 988;">
-
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
-
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;13&nbsp;</span></br>
-
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Take out 3 moulds after 3 days from the tank and wipe them with a dry cloth.
-								</i>&nbsp;</span><br><br>
-
-							<img id="png20" class="board" src="images/Xtankback.png" alt="picture" width="350"
-								height="230"
-								style="position: absolute;  margin-left: 24px; margin-top: 193px; visibility: visible;">
-
-							<img id="png21" class="board" src="images/Xtankfront.png" alt="picture" width="357"
-								height="150"
-								style="position: absolute;  margin-left: 20px; margin-top: 349px; visibility: visible;">
-
-							<img id="png22" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
-								style="position: absolute; margin-left: 64px; margin-top: 230px; visibility: visible;">
-
-							<img id="png23" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: 238px;margin-top: 290px; visibility: visible;">
-							<img id="png24" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: -133px; margin-top: 49px; visibility: visible;">
-							<img id="png25" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: -137px; margin-top: 49px; visibility: visible;">
-							<img id="png26" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: 71px; top: -60px; visibility: visible;  animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png27" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: -132px; top: -60px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png28" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: -137px; top: -60px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-
-							<img id="png29" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
-								style="position: absolute;  margin-left: -99px; margin-top: 231px; visibility: visible;">
+									</div>
 
 
+									<!-- Step 13 -->
 
-							<img id="trans21" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+									<div class="Mainstep" id="Step13" style="visibility:hidden; z-index: 988;">
+
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;13&nbsp;</span></br>
+
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Take out 3 moulds
+												after 3 days from the tank and wipe them with a dry cloth.
+											</i>&nbsp;</span><br><br>
+
+										<img id="png20" class="board" src="images/Xtankback.png" alt="picture"
+											width="350" height="230"
+											style="position: absolute;  margin-left: 24px; margin-top: 193px; visibility: visible;">
+
+										<img id="png21" class="board" src="images/Xtankfront.png" alt="picture"
+											width="357" height="150"
+											style="position: absolute;  margin-left: 20px; margin-top: 349px; visibility: visible;">
+
+										<img id="png22" class="board" src="images/Xwater.png" alt="picture" width="270"
+											height="120"
+											style="position: absolute; margin-left: 64px; margin-top: 230px; visibility: visible;">
+
+										<img id="png23" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: 238px;margin-top: 290px; visibility: visible;">
+										<img id="png24" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: -133px; margin-top: 49px; visibility: visible;">
+										<img id="png25" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: -137px; margin-top: 49px; visibility: visible;">
+										<img id="png26" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: 71px; top: -60px; visibility: visible;  animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png27" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: -132px; top: -60px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png28" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: -137px; top: -60px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+
+										<img id="png29" class="board" src="images/Xwater.png" alt="picture" width="270"
+											height="120"
+											style="position: absolute;  margin-left: -99px; margin-top: 231px; visibility: visible;">
+
+
+
+										<img id="trans21" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: -60px;
                                 margin-top: 230px; visibility: hidden;" onclick="cube7()">
 
-							<img id="trans22" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans22" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: 12px;
                                 margin-top: 230px; visibility: hidden;" onclick="cube8()">
 
-							<img id="trans23" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60" style="position: absolute;
+										<img id="trans23" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60" style="position: absolute;
                                 margin-left: 78px;
                                 margin-top: 230px; visibility: visible;" onclick="cube9()">
 
-							<img id="arr21" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60" style=" position: absolute;
+										<img id="arr21" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60" style=" position: absolute;
                                 margin-left: -66px;
                                 margin-top: 155px; visibility: hidden;">
 
-							<img id="arr22" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60" style=" position: absolute;
-                            margin-left: 5px;
-                            margin-top: 155px; visibility: hidden;">
+										<img id="arr22" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60" style=" position: absolute;
+                            margin-left: 200px;
+                            margin-top: 320px; visibility: hidden;">
 
-							<img id="arr23" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60" style=" position: absolute;
+										<img id="arr23" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60" style=" position: absolute;
                             margin-left: 70px;
                             margin-top: 155px; visibility: visible;">
 
-							<img id="png30" class="board" src="images/clth.png" alt="picture" width="120" height="70"
-								style="position: relative;  margin-left: 185px; top: 120px; visibility: hidden; animation: cloth 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;"
-								onclick="cloth()">
+										<img id="png30" class="board" src="images/clth.png" alt="picture" width="120"
+											height="70"
+											style="position: relative;  margin-left: 185px; top: 120px; visibility: hidden; animation: cloth 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;"
+											onclick="cloth()">
 
-							<img id="png31" class="board" src="images/Xcube.png" alt="picture" width="56" height="56"
-								style="position: absolute;  margin-left: -18px; margin-top: 92px; visibility: hidden;">
-							<img id="png32" class="board" src="images/Xcube.png" alt="picture" width="56" height="56"
-								style="position: absolute;  margin-left: 52px; margin-top: 92px; visibility: hidden;">
-							<img id="png33" class="board" src="images/Xcube.png" alt="picture" width="56" height="56"
-								style="position: absolute;  margin-left: 120px; margin-top: 92px; visibility: hidden;">
+										<img id="png31" class="board" src="images/Xcube.png" alt="picture" width="56"
+											height="56"
+											style="position: absolute;  margin-left: -18px; margin-top: 92px; visibility: hidden;">
+										<img id="png32" class="board" src="images/Xcube.png" alt="picture" width="56"
+											height="56"
+											style="position: absolute;  margin-left: 52px; margin-top: 92px; visibility: hidden;">
+										<img id="png33" class="board" src="images/Xcube.png" alt="picture" width="56"
+											height="56"
+											style="position: absolute;  margin-left: 120px; margin-top: 92px; visibility: hidden;">
 
 
-							<input type="button" id="next12"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step14()" />
+										<input type="button" id="next12"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step14()" />
 
-						</div>
+									</div>
 
-						<!-- step 14 -->
-						<div class="Mainstep" id="Step14" style="visibility:hidden; z-index: 987;">
+									<!-- step 14 -->
+									<div class="Mainstep" id="Step14" style="visibility:hidden; z-index: 987;">
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;14&nbsp;</span></br>
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;14&nbsp;</span></br>
 
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Place the specimen carefully under the compression testing machine and apply the compressive stresses. Note down the total maximum load at the time of specimens' failure.
-								</i>&nbsp;</span><br><br>
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Place the specimen
+												carefully under the compression testing machine and apply the
+												compressive stresses. Note down the total maximum load at the time of
+												specimens' failure.
+											</i>&nbsp;</span><br><br>
 
-							<p id="textArea" class="board"
-								style="position: absolute;left: 532px;top: 244px;z-index: 2;font-size: 9px;"></p>
-							<span id="newcubedate1" style="position: absolute; top: 175px;left:192px;
+										<p id="textArea" class="board"
+											style="position: absolute;left: 532px;top: 244px;z-index: 2;font-size: 9px;">
+										</p>
+										<span id="newcubedate1" style="position: absolute; top: 175px;left:192px;
                                  font-size: 0.5em; font-weight: bold; z-index: 2010; ">31/12</span>
-							<span id="newcubedate2" style="position: absolute; top: 175px;left:144px;
+										<span id="newcubedate2" style="position: absolute; top: 175px;left:144px;
                                  font-size: 0.5em; font-weight: bold; z-index: 2010; ">31/12</span>
-							<span id="newcubedate3" style="position: absolute; top: 175px;left:96px;
+										<span id="newcubedate3" style="position: absolute; top: 175px;left:96px;
                                  font-size: 0.5em; font-weight: bold; z-index: 2010; ">31/12</span>
-							<!-- cube 1 -->
-							<img id="newImage1" class="board" src="images/newImage (1).png" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
+										<!-- cube 1 -->
+										<img id="newImage1" class="board" src="images/newImage (1).png" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: visible;">
 
-							<img id="nextStep1" src="images/transbox.png" alt=""
-								style="height: 65px;left: 179px;position: absolute;top:161px;width:55px;z-index: -1;"
-								onclick="newGif1()">
-							<img id="newGif1" class="board" src="images/newGif (1).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep1" src="images/transbox.png" alt=""
+											style="height: 65px;left: 179px;position: absolute;top:161px;width:55px;z-index: -1;"
+											onclick="newGif1()">
+										<img id="newGif1" class="board" src="images/newGif (1).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
 
-							<img id="nextStep2" src="images/transbox.png" alt=""
-								style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
-								onclick="newGif2()">
-							<img id="newGif2" class="board" src="images/newGif (2).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep2" src="images/transbox.png" alt=""
+											style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
+											onclick="newGif2()">
+										<img id="newGif2" class="board" src="images/newGif (2).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep3" src="images/transbox.png" alt=""
-								style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
-								onclick="newGif3()">
-							<img id="newGif3" class="board" src="images/newGif (3).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep3" src="images/transbox.png" alt=""
+											style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
+											onclick="newGif3()">
+										<img id="newGif3" class="board" src="images/newGif (3).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="newArr1" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: -62px;left: 285px;
+										<img id="newArr1" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: -62px;left: 285px;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr2" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: 66px;left: 233px; visibility: hidden;
+										<img id="newArr2" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: 66px;left: 233px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr3" class="board" src="images/arrow up.gif" alt="picture" width="75"
-								height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
-                            position: absolute; margin-left: -66px; margin-top: 225px;">
-
-							<input type="button" id="newStep1"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="newStep1()" />
-
-							<!-- cube 2 -->
-							<img id="newImage2" class="board" src="images/newImage (2).png" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="nextStep4" src="images/transbox.png" alt=""
-								style="height: 65px;left: 120px;position: absolute;top:161px;width:55px;z-index: -1;"
-								onclick="newGif4()">
-							<img id="newGif4" class="board" src="images/newGif (4).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="nextStep5" src="images/transbox.png" alt=""
-								style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
-								onclick="newGif5()">
-							<img id="newGif5" class="board" src="images/newGif (5).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="nextStep6" src="images/transbox.png" alt=""
-								style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
-								onclick="newGif6()">
-							<img id="newGif6" class="board" src="images/newGif (6).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="newArr4" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: -62px;left: 237px;visibility: hidden;
-                            position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr5" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: 66px;left: 233px; visibility: hidden;
-                            position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr6" class="board" src="images/arrow up.gif" alt="picture" width="75"
-								height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
+										<img id="newArr3" class="board" src="images/arrow up.gif" alt="picture"
+											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 
-							<input type="button" id="newStep2"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="newStep2()" />
+										<input type="button" id="newStep1"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="newStep1()" />
 
-							<!-- cube 3 -->
-							<img id="newImage3" class="board" src="images/newImage (3).png" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<!-- cube 2 -->
+										<img id="newImage2" class="board" src="images/newImage (2).png" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep7" src="images/transbox.png" alt=""
-								style="height: 65px;left: 80px;position: absolute;top:161px;width:55px;z-index: -1;"
-								onclick="newGif7()">
-							<img id="newGif7" class="board" src="images/newGif (7).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep4" src="images/transbox.png" alt=""
+											style="height: 65px;left: 120px;position: absolute;top:161px;width:55px;z-index: -1;"
+											onclick="newGif4()">
+										<img id="newGif4" class="board" src="images/newGif (4).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep8" src="images/transbox.png" alt=""
-								style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
-								onclick="newGif8()">
-							<img id="newGif8" class="board" src="images/newGif (8).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep5" src="images/transbox.png" alt=""
+											style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
+											onclick="newGif5()">
+										<img id="newGif5" class="board" src="images/newGif (5).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep9" src="images/transbox.png" alt=""
-								style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
-								onclick="newGif9()">
-							<img id="newGif9" class="board" src="images/newGif (9).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep6" src="images/transbox.png" alt=""
+											style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
+											onclick="newGif6()">
+										<img id="newGif6" class="board" src="images/newGif (6).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="newArr7" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: -62px;left: 187px;visibility: hidden;
+										<img id="newArr4" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: -62px;left: 237px;visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr8" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: 66px;left: 233px; visibility: hidden;
+										<img id="newArr5" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: 66px;left: 233px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr9" class="board" src="images/arrow up.gif" alt="picture" width="75"
-								height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
+										<img id="newArr6" class="board" src="images/arrow up.gif" alt="picture"
+											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 
-							<!-- button for cubes testing after 3 days -->
-							<input type="button" id="newStep3"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="step15()" />
-						</div>
+										<input type="button" id="newStep2"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="newStep2()" />
+
+										<!-- cube 3 -->
+										<img id="newImage3" class="board" src="images/newImage (3).png" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+										<img id="nextStep7" src="images/transbox.png" alt=""
+											style="height: 65px;left: 80px;position: absolute;top:161px;width:55px;z-index: -1;"
+											onclick="newGif7()">
+										<img id="newGif7" class="board" src="images/newGif (7).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+										<img id="nextStep8" src="images/transbox.png" alt=""
+											style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
+											onclick="newGif8()">
+										<img id="newGif8" class="board" src="images/newGif (8).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+										<img id="nextStep9" src="images/transbox.png" alt=""
+											style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
+											onclick="newGif9()">
+										<img id="newGif9" class="board" src="images/newGif (9).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+
+										<img id="newArr7" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: -62px;left: 187px;visibility: hidden;
+                            position: absolute; margin-left: -66px; margin-top: 225px;">
+										<img id="newArr8" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: 66px;left: 233px; visibility: hidden;
+                            position: absolute; margin-left: -66px; margin-top: 225px;">
+										<img id="newArr9" class="board" src="images/arrow up.gif" alt="picture"
+											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
+                            position: absolute; margin-left: -66px; margin-top: 225px;">
+
+										<!-- button for cubes testing after 3 days -->
+										<input type="button" id="newStep3"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="step15()" />
+									</div>
 
 
-						<!-- Step15 -->
+									<!-- Step15 -->
 
-						<div class="Mainstep" id="Step15" style="visibility:hidden; z-index: 985;">
+									<div class="Mainstep" id="Step15" style="visibility:hidden; z-index: 985;">
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;15&nbsp;</span></br>
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;15&nbsp;</span></br>
 
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp; Similarly, take out the remaining moulds from the tank after 7 days for testing and wipe them with a dry cloth. 
-								</i>&nbsp;</span><br><br>
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Similarly, take out
+												the remaining moulds from the tank after 7 days for testing and wipe
+												them with a dry cloth.
+											</i>&nbsp;</span><br><br>
 
-							<img id="png34" class="board" src="images/Xtankback.png" alt="picture" width="350"
-								height="230"
-								style="position: absolute;  margin-left: 24px; margin-top: 193px; visibility: visible;">
+										<img id="png34" class="board" src="images/Xtankback.png" alt="picture"
+											width="350" height="230"
+											style="position: absolute;  margin-left: 24px; margin-top: 193px; visibility: visible;">
 
-							<img id="png35" class="board" src="images/Xtankfront.png" alt="picture" width="357"
-								height="150"
-								style="position: absolute;  margin-left: 20px; margin-top: 349px; visibility: visible;">
+										<img id="png35" class="board" src="images/Xtankfront.png" alt="picture"
+											width="357" height="150"
+											style="position: absolute;  margin-left: 20px; margin-top: 349px; visibility: visible;">
 
-							<img id="png36" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
-								style="position: absolute; margin-left: 64px; margin-top: 230px; visibility: visible;">
+										<img id="png36" class="board" src="images/Xwater.png" alt="picture" width="270"
+											height="120"
+											style="position: absolute; margin-left: 64px; margin-top: 230px; visibility: visible;">
 
-							<img id="png37" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: 238px; margin-top: 290px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png38" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: -133px; margin-top: 49px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
-							<img id="png39" class="board" src="images/stored cube mortar.png" alt="picture" width="60"
-								height="60"
-								style="position: relative;  margin-left: -137px; margin-top: 49px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png37" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: 238px; margin-top: 290px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png38" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: -133px; margin-top: 49px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
+										<img id="png39" class="board" src="images/stored cube mortar.png" alt="picture"
+											width="60" height="60"
+											style="position: relative;  margin-left: -137px; margin-top: 49px; visibility: visible; animation: cube3 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;">
 
-							<img id="png43" class="board" src="images/Xwater.png" alt="picture" width="270" height="120"
-								style="position: absolute;  margin-left: -99px; margin-top: 231px; visibility: visible;">
+										<img id="png43" class="board" src="images/Xwater.png" alt="picture" width="270"
+											height="120"
+											style="position: absolute;  margin-left: -99px; margin-top: 231px; visibility: visible;">
 
-							<img id="trans24" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60"
-								style="position: absolute; margin-left: -60px; margin-top: 290px; visibility: hidden;"
-								onclick="cube10()">
+										<img id="trans24" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60"
+											style="position: absolute; margin-left: -60px; margin-top: 290px; visibility: hidden;"
+											onclick="cube10()">
 
-							<img id="trans25" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60"
-								style="position: absolute; margin-left: 12px; margin-top: 290px; visibility: hidden;"
-								onclick="cube11()">
+										<img id="trans25" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60"
+											style="position: absolute; margin-left: 12px; margin-top: 290px; visibility: hidden;"
+											onclick="cube11()">
 
-							<img id="trans26" class="board" src="images/transbox.png" alt="picture" width="60"
-								height="60"
-								style="position: absolute; margin-left: 78px; margin-top: 290px; visibility: visible;"
-								onclick="cube12()">
+										<img id="trans26" class="board" src="images/transbox.png" alt="picture"
+											width="60" height="60"
+											style="position: absolute; margin-left: 78px; margin-top: 290px; visibility: visible;"
+											onclick="cube12()">
 
-							<img id="arr24" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60"
-								style=" position: absolute; margin-left: -66px; margin-top: 225px; visibility: hidden;">
+										<img id="arr24" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60"
+											style=" position: absolute; margin-left: -66px; margin-top: 225px; visibility: hidden;">
 
-							<img id="arr25" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60"
-								style=" position: absolute; margin-left: 5px; margin-top: 225px; visibility: hidden;">
+										<img id="arr25" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60"
+											style=" position: absolute; margin-left: 5px; margin-top: 225px; visibility: hidden;">
 
-							<img id="arr26" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60"
-								style=" position: absolute; margin-left: 70px; margin-top: 225px; visibility: hidden;">
+										<img id="arr26" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60"
+											style=" position: absolute; margin-left: 70px; margin-top: 225px; visibility: hidden;">
 
-							<img id="png44" class="board" src="images/clth.png" alt="picture" width="120" height="70"
-								style="position: relative;  margin-left: 185px; top: 120px; visibility: hidden; animation: cloth 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;"
-								onclick="cloth2()">
+										<img id="png44" class="board" src="images/clth.png" alt="picture" width="120"
+											height="70"
+											style="position: relative;  margin-left: 185px; top: 120px; visibility: hidden; animation: cloth 1s infinite; animation-play-state: paused; animation-fill-mode: forwards;"
+											onclick="cloth2()">
 
-							<img id="png45" class="board" src="images/Xcube.png" alt="picture" width="56" height="56"
-								style="position: absolute;  margin-left: -18px; margin-top: 92px; visibility: hidden;">
-							<img id="png46" class="board" src="images/Xcube.png" alt="picture" width="56" height="56"
-								style="position: absolute;  margin-left: 52px; margin-top: 92px; visibility: hidden;">
-							<img id="png47" class="board" src="images/Xcube.png" alt="picture" width="56" height="56"
-								style="position: absolute;  margin-left: 120px; margin-top: 92px; visibility: hidden;">
-
-
-							<input type="button" id="next13"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-								value="&nbsp;Next Step&nbsp;" onclick="step16()" />
-
-						</div>
+										<img id="png45" class="board" src="images/Xcube.png" alt="picture" width="56"
+											height="56"
+											style="position: absolute;  margin-left: -18px; margin-top: 92px; visibility: hidden;">
+										<img id="png46" class="board" src="images/Xcube.png" alt="picture" width="56"
+											height="56"
+											style="position: absolute;  margin-left: 52px; margin-top: 92px; visibility: hidden;">
+										<img id="png47" class="board" src="images/Xcube.png" alt="picture" width="56"
+											height="56"
+											style="position: absolute;  margin-left: 120px; margin-top: 92px; visibility: hidden;">
 
 
-						<!-- Step16 -->
+										<input type="button" id="next13"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
+											value="&nbsp;Next Step&nbsp;" onclick="step16()" />
 
-						<div class="Mainstep" id="Step16" style="visibility:hidden; z-index: 984;">
+									</div>
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;16&nbsp;</span></br>
+									<!-- Step16 -->
 
-							<span style="position: absolute; left:93px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true">&nbsp;Now test the remaining specimens. Place them carefully one by one under the compression testing machine. Note down the total maximum load at the time of specimens' failure.
-								</i>&nbsp;</span><br><br>
+									<div class="Mainstep" id="Step16" style="visibility:hidden; z-index: 984;">
 
-							<p id="textArea" class="board"
-								style="position: absolute;left: 532px;top: 244px;z-index: 2;font-size: 9px;"></p>
-							<span id="newcubedate4" style="position: absolute; top: 175px;left:192px;
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;16&nbsp;</span></br>
+
+										<span style="position: absolute; left:93px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Now test the
+												remaining specimens. Place them carefully one by one under the
+												compression testing machine. Note down the total maximum load at the
+												time of specimens' failure.
+											</i>&nbsp;</span><br><br>
+
+										<p id="textArea" class="board"
+											style="position: absolute;left: 532px;top: 244px;z-index: 2;font-size: 9px;">
+										</p>
+										<span id="newcubedate4" style="position: absolute; top: 175px;left:192px;
                                 font-size: 0.5em; font-weight: bold; z-index: 2010; ">31/12</span>
-							<span id="newcubedate5" style="position: absolute; top: 175px;left:144px;
+										<span id="newcubedate5" style="position: absolute; top: 175px;left:144px;
                                 font-size: 0.5em; font-weight: bold; z-index: 2010; ">31/12</span>
-							<span id="newcubedate6" style="position: absolute; top: 175px;left:96px;
+										<span id="newcubedate6" style="position: absolute; top: 175px;left:96px;
                                 font-size: 0.5em; font-weight: bold; z-index: 2010; ">31/12</span>
-							<!-- cube 1 -->
-							<img id="newImage4" class="board" src="images/newImage (1).png" alt="picture" width="715"
-								height="440" style="position: absolute;  margin-left: 70px; margin-top: 40px; ">
+										<!-- cube 1 -->
+										<img id="newImage4" class="board" src="images/newImage (1).png" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; ">
 
-							<img id="nextStep10" src="images/transbox.png" alt=""
-								style="height: 65px;left: 179px;position: absolute;top:161px;width:55px;"
-								onclick="newGif10()">
-							<img id="newGif10" class="board" src="images/newGif (10).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep10" src="images/transbox.png" alt=""
+											style="height: 65px;left: 179px;position: absolute;top:161px;width:55px;"
+											onclick="newGif10()">
+										<img id="newGif10" class="board" src="images/newGif (10).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
 
-							<img id="nextStep11" src="images/transbox.png" alt=""
-								style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
-								onclick="newGif11()">
-							<img id="newGif11" class="board" src="images/newGif (11).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep11" src="images/transbox.png" alt=""
+											style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
+											onclick="newGif11()">
+										<img id="newGif11" class="board" src="images/newGif (11).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep12" src="images/transbox.png" alt=""
-								style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
-								onclick="newGif12()">
-							<img id="newGif12" class="board" src="images/newGif (12).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep12" src="images/transbox.png" alt=""
+											style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
+											onclick="newGif12()">
+										<img id="newGif12" class="board" src="images/newGif (12).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="newArr10" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: -62px;left: 285px;
+										<img id="newArr10" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: -62px;left: 285px;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr11" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: 66px;left: 233px; visibility: hidden;
+										<img id="newArr11" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: 66px;left: 233px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr12" class="board" src="images/arrow up.gif" alt="picture" width="75"
-								height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
+										<img id="newArr12" class="board" src="images/arrow up.gif" alt="picture"
+											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<input type="button" id="newStep4"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="newStep4()" />
+										<input type="button" id="newStep4"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="newStep4()" />
 
-							<!-- cube 2 -->
-							<img id="newImage5" class="board" src="images/newImage (2).png" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<!-- cube 2 -->
+										<img id="newImage5" class="board" src="images/newImage (2).png" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep13" src="images/transbox.png" alt=""
-								style="height: 65px;left: 120px;position: absolute;top:161px;width:55px;z-index: -1;"
-								onclick="newGif13()">
-							<img id="newGif13" class="board" src="images/newGif (13).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep13" src="images/transbox.png" alt=""
+											style="height: 65px;left: 120px;position: absolute;top:161px;width:55px;z-index: -1;"
+											onclick="newGif13()">
+										<img id="newGif13" class="board" src="images/newGif (13).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep14" src="images/transbox.png" alt=""
-								style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
-								onclick="newGif14()">
-							<img id="newGif14" class="board" src="images/newGif (14).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep14" src="images/transbox.png" alt=""
+											style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
+											onclick="newGif14()">
+										<img id="newGif14" class="board" src="images/newGif (14).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="nextStep15" src="images/transbox.png" alt=""
-								style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
-								onclick="newGif15()">
-							<img id="newGif15" class="board" src="images/newGif (15).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
+										<img id="nextStep15" src="images/transbox.png" alt=""
+											style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
+											onclick="newGif15()">
+										<img id="newGif15" class="board" src="images/newGif (15).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<img id="newArr13" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: -62px;left: 237px;visibility: hidden;
+										<img id="newArr13" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: -62px;left: 237px;visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr14" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: 66px;left: 233px; visibility: hidden;
+										<img id="newArr14" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: 66px;left: 233px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr15" class="board" src="images/arrow up.gif" alt="picture" width="75"
-								height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
-                            position: absolute; margin-left: -66px; margin-top: 225px;">
-
-							<input type="button" id="newStep5"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="newStep5()" />
-
-							<!-- cube 3 -->
-							<img id="newImage6" class="board" src="images/newImage (3).png" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="nextStep16" src="images/transbox.png" alt=""
-								style="height: 65px;left: 80px;position: absolute;top:161px;width:55px;z-index: -1;"
-								onclick="newGif16()">
-							<img id="newGif16" class="board" src="images/newGif (16).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="nextStep17" src="images/transbox.png" alt=""
-								style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
-								onclick="newGif17()">
-							<img id="newGif17" class="board" src="images/newGif (17).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="nextStep18" src="images/transbox.png" alt=""
-								style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
-								onclick="newGif18()">
-							<img id="newGif18" class="board" src="images/newGif (18).gif" alt="picture" width="715"
-								height="440"
-								style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
-
-							<img id="newArr16" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: -62px;left: 187px;visibility: hidden;
-                            position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr17" class="board" src="images/arrow left.gif" alt="picture" width="75"
-								height="60" style="top: 66px;left: 233px; visibility: hidden;
-                            position: absolute; margin-left: -66px; margin-top: 225px;">
-							<img id="newArr18" class="board" src="images/arrow up.gif" alt="picture" width="75"
-								height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
+										<img id="newArr15" class="board" src="images/arrow up.gif" alt="picture"
+											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 
-							<!-- button for cubes testing after 3 days -->
-							<input type="button" id="newStep6"
-								style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="step17()" />
-						</div>
+										<input type="button" id="newStep5"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="newStep5()" />
 
-						<!---Step17---->
+										<!-- cube 3 -->
+										<img id="newImage6" class="board" src="images/newImage (3).png" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-						<div class="Mainstep" id="Step17" style="visibility:hidden; z-index: 984;">
+										<img id="nextStep16" src="images/transbox.png" alt=""
+											style="height: 65px;left: 80px;position: absolute;top:161px;width:55px;z-index: -1;"
+											onclick="newGif16()">
+										<img id="newGif16" class="board" src="images/newGif (16).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<strong class="incanvas" style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+										<img id="nextStep17" src="images/transbox.png" alt=""
+											style="height: 65px;width: 65px;left: 125px;position: absolute;top: 293px;z-index: -1;"
+											onclick="newGif17()">
+										<img id="newGif17" class="board" src="images/newGif (17).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<span class="circlebg"
-								style="position: absolute; top: 27px; left: 55px;">&nbsp;17&nbsp;</span></br>
+										<img id="nextStep18" src="images/transbox.png" alt=""
+											style="height: 20px;width: 20px;left: 525px;position: absolute;top: 281px;z-index: -1;"
+											onclick="newGif18()">
+										<img id="newGif18" class="board" src="images/newGif (18).gif" alt="picture"
+											width="715" height="440"
+											style="position: absolute;  margin-left: 70px; margin-top: 40px; visibility: hidden;">
 
-							<span style="position: absolute; left:80px; top: 30px;"><i class="fa fa-hand-o-right"
-									aria-hidden="true"> &nbsp; &nbsp; &nbsp; Similarly, take out the remaining 3 moulds from the tank after 28 days and note down the total maximum load at the time of specimens' failure. Make three separate descriptions and calculate the average compressive strength of the cement mortar cubes.
-								</i>&nbsp;</span><br><br>
+										<img id="newArr16" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: -62px;left: 187px;visibility: hidden;
+                            position: absolute; margin-left: -66px; margin-top: 225px;">
+										<img id="newArr17" class="board" src="images/arrow left.gif" alt="picture"
+											width="75" height="60" style="top: 66px;left: 233px; visibility: hidden;
+                            position: absolute; margin-left: -66px; margin-top: 225px;">
+										<img id="newArr18" class="board" src="images/arrow up.gif" alt="picture"
+											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
+                            position: absolute; margin-left: -66px; margin-top: 225px;">
 
-							<img id="table1" src="./images/table.png" height="450px" style="position: absolute; left: -10px; z-index: -10; top: 100px;">
+										<!-- button for cubes testing after 3 days -->
+										<input type="button" id="newStep6"
+											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="step17()" />
+									</div>
 
-							<input type="button" id="newStep8"
-								style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden ;z-index: -1;"
-								value="&nbsp;Next Step&nbsp;" onclick="step18()" />
-								
-							<img id="table2"  src="./images/tablefilled.png" height="450px" style="position: absolute; left: -10px; z-index: -10; top: 100px; visibility: hidden; " >
+									<!---Step17---->
 
-							<input type="button" id="newStep9"
-							style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility:hidden ;z-index: -1;"
-							value="&nbsp;Posttest&nbsp;"  onclick="parent.location='https:virtual-labs.github.io/exp-cement-mortar-cubes-dei/posttest.html'" />
+									<div class="Mainstep" id="Step17" style="visibility:hidden; z-index: 984;">
 
-						</div>
-						<br>
-						<br>
-						<br>
-						<br>
+										<strong class="incanvas"
+											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+
+										<span class="circlebg"
+											style="position: absolute; top: 27px; left: 55px;">&nbsp;17&nbsp;</span></br>
+
+										<span style="position: absolute; left:80px; top: 30px;"><i
+												class="fa fa-hand-o-right" aria-hidden="true"> &nbsp; &nbsp; &nbsp;
+												Similarly, take out the remaining 3 moulds from the tank after 28 days
+												and note down the total maximum load at the time of specimens' failure.
+												Make three separate descriptions and calculate the average compressive
+												strength of the cement mortar cubes.
+											</i>&nbsp;</span><br><br>
+
+										<img id="table1" src="./images/table.png" height="450px"
+											style="position: absolute; left: -10px; z-index: -10; top: 100px;">
+
+										<input type="button" id="newStep8"
+											style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden ;z-index: -1;"
+											value="&nbsp;Next Step&nbsp;" onclick="step18()" />
+
+										<img id="table2" src="./images/tablefilled.png" height="450px"
+											style="position: absolute; left: -10px; z-index: -10; top: 100px; visibility: hidden; ">
+
+										<input type="button" id="newStep9"
+											style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility:hidden ;z-index: -1;"
+											value="&nbsp;Posttest&nbsp;"
+											onclick="parent.location='https:virtual-labs.github.io/exp-cement-mortar-cubes-dei/posttest.html'" />
+
+									</div>
+									<br>
+									<br>
+									<br>
+									<br>
 
 
 
