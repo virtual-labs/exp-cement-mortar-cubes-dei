@@ -14,21 +14,21 @@ When cement is mixed with water, a complex series of **hydration reactions** beg
 **1. Hydration of Tricalcium Silicate (C3S):**
 
 $$
-2C_{3}S + 6H_{2}O \longrightarrow C\!-\!S\!-\!H + 3Ca(OH)_{2}
+2C_{3}S + 6H_{2}O \longrightarrow C\text{-}S\text{-}H + 3Ca(OH)_{2}
 $$
 
 **2. Hydration of Dicalcium Silicate (C2S):**
 
 $$
-2C_{2}S + 4H_{2}O \longrightarrow C\!-\!S\!-\!H + Ca(OH)_{2}
+2C_{2}S + 4H_{2}O \longrightarrow C\text{-}S\text{-}H + Ca(OH)_{2}
 $$
 
 **Where:**
-- $C_{3}S$: Tricalcium silicate  
-- $C_{2}S$: Dicalcium silicate  
-- $C\!-\!S\!-\!H$: Calcium Silicate Hydrate (C‑S‑H gel)  
-- $Ca(OH)_{2}$: Calcium hydroxide  
-- $H_{2}O$: Water
+- $C_{3}S$ : Tricalcium silicate  
+- $C_{2}S$ : Dicalcium silicate  
+- $C\text{-}S\text{-}H$ : Calcium Silicate Hydrate (C‑S‑H gel)  
+- $Ca(OH)_{2}$ : Calcium hydroxide  
+- $H_{2}O$ : Water
 
 The **C‑S‑H gel** formed during hydration is the primary strength‑giving product. It fills voids, binds particles together, and contributes to the progressive increase in strength. 
 
@@ -47,7 +47,7 @@ The test is performed on **mortar cubes** (cement + sand, typically 1:3 by mass)
 
 ### Test Procedure
 
-The standard mortar cube size is $70.6\ \text{mm} \times 70.6\ \text{mm} \times 70.6\ \text{mm}$. Cubes are prepared, compacted, cured, and tested at:
+The standard mortar cube side length is $70.6\ \mathrm{mm}$. Cubes are prepared, compacted, cured, and tested at:
 - 3 days (early strength),
 - 7 days (intermediate),
 - 28 days (standard strength).
@@ -65,16 +65,16 @@ Where:
 - $P_{\max}$ = maximum load at failure (N)  
 - $A$ = loaded area (mm²)
 
-For the standard cube:
+For the standard cube the loaded area is:
 
 $$
-A = 70.6\ \text{mm} \times 70.6\ \text{mm} = 70.6^{2}\ \text{mm}^{2} \approx 4984\ \text{mm}^{2} \approx 5000\ \text{mm}^{2}
+A = (70.6\ \mathrm{mm})^{2} = 70.6^{2}\ \mathrm{mm}^{2} \approx 4984\ \mathrm{mm}^{2} \approx 5000\ \mathrm{mm}^{2}
 $$
 
 So, approximately:
 
 $$
-\sigma_c \;\approx\; \dfrac{P_{\max}}{5000}\ \text{(N/mm}^2\text{ or MPa)}
+\sigma_c \approx \frac{P_{\max}}{5000}\ \mathrm{N\,/\,mm^{2}}\quad(=\mathrm{MPa})
 $$
 
 ### Significance of Results
