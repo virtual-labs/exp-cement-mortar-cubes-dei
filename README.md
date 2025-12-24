@@ -4,7 +4,7 @@
 <b>Discipline | <b> Civil Engineering
 :--|:--|
 <b> Lab | <b> Concrete Technology
-<b> Experiment|     <b> Mortar Cube
+<b> Experiment|     <b> Compressive strength of standard cement mortar cubes
 ### About the Experiment 
 
 Fill a brief description of this experiment here
