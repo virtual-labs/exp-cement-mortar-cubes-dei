@@ -13,7 +13,7 @@ function moveplate() {
     document.getElementById("arr1").style.visibility = "hidden";
     document.getElementById("gif1").style.visibility = "visible";
 
-    myTimeout = setTimeout(myGreeting, 6000);
+    myTimeout = setTimeout(myGreeting, 6000); //6000
 }
 
 function moveplate1() {
@@ -22,7 +22,7 @@ function moveplate1() {
     document.getElementById("arr2").style.visibility = "hidden";
     document.getElementById("gif2").style.visibility = "visible";
 
-    myTimeout1 = setTimeout(myGreeting1, 6000);
+    myTimeout1 = setTimeout(myGreeting1, 6000); //6000
 }
 
 
@@ -32,7 +32,7 @@ function moveplate2() {
     document.getElementById("gif3").style.visibility = "visible";
     document.getElementById("arr3").style.visibility = "hidden";
 
-    myTimeout2 = setTimeout(myGreeting2, 6000);
+    myTimeout2 = setTimeout(myGreeting2, 6000);  //6000
 }
 
 function moveplate3() {
@@ -40,7 +40,7 @@ function moveplate3() {
     document.getElementById("trans4").style.visibility = "hidden";
     document.getElementById("gif4").style.visibility = "visible";
     document.getElementById("arr4").style.visibility = "hidden";
-    myTimeout3 = setTimeout(myGreeting3, 6000);
+    myTimeout3 = setTimeout(myGreeting3, 6000); //6000
 }
 
 // time delay function
@@ -111,7 +111,7 @@ document.getElementById("trans5").onclick = function () {
     document.getElementById("gif5").style.display = "block";
     document.getElementById("trans5").style.display = "none";
     document.getElementById("arr5").style.display = "none";
-    myTimeout4 = setTimeout(myGreeting4, 7000);
+    myTimeout4 = setTimeout(myGreeting4, 7000); //7000
     // myTimeout1 = setTimeout(myGreeting1, 12000);
     // myTimeout2 = setTimeout(myGreeting2, 17000);
 }
@@ -140,7 +140,7 @@ document.getElementById("trans6").onclick = function () {
     document.getElementById("gif6").style.visibility = "visible";
     document.getElementById("trans8").style.visibility = "visible";
     document.getElementById("trans6").style.visibility = "hidden";
-    myTimeout5 = setTimeout(myGreeting5, 2500);
+    myTimeout5 = setTimeout(myGreeting5, 2500); //2500
 
 }
 
@@ -173,7 +173,7 @@ function tunnu() {
         document.getElementById("numoutnext").innerHTML = "";
         document.getElementById("gif7").style.visibility = "visible";
         document.getElementById("numpadbig").style.visibility = "hidden";
-        myTimeout6 = setTimeout(myGreeting6, 9000);
+        myTimeout6 = setTimeout(myGreeting6, 9000); //9000
     }
 
     else {
@@ -222,7 +222,7 @@ function funst5() {
     document.getElementById("png5").style.visibility = "hidden";
     document.getElementById("trans9").style.visibility = "hidden";
     document.getElementById("arr9").style.visibility = "hidden";
-    myTimeout7 = setTimeout(myGreeting7, 10000);
+    myTimeout7 = setTimeout(myGreeting7, 10000); //10000
 
 
 }
@@ -251,7 +251,7 @@ function funst6() {
     document.getElementById("png6").style.visibility = "hidden";
     document.getElementById("trans10").style.visibility = "hidden";
     document.getElementById("arr10").style.visibility = "hidden";
-    myTimeout8 = setTimeout(myGreeting8, 8000);
+    myTimeout8 = setTimeout(myGreeting8, 8000); //8000
 
 
 }
@@ -282,7 +282,7 @@ function funst7() {
     document.getElementById("png7").style.visibility = "hidden";
     document.getElementById("trans11").style.visibility = "hidden";
     document.getElementById("arr11").style.visibility = "hidden";
-    myTimeout9 = setTimeout(myGreeting9, 22000);
+    myTimeout9 = setTimeout(myGreeting9, 22000); //22000
 
 
 }
@@ -311,7 +311,7 @@ function funst8() {
     document.getElementById("png8").style.visibility = "hidden";
     document.getElementById("trans12").style.visibility = "hidden";
     document.getElementById("arr12").style.visibility = "hidden";
-    myTimeout10 = setTimeout(myGreeting10, 8000);
+    myTimeout10 = setTimeout(myGreeting10, 8000); //8000
 
 
 }
@@ -340,7 +340,7 @@ function funst9() {
     document.getElementById("png9").style.visibility = "hidden";
     document.getElementById("trans13").style.visibility = "hidden";
     document.getElementById("arr13").style.visibility = "hidden";
-    myTimeout11 = setTimeout(myGreeting11, 12000);
+    myTimeout11 = setTimeout(myGreeting11, 12000); //12000
 
 
 }
@@ -369,7 +369,7 @@ function funst10() {
     document.getElementById("png10").style.visibility = "hidden";
     document.getElementById("trans14").style.visibility = "hidden";
     document.getElementById("arr14").style.visibility = "hidden";
-    myTimeout12 = setTimeout(myGreeting12, 20000);
+    myTimeout12 = setTimeout(myGreeting12, 2000); //2000
 
 
 }
@@ -638,11 +638,11 @@ function cube7() {
     document.getElementById("trans21").style.visibility = "hidden";
     document.getElementById("png30").style.visibility = "visible";
     document.getElementById("arr21").style.visibility = "hidden";
-    document.getElementById("arr22").style.visibility = "visible";
+    document.getElementById("arr01").style.visibility = "visible";
 }
 
 function cloth() {
-
+    document.getElementById("arr01").style.visibility = "hidden";
     document.getElementById("png30").style.animationPlayState = "running";
     document.getElementById("png30").style.animationIterationCount = "1";
     myTimeout14 = setTimeout(myGreeting14, 2000);
@@ -692,6 +692,7 @@ function step14() {
     document.getElementById("trans23").style.visibility = "hidden";
     document.getElementById("arr21").style.visibility = "hidden";
     document.getElementById("arr22").style.visibility = "hidden";
+    document.getElementById("arr01").style.visibility = "hidden";
     document.getElementById("arr23").style.visibility = "hidden";
     document.getElementById("next12").style.visibility = "hidden";
     document.getElementById("nextStep1").style.zIndex = 1;
@@ -949,8 +950,10 @@ function cube10() {
     document.getElementById("trans24").style.visibility = "hidden";
     document.getElementById("png44").style.visibility = "visible";
     document.getElementById("arr24").style.visibility = "hidden";
+    document.getElementById("arr01").style.visibility = "visible";
 }
 function cloth2() {
+    document.getElementById("arr01").style.visibility = "hidden";
     document.getElementById("png44").style.animationPlayState = "running";
     document.getElementById("png44").style.animationIterationCount = "1";
     newTimeout21 = setTimeout(newGreeting21, 2000);

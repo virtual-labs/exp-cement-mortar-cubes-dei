@@ -1,3 +1,6 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 ### Introduction
 
 **Compressive strength** is one of the most essential mechanical properties of cement and represents the maximum compressive load that a hardened cementitious material can withstand before failure. Since mortar and concrete are primarily subjected to compressive stresses in structural applications, the compressive strength of cement serves as a direct indicator of its **quality, performance, and suitability for construction**.
