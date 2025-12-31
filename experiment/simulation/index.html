@@ -177,7 +177,7 @@
 <body>
 
 
-	<body style="margin:0; font-family: verdana; color: #000;">
+	<body style="margin:0; font-family: Arial, Helvetica, sans-serif; color: #000;">
 
 		<!-- RESPONSIVE WRAPPER -->
 		<div class="sim-wrapper">
@@ -192,23 +192,30 @@
 						<tr>
 							<td>
 								<div id="simscreen">
-									<div id="title">
-										<h3>Compressive strength of standard cement mortar cubes</h3>
+									<div class="title">
+										<h2>Compressive strength of standard cement mortar cubes</h2>
 									</div>
 
 									<!-- Step 1 -->
 									<div class="Mainstep" id="Step1" style="visibility: visible;z-index: 1000; ">
 
 										<p class="incanvas"
-											style="position: absolute; top: 55px; left: 0px;font-size:16px;">
+											style="position: absolute; top: 0px; left: 0px;font-size:18px;">
 											<strong>Objective:</strong> To
 											determine the compressive strength of standard cement mortar cubes
 										</p>
 
 										<p class="incanvas"
-											style="position: absolute; top: 115px; left: 0px;font-size:16px;">
-											<strong>Apparatus and Material used:</strong> Compression Testing machine, rammer, cement sample, sand.
+											style="position: absolute; top: 45px; left: 0px;font-size:18px;">
+											<strong>Apparatus used:</strong> Compression testing machine,
+											rammer
 										</p>
+
+										<p class="incanvas"
+											style="position: absolute; top: 90px; left: 0px;font-size:18px;">
+											<strong>Material used:</strong> Cement sample, sand.
+										</p>
+
 										<img id="png" class="board" src="images/apapaparatus.png" alt="picture"
 											width="580px" height="350"
 											style="padding-left: 11% ; margin-top: 150px;"><br>
@@ -224,12 +231,12 @@
 									<div class="Mainstep" id="Step2" style="visibility:hidden; z-index: 999;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;1&nbsp;</span></br>
+											style="position: absolute; top:6px; left: 55px; font-size: 18px;">&nbsp;1&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 5px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Take sand and
 												cement from the bag using trowel in the
 												proportion 3:1 by
@@ -269,8 +276,8 @@
 
 
 										<input type="button" id="next1"
-											style="visibility: hidden; position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px"
-											value="&nbsp;Next Step&nbsp;" onclick="step3()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step3()" />
 
 
 									</div>
@@ -280,12 +287,12 @@
 									<div class="Mainstep" id="Step3" style="visibility:hidden; z-index: 998;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;2&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;2&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Mix sand and cement
 												to prepare dry mix of
 												Mortar.</i>&nbsp;</span><br><br>
@@ -307,8 +314,8 @@
 											style="position: absolute;  margin-left: 39rem ; margin-top: 65px;">
 
 										<input type="button" id="next2"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step4()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step4()" />
 
 
 
@@ -318,12 +325,12 @@
 									<div class="Mainstep" id="Step4" style="visibility:hidden; z-index: 997;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;3&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;3&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Place a beaker on
 												the weighing balance and press the TARE button. Now, measure water in
 												the amount, {(P/4)+3}% of the combined weight of cement and sand mix,
@@ -452,25 +459,25 @@
 											</div>
 											<div style="padding-left: 28%; padding-right: 17%; padding-top: 5%">
 												<input type="Button" value="Submit" onclick="tunnu()"
-													style="font-size:15px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;">
+													style="font-size:15px; padding-top: 5px; padding-bottom: 5px; background-color: rgb(20, 117, 228); color: #FFF;">
 											</div>
 										</div>
 
 										<input type="button" id="next3"
-											style="position:absolute; left:662px; top: 493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step5()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next&nbsp;" onclick="step5()" />
 									</div>
 
 									<!-- Step5 -->
 									<div class="Mainstep" id="Step5" style="visibility:hidden; z-index: 996;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;4&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;4&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Now, add water to
 												the cement-sand mix.
 											</i>&nbsp;</span><br><br>
@@ -493,8 +500,8 @@
 											style="position: absolute;  margin-left: 36rem ; margin-top: 65px;visibility: visible;">
 
 										<input type="button" id="next4"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step6()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next&nbsp;" onclick="step6()" />
 
 									</div>
 
@@ -502,12 +509,12 @@
 									<div class="Mainstep" id="Step6" style="visibility:hidden; z-index: 995;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;5&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;5&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Pour the mixed
 												mortar in the cube mould using a trowel.
 											</i>&nbsp;</span><br><br>
@@ -530,8 +537,8 @@
 											style="position: absolute;  margin-left: 29rem ; margin-top: 32px; visibility: visible;">
 
 										<input type="button" id="next5"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step7()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step7()" />
 
 									</div>
 
@@ -540,12 +547,12 @@
 									<div class="Mainstep" id="Step7" style="visibility:hidden; z-index: 994;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;6&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;6&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Compact the mortar
 												mix in the mould.
 											</i>&nbsp;</span><br><br>
@@ -568,8 +575,8 @@
 											style="position: absolute;  margin-left: 33rem ; margin-top: 104px; visibility: visible;">
 
 										<input type="button" id="next6"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step8()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step8()" />
 
 									</div>
 
@@ -578,12 +585,12 @@
 									<div class="Mainstep" id="Step8" style="visibility:hidden; z-index: 993;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;7&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;7&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Again, pour the
 												mixed mortar in the cube mould.
 											</i>&nbsp;</span><br><br>
@@ -606,8 +613,8 @@
 											style="position: absolute;  margin-left: 29rem ; margin-top: 32px; visibility: visible;">
 
 										<input type="button" id="next7"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step9()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next&nbsp;" onclick="step9()" />
 
 									</div>
 
@@ -617,12 +624,12 @@
 									<div class="Mainstep" id="Step9" style="visibility:hidden; z-index: 992;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;8&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;8&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Compact it
 												carefully and obtain a smooth finish.
 											</i>&nbsp;</span><br><br>
@@ -645,8 +652,8 @@
 											style="position: absolute;  margin-left: 33rem ; margin-top: 104px; visibility: visible;">
 
 										<input type="button" id="next8"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step10()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next&nbsp;" onclick="step10()" />
 
 									</div>
 
@@ -656,12 +663,12 @@
 									<div class="Mainstep1" id="Step10" style="visibility:hidden; z-index: 991;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;9&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;9&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Now, open the mould
 												and remove the cube from it gently.
 											</i>&nbsp;</span><br><br>
@@ -684,8 +691,8 @@
 											style="position: absolute;  margin-left: 26rem ; margin-top: 258px; visibility: visible;">
 
 										<input type="button" id="next9"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step11()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step11()" />
 
 
 									</div>
@@ -695,12 +702,12 @@
 									<div class="Mainstep" id="Step11" style="visibility:hidden; z-index: 990;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;10&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;10&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Write the date of
 												mould on the briquette.
 											</i>&nbsp;</span><br><br>
@@ -729,12 +736,12 @@
 
 												<input class="incanvas" id="in2" type="button" name="Submit"
 													value="Submit"
-													style="position: absolute; left: 310px; top: 41px; width: 150px; padding-top: 5px; padding-bottom: 5px; background-color: #2150a0; color: #FFF;"
+													style="position: absolute; left: 310px; top: 41px; width: 150px; padding-top: 5px; padding-bottom: 5px; background-color: rgb(20, 117, 228); color: #FFF;"
 													onclick="agesizeIn()" /></br></br>
 
 												<input type="button" id="next10"
-													style="position:absolute; left:662px; top:420px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-													value="&nbsp;Next Step&nbsp;" onclick="step12()" />
+													style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+													value="&nbsp;Next &nbsp;" onclick="step12()" />
 
 										</div>
 									</div>
@@ -744,12 +751,12 @@
 									<div class="Mainstep" id="Step12" style="visibility:hidden; z-index: 989;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;11&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;11&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Submerge the mortar
 												cubes in fresh water tank at a temperature of 27º ± 2º C.
 											</i>&nbsp;</span><br><br>
@@ -887,8 +894,8 @@
 
 
 										<input type="button" id="next11"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step13()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step13()" />
 
 									</div>
 
@@ -898,12 +905,12 @@
 									<div class="Mainstep" id="Step13" style="visibility:hidden; z-index: 988;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;12&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;12&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Take out 3 moulds
 												after 3 days from the tank and wipe them with a dry cloth.
 											</i>&nbsp;</span><br><br>
@@ -965,18 +972,18 @@
                                 margin-left: -66px;
                                 margin-top: 155px; visibility: hidden;">
 
-							<img id="arr01" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60" style=" position: absolute;
+										<img id="arr01" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60" style=" position: absolute;
                             margin-left: 200px;
                             margin-top: 320px; visibility: hidden;">
 
-							<img id="arr22" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60" style=" position: absolute;
+										<img id="arr22" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60" style=" position: absolute;
                             margin-left: 5px;
                             margin-top: 155px; visibility: hidden;">
 
-							<img id="arr23" class="board" src="images/arrow down.gif" alt="picture" width="75"
-								height="60" style=" position: absolute;
+										<img id="arr23" class="board" src="images/arrow down.gif" alt="picture"
+											width="75" height="60" style=" position: absolute;
                             margin-left: 70px;
                             margin-top: 155px; visibility: visible;">
 
@@ -997,8 +1004,8 @@
 
 
 										<input type="button" id="next12"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step14()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step14()" />
 
 									</div>
 
@@ -1006,12 +1013,12 @@
 									<div class="Mainstep" id="Step14" style="visibility:hidden; z-index: 987;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;13&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;13&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Place the specimen
 												carefully under the compression testing machine and apply the
 												compressive stresses. Note down the total maximum load at the time of
@@ -1065,8 +1072,8 @@
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 
 										<input type="button" id="newStep1"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="newStep1()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next&nbsp;" onclick="newStep1()" />
 
 										<!-- cube 2 -->
 										<img id="newImage2" class="board" src="images/newImage (2).png" alt="picture"
@@ -1105,8 +1112,8 @@
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 
 										<input type="button" id="newStep2"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="newStep2()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next &nbsp;" onclick="newStep2()" />
 
 										<!-- cube 3 -->
 										<img id="newImage3" class="board" src="images/newImage (3).png" alt="picture"
@@ -1146,8 +1153,8 @@
 
 										<!-- button for cubes testing after 3 days -->
 										<input type="button" id="newStep3"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="step15()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next &nbsp;" onclick="step15()" />
 									</div>
 
 
@@ -1156,12 +1163,12 @@
 									<div class="Mainstep" id="Step15" style="visibility:hidden; z-index: 985;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;14&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;14&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp; Similarly, take out
 												the remaining moulds from the tank after 7 days for testing and wipe
 												them with a dry cloth.
@@ -1237,8 +1244,8 @@
 
 
 										<input type="button" id="next13"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;"
-											value="&nbsp;Next Step&nbsp;" onclick="step16()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;"
+											value="&nbsp;Next &nbsp;" onclick="step16()" />
 
 									</div>
 
@@ -1248,12 +1255,12 @@
 									<div class="Mainstep" id="Step16" style="visibility:hidden; z-index: 984;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;15&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;15&nbsp;</span></br>
 
-										<span style="position: absolute; left:93px; top: 30px;"><i
+										<span style="position: absolute; left:93px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true">&nbsp;Now test the
 												remaining specimens. Place them carefully one by one under the
 												compression testing machine. Note down the total maximum load at the
@@ -1306,8 +1313,8 @@
 											width="75" height="60" style="height: 28px;width: 40px;top: 78px;left: 581px; visibility: hidden;
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 										<input type="button" id="newStep4"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="newStep4()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next &nbsp;" onclick="newStep4()" />
 
 										<!-- cube 2 -->
 										<img id="newImage5" class="board" src="images/newImage (2).png" alt="picture"
@@ -1346,8 +1353,8 @@
                             position: absolute; margin-left: -66px; margin-top: 225px;">
 
 										<input type="button" id="newStep5"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="newStep5()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next &nbsp;" onclick="newStep5()" />
 
 										<!-- cube 3 -->
 										<img id="newImage6" class="board" src="images/newImage (3).png" alt="picture"
@@ -1387,8 +1394,8 @@
 
 										<!-- button for cubes testing after 3 days -->
 										<input type="button" id="newStep6"
-											style="position:absolute; left:662px; top:493px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="step17()" />
+											style="position:absolute; left:688px; top:510px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding: 10px 15px; border-radius: 4px;border: none; visibility: hidden;z-index: -1;"
+											value="&nbsp;Next &nbsp;" onclick="step17()" />
 									</div>
 
 									<!---Step17---->
@@ -1396,12 +1403,12 @@
 									<div class="Mainstep" id="Step17" style="visibility:hidden; z-index: 984;">
 
 										<strong class="incanvas"
-											style="position: absolute; top: 20px; left: 0px;">STEP</strong>
+											style="position: absolute; top: -4px; left: 0px; font-size: 18px;">Step</strong>
 
 										<span class="circlebg"
-											style="position: absolute; top: 27px; left: 55px;">&nbsp;16&nbsp;</span></br>
+											style="position: absolute; top: 6px; left: 55px; font-size: 18px;">&nbsp;16&nbsp;</span></br>
 
-										<span style="position: absolute; left:80px; top: 30px;"><i
+										<span style="position: absolute; left:80px; top: 6px; font-size: 18px;"><i
 												class="fa fa-hand-o-right" aria-hidden="true"> &nbsp; &nbsp; &nbsp;
 												Similarly, take out the remaining 3 moulds from the tank after 28 days
 												and note down the total maximum load at the time of specimens' failure.
@@ -1410,18 +1417,19 @@
 											</i>&nbsp;</span><br><br>
 
 										<img id="table1" src="./images/table.png" height="450px"
-											style="position: absolute; left: -10px; z-index: -10; top: 100px;">
+											style="position: absolute; left: 0px; z-index: -10; top: 100px;">
 
 										<input type="button" id="newStep8"
-											style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden ;z-index: -1;"
-											value="&nbsp;Next Step&nbsp;" onclick="step18()" />
+											style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility: hidden ;z-index: -1;"
+											value="&nbsp;Next &nbsp;" onclick="step18()" />
 
 										<img id="table2" src="./images/tablefilled.png" height="450px"
-											style="position: absolute; left: -10px; z-index: -10; top: 100px; visibility: hidden; ">
+											style="position: absolute; left: 0px; z-index: -10; top: 100px; visibility: hidden; ">
 
-							<input type="button" id="newStep9"
-							style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: #2150a0; padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility:hidden ;z-index: -1;"
-							value="&nbsp;Posttest&nbsp;"  onclick="parent.location='https://virtual-labs.github.io/exp-cement-mortar-cubes-dei/posttest.html'" />
+										<input type="button" id="newStep9"
+											style="position:absolute; left:679px; top:513px; cursor:pointer; font-size: 15px; background-color: rgb(20, 117, 228); padding-top: 5px; color: #FFF; padding-bottom: 5px; visibility:hidden ;z-index: -1;"
+											value="&nbsp;Posttest&nbsp;"
+											onclick="parent.location='https://virtual-labs.github.io/exp-cement-mortar-cubes-dei/posttest.html'" />
 
 									</div>
 									<br>

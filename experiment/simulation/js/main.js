@@ -134,13 +134,12 @@ function step4() {
 
 }
 document.getElementById("trans6").onclick = function () {
-    debugger;
     document.getElementById("arr6").style.visibility = "hidden";
     document.getElementById("png3").style.visibility = "hidden";
     document.getElementById("gif6").style.visibility = "visible";
     document.getElementById("trans8").style.visibility = "visible";
     document.getElementById("trans6").style.visibility = "hidden";
-    myTimeout5 = setTimeout(myGreeting5, 2500); //2500
+    myTimeout5 = setTimeout(myGreeting5, 4000); //2500
 
 }
 
@@ -222,7 +221,7 @@ function funst5() {
     document.getElementById("png5").style.visibility = "hidden";
     document.getElementById("trans9").style.visibility = "hidden";
     document.getElementById("arr9").style.visibility = "hidden";
-    myTimeout7 = setTimeout(myGreeting7, 10000); //10000
+    myTimeout7 = setTimeout(myGreeting7, 12000); //10000
 
 
 }
@@ -282,7 +281,7 @@ function funst7() {
     document.getElementById("png7").style.visibility = "hidden";
     document.getElementById("trans11").style.visibility = "hidden";
     document.getElementById("arr11").style.visibility = "hidden";
-    myTimeout9 = setTimeout(myGreeting9, 22000); //22000
+    myTimeout9 = setTimeout(myGreeting9, 23000); //22000
 
 
 }
@@ -340,7 +339,7 @@ function funst9() {
     document.getElementById("png9").style.visibility = "hidden";
     document.getElementById("trans13").style.visibility = "hidden";
     document.getElementById("arr13").style.visibility = "hidden";
-    myTimeout11 = setTimeout(myGreeting11, 12000); //12000
+    myTimeout11 = setTimeout(myGreeting11, 13000); //12000
 
 
 }
@@ -369,7 +368,7 @@ function funst10() {
     document.getElementById("png10").style.visibility = "hidden";
     document.getElementById("trans14").style.visibility = "hidden";
     document.getElementById("arr14").style.visibility = "hidden";
-    myTimeout12 = setTimeout(myGreeting12, 2000); //2000
+    myTimeout12 = setTimeout(myGreeting12, 20000); //2000
 
 
 }
@@ -577,7 +576,6 @@ function cube6() {
 }
 
 function myGreeting13(id) {
-    debugger;
     document.getElementById(id).style.visibility = "visible";
     myStopFunction(myTim);
 }
