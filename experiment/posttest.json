@@ -33,6 +33,83 @@
       },
       "correctAnswer": "d",
       "difficulty": "beginner"
+    },
+    {
+      "question": "The water-cement ratio has a direct effect on the _______ of cement mortar.",
+      "answers": {
+        "a": "Color",
+        "b": "Compressive strength",
+        "c": "Density only",
+        "d": "Workability only"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "At what age does cement mortar typically attain 90% of its maximum strength?",
+      "answers": {
+        "a": "7 days",
+        "b": "14 days",
+        "c": "28 days",
+        "d": "56 days"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which type of cement provides the highest early strength gain in mortar cubes?",
+      "answers": {
+        "a": "Ordinary Portland cement (OPC)",
+        "b": "Rapid hardening cement (RHC)",
+        "c": "Low heat cement (LHC)",
+        "d": "Slag cement"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The standard size of cement mortar cubes used in compressive strength tests is _______ mm.",
+      "answers": {
+        "a": "50 × 50 × 50",
+        "b": "70 × 70 × 70",
+        "c": "100 × 100 × 100",
+        "d": "150 × 150 × 150"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If the curing temperature increases, the early strength development of cement mortar ______",
+      "answers": {
+        "a": "Decreases",
+        "b": "Increases",
+        "c": "Remains unchanged",
+        "d": "Becomes unpredictable"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "The standard mortar ratio (cement:sand) for preparing test cubes is ______",
+      "answers": {
+        "a": "1:1",
+        "b": "1:2",
+        "c": "1:3",
+        "d": "1:4"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following factors does NOT significantly affect the compressive strength of cement mortar cubes?",
+      "answers": {
+        "a": "Grade of cement",
+        "b": "Water-cement ratio",
+        "c": "Color of sand used",
+        "d": "Curing conditions"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }

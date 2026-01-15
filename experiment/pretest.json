@@ -75,6 +75,39 @@
       },
       "correctAnswer": "d",
       "difficulty": "advanced"
+    },
+    {
+      "question": "What is the standard size of cement mortar cube used for compressive strength testing?",
+      "answers": {
+        "a": "50 mm × 50 mm × 50 mm",
+        "b": "70 mm × 70 mm × 70 mm",
+        "c": "100 mm × 100 mm × 100 mm",
+        "d": "150 mm × 150 mm × 150 mm"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "At what age is the compressive strength of 28-day cement mortar cubes typically measured?",
+      "answers": {
+        "a": "7 days",
+        "b": "14 days",
+        "c": "28 days",
+        "d": "56 days"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the cement-to-sand ratio used for preparing standard cement mortar cubes?",
+      "answers": {
+        "a": "1:2",
+        "b": "1:3",
+        "c": "1:4",
+        "d": "1:5"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
