@@ -1,59 +1,105 @@
-### Procedure
-1. STEP 1 — Apparatus transfer sequence  
-   - Click the "Start Transfer" button to begin the first transfer animation. Wait for it to finish (6 seconds).  
-   - Click the "Next Transfer" button, then the "Continue Transfer" button, then the "Final Transfer" button in sequence; each starts the next short animation (6 seconds each).  
-   - After the final transfer completes, click the on-screen "Next" to continue to Step 2.
+#### **1. Weighing of the sample**
 
-2. STEP 2 — Prepare mix inputs (cement and sand)  
-   - Take sand and cement from the bag using a trowel in the proportion 3:1 by weight to make standard mortar. Note down the total weight of the sample.  
-   - Enter cement mass = 200 g and sand mass = 600 g (1:3 ratio) using the on-screen calculator.  
-   - Click "Submit" to validate. If incorrect, try again. After three attempts, the simulator displays the correct values.  
-   - Click "Next Step" to proceed to Step 3.
+• Click on trays containing sand to measure 3 part of sand sample.
 
-3. STEP 3 — Add water to mix  
-   - Calculate water using the formula: water% = (P/4) + 3 (P = consistency). Enter the computed water (grams, expected 90 g) using the calculator.  
-   - Click "Submit" to validate and trigger the water-adding animation. Wait for it to finish (9 seconds).  
-   - If incorrect, try again. After three attempts, the correct value is displayed.  
-   - Click "Next Step" to proceed to Step 4.
+<img src="images/1.1.png" alt="procedure" width="500"><br>
 
-4. STEP 4 — Pour mixed mortar in mould (first pour)  
-   - Click the "Pour Mortar" button to start the pouring animation. Wait for it to finish.  
-   - Click "Next Step" to proceed to Step 5.
+• Click on tray containing cement to measure 1 part of cement sample.
 
-5. STEP 5 — Weigh and prepare for compaction  
-   - Click the "Weigh Mixture" button to start the weighing animation. Wait for it to finish.  
-   - Click "Next Step" to proceed to Step 6.
+<img src="images/1.2.png" alt="procedure" width="500"><br>
 
-6. STEP 6 — Compact the mortar mix (first compaction)  
-   - Click the "Start Compaction" button to start the compaction animation. Wait for it to finish.  
-   - Click "Next Step" to proceed to Step 7.
+#### **2. Transferring the sample**
 
-7. STEP 7 — Pour again  
-   - Click the "Pour Again" button to start the second pouring animation. Wait for it to finish.  
-   - Click "Next Step" to proceed to Step 8.
+• Click on the tray containing sand and cement samples to transfer the material into the tub.
 
-8. STEP 8 — Compact again  
-   - Click the "Compact Again" button to start the second compaction animation. Wait for it to finish.  
-   - Click "Next Step" to proceed to Step 9.
+<img src="images/2.1.png" alt="procedure" width="500"><br>
 
-9. STEP 9 — Curing setup  
-   - Set curing conditions: 24 hours at 27°C ± 2°C, 90% RH (then store submerged thereafter).  
-   - Click the simulator control to begin curing and confirm.  
-   - Click "Next Step" when the step completes to proceed to testing.
+#### **3. Measuring the water**
 
-10. STEP 10 — Remove, measure, and test cubes  
-    - At the selected age (3, 7, or 28 days) remove the cube from water and wipe dry.  
-    - Measure the cube side and enter the measured dimension (expected ≈ 70.6 mm).  
-    - Select a cube by clicking its icon to place it in the compression testing machine.  
-    - Enter the loading rate: 14 N/mm² per minute and start the test (use the test/start control shown).  
-    - Record Pmax (maximum load at failure) shown by the simulator.  
-    - Compute compressive strength: σc = Pmax / A. Enter your calculated σc.  
-    - After three incorrect calculation attempts, the correct formula and expected result will be displayed.  
-    - Click "Next Level" to continue or to test the next cube.
+• Click on the empty beaker to put it on the weighing balance.
 
-11. STEP 11 — Repeat for other ages  
-    - Repeat the measurement and testing sequence for 7‑day and 28‑day samples.  
+<img src="images/3.1.png" alt="procedure" width="500"><br>
 
-12. Final — Results and reset  
-    - Review the summary screen for computed strengths.  
-    - Click "Posttest" to proceed to the posttest.
+• Click on tare button to tare the weighing balance.
+
+<img src="images/3.2.png" alt="procedure" width="500"><br>
+
+• Click on the measuring cylinder and enter appropriate value of the amount of water to be added.
+
+<img src="images/3.4.png" alt="procedure" width="500"><br>
+
+#### **4. Mixing the water**
+
+• Click on the beaker to add water to the cement-sand sample and mix it.
+
+<img src="images/4.1.png" alt="procedure" width="500"><br>
+
+#### **5. Pouring the mortar into the moulds**
+
+• Click on the trowel to pour the mortar in the cube.
+
+<img src="images/5.1.png" alt="procedure" width="500"><br>
+
+#### **6. Compacting the mortar**
+
+• Click on the rammer to compact the mortar mix in the mould.
+
+<img src="images/6.1.png" alt="procedure" width="500"><br>
+
+#### **7. Pouring the mortar into the moulds**
+
+• Again, click on the trowel to pour the mortar in the cube mould.
+
+<img src="images/7.1.png" alt="procedure" width="500"><br>
+
+#### **8. Compacting the mortar**
+
+• Click on the rammer to compact it and obtain a smooth finish.
+
+<img src="images/8.1.png" alt="procedure" width="500"><br>
+
+#### **9. Opening the mould**
+
+• Click on the mould to open it and remove the cube
+
+<img src="images/9.1.png" alt="procedure" width="500"><br>
+
+#### **10. Writing the experiment date on the cubes**
+
+• Select the date of test to write it on the cubes.
+
+<img src="images/10.1.png" alt="procedure" width="500"><br>
+
+#### **11. Submerging the cubes into water tank**
+
+• Click on the cubes one by one to submerge them into the water tank.
+
+<img src="images/11.1.png" alt="procedure" width="500"><br>
+
+• Click on the first 3 moulds to take out them after 3 days.
+
+#### **12. Wiping the cubes**
+
+<img src="images/12.1.png" alt="procedure" width="500"><br>
+
+• Click on the cloth to wipe them using the cloth.
+
+<img src="images/12.2.png" alt="procedure" width="500"><br>
+
+#### **13. Testing the compression strength**
+
+• Click on the cubes to place them on the compression testing machine.
+
+<img src="images/13.1.png" alt="procedure" width="500"><br>
+
+• Click on the start button to apply the load and note the maximum load value.
+
+<img src="images/13.2.png" alt="procedure" width="500"><br>
+
+• Click on the remaining three mould to take out them from the tank after after 7 days.
+
+<img src="images/14.1.png" alt="procedure" width="500"><br>
+
+• Similarly, click on the remaining moulds to place them on the machine.
+
+• Again click on the start button to apply the load and note the maximum load value.
