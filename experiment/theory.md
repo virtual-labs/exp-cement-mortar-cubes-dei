@@ -10,7 +10,7 @@
 
 ### Introduction
 
-**Compressive strength** is one of the most essential mechanical properties of cement and represents the maximum compressive load that a hardened cementitious material can withstand before failure. Since mortar and concrete are primarily subjected to compressive stresses in structural applications, the compressive strength of cement serves as a direct indicator of its **quality, performance, and suitability for construction**.
+**Compressive strength** is one of the most essential mechanical properties of cement and represents the maximum compressive stress that a hardened cementitious material can withstand before failure. Since mortar and concrete are primarily subjected to compressive stresses in structural applications, the compressive strength of cement serves as a direct indicator of its **quality, performance, and suitability for construction**.
 
 This property is of great importance because it ascertains the quality of cement which is quite useful in building structures. With the increase in compressive strength of cement, properties such as **flexural strength, abrasion resistance, durability, and impermeability** also increase. Therefore, by performing the compressive strength test of cement we can determine different characteristics of cement.
 
@@ -45,7 +45,7 @@ The **C‑S‑H gel** formed during hydration is the primary strength‑giving p
 
 ### Why Mortar Cubes Instead of Pure Cement?
 
-The compressive strength test of cement mortar is **not carried out on plain cement** because the high heat of hydration of cement can cause thermal cracks during setting and hardening. These cracks would give inaccurate results. 
+The compressive strength test is **not carried out on plain cement** because the high heat of hydration of cement can cause thermal cracks during setting and hardening. These cracks would give inaccurate results. 
 
 The test is performed on **mortar cubes** (cement + sand, typically 1:3 by mass). Sand:
 - reduces heat generation,
@@ -75,13 +75,12 @@ Where:
 For the standard cube the loaded area is:
 
 $$
-A = (70.6\ \mathrm{mm})^{2} = 70.6^{2}\ \mathrm{mm}^{2} \approx 4984\ \mathrm{mm}^{2} \approx 5000\ \mathrm{mm}^{2}
-$$
+A = (70.6\ \mathrm{mm})^{2} = 70.6^{2}\ \mathrm{mm}^{2} \approx 4984.36 $$
 
 So, approximately:
 
 $$
-\sigma_c \approx \frac{P_{\max}}{5000}\ \mathrm{N\,/\,mm^{2}}\quad(=\mathrm{MPa})
+\sigma_c \approx \frac{P_{\max}}{4984.36}\ \mathrm{N\,/\,mm^{2}}\quad(=\mathrm{MPa})
 $$
 
 ### Significance of Results
