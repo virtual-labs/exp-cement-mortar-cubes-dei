@@ -221,7 +221,7 @@ function funst5() {
     document.getElementById("png5").style.visibility = "hidden";
     document.getElementById("trans9").style.visibility = "hidden";
     document.getElementById("arr9").style.visibility = "hidden";
-    myTimeout7 = setTimeout(myGreeting7, 1200); //12000
+    myTimeout7 = setTimeout(myGreeting7, 12000); //12000
 
 
 }
@@ -339,7 +339,7 @@ function funst9() {
     document.getElementById("png9").style.visibility = "hidden";
     document.getElementById("trans13").style.visibility = "hidden";
     document.getElementById("arr13").style.visibility = "hidden";
-    myTimeout11 = setTimeout(myGreeting11, 1300); //13000
+    myTimeout11 = setTimeout(myGreeting11, 13000); //13000
 
 
 }
