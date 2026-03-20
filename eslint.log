@@ -1,0 +1,135 @@
+
+/home/runner/work/exp-cement-mortar-cubes-dei/exp-cement-mortar-cubes-dei/experiment/simulation/js/main.js
+     2:10  warning  'step2' is defined but never used       no-unused-vars
+    10:10  warning  'moveplate' is defined but never used   no-unused-vars
+    16:5   warning  'myTimeout' is not defined              no-undef
+    19:10  warning  'moveplate1' is defined but never used  no-unused-vars
+    25:5   warning  'myTimeout1' is not defined             no-undef
+    29:10  warning  'moveplate2' is defined but never used  no-unused-vars
+    35:5   warning  'myTimeout2' is not defined             no-undef
+    38:10  warning  'moveplate3' is defined but never used  no-unused-vars
+    43:5   warning  'myTimeout3' is not defined             no-undef
+    56:18  warning  'myTimeout' is not defined              no-undef
+    69:18  warning  'myTimeout1' is not defined             no-undef
+    82:18  warning  'myTimeout2' is not defined             no-undef
+    94:18  warning  'myTimeout3' is not defined             no-undef
+    99:10  warning  'step3' is defined but never used       no-unused-vars
+   114:5   warning  'myTimeout4' is not defined             no-undef
+   123:18  warning  'myTimeout4' is not defined             no-undef
+   129:10  warning  'step4' is defined but never used       no-unused-vars
+   142:5   warning  'myTimeout5' is not defined             no-undef
+   166:10  warning  'tunnu' is defined but never used       no-unused-vars
+   175:9   warning  'myTimeout6' is not defined             no-undef
+   191:18  warning  'myTimeout5' is not defined             no-undef
+   201:18  warning  'myTimeout6' is not defined             no-undef
+   209:10  warning  'step5' is defined but never used       no-unused-vars
+   219:10  warning  'funst5' is defined but never used      no-unused-vars
+   224:5   warning  'myTimeout7' is not defined             no-undef
+   233:18  warning  'myTimeout7' is not defined             no-undef
+   238:10  warning  'step6' is defined but never used       no-unused-vars
+   248:10  warning  'funst6' is defined but never used      no-unused-vars
+   253:5   warning  'myTimeout8' is not defined             no-undef
+   262:18  warning  'myTimeout8' is not defined             no-undef
+   269:10  warning  'step7' is defined but never used       no-unused-vars
+   279:10  warning  'funst7' is defined but never used      no-unused-vars
+   284:5   warning  'myTimeout9' is not defined             no-undef
+   293:18  warning  'myTimeout9' is not defined             no-undef
+   298:10  warning  'step8' is defined but never used       no-unused-vars
+   308:10  warning  'funst8' is defined but never used      no-unused-vars
+   313:5   warning  'myTimeout10' is not defined            no-undef
+   322:18  warning  'myTimeout10' is not defined            no-undef
+   327:10  warning  'step9' is defined but never used       no-unused-vars
+   337:10  warning  'funst9' is defined but never used      no-unused-vars
+   342:5   warning  'myTimeout11' is not defined            no-undef
+   351:18  warning  'myTimeout11' is not defined            no-undef
+   356:10  warning  'step10' is defined but never used      no-unused-vars
+   366:10  warning  'funst10' is defined but never used     no-unused-vars
+   371:5   warning  'myTimeout12' is not defined            no-undef
+   380:18  warning  'myTimeout12' is not defined            no-undef
+   385:10  warning  'step11' is defined but never used      no-unused-vars
+   399:10  warning  'agesizeIn' is defined but never used   no-unused-vars
+   461:10  warning  'step12' is defined but never used      no-unused-vars
+   471:10  warning  'cube1' is defined but never used       no-unused-vars
+   490:10  warning  'cube2' is defined but never used       no-unused-vars
+   508:10  warning  'cube3' is defined but never used       no-unused-vars
+   525:10  warning  'cube4' is defined but never used       no-unused-vars
+   542:10  warning  'cube5' is defined but never used       no-unused-vars
+   560:10  warning  'cube6' is defined but never used       no-unused-vars
+   588:10  warning  'step13' is defined but never used      no-unused-vars
+   613:10  warning  'cube9' is defined but never used       no-unused-vars
+   623:10  warning  'cube8' is defined but never used       no-unused-vars
+   633:10  warning  'cube7' is defined but never used       no-unused-vars
+   642:10  warning  'cloth' is defined but never used       no-unused-vars
+   646:5   warning  'myTimeout14' is not defined            no-undef
+   667:18  warning  'myTimeout14' is not defined            no-undef
+   671:10  warning  'step14' is defined but never used      no-unused-vars
+   701:10  warning  'newGif1' is defined but never used     no-unused-vars
+   709:5   warning  'mytime' is not defined                 no-undef
+   717:21  warning  'mytime' is not defined                 no-undef
+   721:12  warning  'newGif2' is defined but never used     no-unused-vars
+   727:5   warning  'newTimeout15' is not defined           no-undef
+   737:18  warning  'newTimeout15' is not defined           no-undef
+   741:12  warning  'newGif3' is defined but never used     no-unused-vars
+   746:5   warning  'newTimeout16' is not defined           no-undef
+   756:18  warning  'newTimeout16' is not defined           no-undef
+   759:12  warning  'newStep1' is defined but never used    no-unused-vars
+   770:12  warning  'newGif4' is defined but never used     no-unused-vars
+   776:5   warning  'mytime' is not defined                 no-undef
+   784:21  warning  'mytime' is not defined                 no-undef
+   788:12  warning  'newGif5' is defined but never used     no-unused-vars
+   796:5   warning  'newTimeout17' is not defined           no-undef
+   806:18  warning  'newTimeout17' is not defined           no-undef
+   809:12  warning  'newGif6' is defined but never used     no-unused-vars
+   813:5   warning  'newTimeout18' is not defined           no-undef
+   823:18  warning  'newTimeout18' is not defined           no-undef
+   826:12  warning  'newStep2' is defined but never used    no-unused-vars
+   836:12  warning  'newGif7' is defined but never used     no-unused-vars
+   842:5   warning  'mytime' is not defined                 no-undef
+   850:21  warning  'mytime' is not defined                 no-undef
+   854:12  warning  'newGif8' is defined but never used     no-unused-vars
+   862:5   warning  'newTimeout19' is not defined           no-undef
+   872:18  warning  'newTimeout19' is not defined           no-undef
+   875:12  warning  'newGif9' is defined but never used     no-unused-vars
+   879:5   warning  'newTimeout20' is not defined           no-undef
+   889:19  warning  'newTimeout20' is not defined           no-undef
+   892:10  warning  'step15' is defined but never used      no-unused-vars
+   927:10  warning  'cube12' is defined but never used      no-unused-vars
+   936:10  warning  'cube11' is defined but never used      no-unused-vars
+   945:10  warning  'cube10' is defined but never used      no-unused-vars
+   953:10  warning  'cloth2' is defined but never used      no-unused-vars
+   957:5   warning  'newTimeout21' is not defined           no-undef
+   965:10  warning  'step16' is defined but never used      no-unused-vars
+   994:10  warning  'newGif10' is defined but never used    no-unused-vars
+   999:5   warning  'mytime' is not defined                 no-undef
+  1006:21  warning  'mytime' is not defined                 no-undef
+  1010:12  warning  'newGif11' is defined but never used    no-unused-vars
+  1015:5   warning  '_newTimeout21' is not defined          no-undef
+  1025:18  warning  '_newTimeout21' is not defined          no-undef
+  1029:12  warning  'newGif12' is defined but never used    no-unused-vars
+  1033:5   warning  '_newTimeout22' is not defined          no-undef
+  1043:18  warning  '_newTimeout22' is not defined          no-undef
+  1046:12  warning  'newStep4' is defined but never used    no-unused-vars
+  1057:12  warning  'newGif13' is defined but never used    no-unused-vars
+  1063:5   warning  'mytime' is not defined                 no-undef
+  1070:21  warning  'mytime' is not defined                 no-undef
+  1074:12  warning  'newGif14' is defined but never used    no-unused-vars
+  1080:5   warning  '_newTimeout23' is not defined          no-undef
+  1090:18  warning  '_newTimeout23' is not defined          no-undef
+  1093:12  warning  'newGif15' is defined but never used    no-unused-vars
+  1097:5   warning  '_newTimeout24' is not defined          no-undef
+  1107:18  warning  '_newTimeout24' is not defined          no-undef
+  1110:12  warning  'newStep5' is defined but never used    no-unused-vars
+  1120:12  warning  'newGif16' is defined but never used    no-unused-vars
+  1126:5   warning  'mytime' is not defined                 no-undef
+  1133:21  warning  'mytime' is not defined                 no-undef
+  1137:12  warning  'newGif17' is defined but never used    no-unused-vars
+  1144:5   warning  '_newTimeout25' is not defined          no-undef
+  1154:18  warning  '_newTimeout25' is not defined          no-undef
+  1157:12  warning  'newGif18' is defined but never used    no-unused-vars
+  1162:5   warning  '_newTimeout26' is not defined          no-undef
+  1172:19  warning  '_newTimeout26' is not defined          no-undef
+  1175:12  warning  'step17' is defined but never used      no-unused-vars
+  1204:12  warning  'step18' is defined but never used      no-unused-vars
+
+✖ 130 problems (0 errors, 130 warnings)
+
